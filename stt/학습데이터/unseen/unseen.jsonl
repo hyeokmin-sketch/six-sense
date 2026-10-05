@@ -1,0 +1,120 @@
+{"key": "U001_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U001_v0.wav", "source_len": 160, "target": "안방 불 좀 키주소", "target_len": 10, "group": "경상도_기기", "sent_id": 1}
+{"key": "U002_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U002_v0.wav", "source_len": 150, "target": "화장실 불 꺼뒀나", "target_len": 9, "group": "경상도_기기", "sent_id": 2}
+{"key": "U003_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U003_v0.wav", "source_len": 144, "target": "불 키놓고 나갔제", "target_len": 9, "group": "경상도_기기", "sent_id": 3}
+{"key": "U004_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U004_v0.wav", "source_len": 247, "target": "테레비 볼 때는 불 쪼매 낮차도", "target_len": 17, "group": "경상도_기기", "sent_id": 4}
+{"key": "U005_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U005_v0.wav", "source_len": 203, "target": "와 이리 불이 번쩍번쩍하노", "target_len": 14, "group": "경상도_기기", "sent_id": 5}
+{"key": "U006_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U006_v0.wav", "source_len": 179, "target": "방이 억수로 어둡데이", "target_len": 11, "group": "경상도_기기", "sent_id": 6}
+{"key": "U007_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U007_v0.wav", "source_len": 176, "target": "불 좀 밝히주이소", "target_len": 9, "group": "경상도_기기", "sent_id": 7}
+{"key": "U008_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U008_v0.wav", "source_len": 185, "target": "침대 옆에 불만 키도", "target_len": 11, "group": "경상도_기기", "sent_id": 8}
+{"key": "U009_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U009_v0.wav", "source_len": 164, "target": "블라인드 와 안 올라가노", "target_len": 13, "group": "경상도_기기", "sent_id": 9}
+{"key": "U010_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U010_v0.wav", "source_len": 187, "target": "블라인드 좀 걷어주이소", "target_len": 12, "group": "경상도_기기", "sent_id": 10}
+{"key": "U011_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U011_v0.wav", "source_len": 293, "target": "햇빛 땜에 모니터가 하나도 안 보인데이", "target_len": 21, "group": "경상도_기기", "sent_id": 11}
+{"key": "U012_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U012_v0.wav", "source_len": 204, "target": "블라인드 쪼매만 더 내리봐라", "target_len": 15, "group": "경상도_기기", "sent_id": 12}
+{"key": "U013_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U013_v0.wav", "source_len": 230, "target": "밖에 비 오나 블라인드 열어봐라", "target_len": 17, "group": "경상도_기기", "sent_id": 13}
+{"key": "U014_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U014_v0.wav", "source_len": 204, "target": "아까 그 블라인드 우째 됐노", "target_len": 15, "group": "경상도_기기", "sent_id": 14}
+{"key": "U015_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U015_v0.wav", "source_len": 164, "target": "에어컨 몇 도로 돼 있노", "target_len": 13, "group": "경상도_기기", "sent_id": 15}
+{"key": "U016_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U016_v0.wav", "source_len": 210, "target": "에어컨 바람 쫌 위로 올리라", "target_len": 15, "group": "경상도_기기", "sent_id": 16}
+{"key": "U017_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U017_v0.wav", "source_len": 185, "target": "에어컨 제습으로 돌리도", "target_len": 12, "group": "경상도_기기", "sent_id": 17}
+{"key": "U018_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U018_v0.wav", "source_len": 277, "target": "방이 꿉꿉하다 에어컨 좀 키바라", "target_len": 17, "group": "경상도_기기", "sent_id": 18}
+{"key": "U019_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U019_v0.wav", "source_len": 231, "target": "오늘따라 와 이리 후덥지근하노", "target_len": 16, "group": "경상도_기기", "sent_id": 19}
+{"key": "U020_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U020_v0.wav", "source_len": 191, "target": "땀띠 나겠다 시원하게 해도", "target_len": 14, "group": "경상도_기기", "sent_id": 20}
+{"key": "U021_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U021_v0.wav", "source_len": 225, "target": "에어컨 바람이 억수로 차갑데이", "target_len": 16, "group": "경상도_기기", "sent_id": 21}
+{"key": "U022_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U022_v0.wav", "source_len": 231, "target": "에어컨 고마 끄고 문 열자", "target_len": 14, "group": "경상도_기기", "sent_id": 22}
+{"key": "U023_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U023_v0.wav", "source_len": 239, "target": "잘 때는 에어컨 약하게 해놔라", "target_len": 16, "group": "경상도_기기", "sent_id": 23}
+{"key": "U024_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U024_v0.wav", "source_len": 242, "target": "무릎이 시리다 에어컨 쫌 줄이라", "target_len": 17, "group": "경상도_기기", "sent_id": 24}
+{"key": "U025_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U025_v0.wav", "source_len": 255, "target": "나 씻고 올 동안 에어컨 키놔라", "target_len": 17, "group": "경상도_기기", "sent_id": 25}
+{"key": "U026_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U026_v0.wav", "source_len": 290, "target": "손님 온다 불 키고 에어컨 틀어라", "target_len": 18, "group": "경상도_기기", "sent_id": 26}
+{"key": "U027_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U027_v0.wav", "source_len": 253, "target": "자기 전에 불이랑 에어컨 다 끄래이", "target_len": 19, "group": "경상도_기기", "sent_id": 27}
+{"key": "U028_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U028_v0.wav", "source_len": 229, "target": "아침에 블라인드 올리고 불 꺼도", "target_len": 17, "group": "경상도_기기", "sent_id": 28}
+{"key": "U029_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U029_v0.wav", "source_len": 173, "target": "집에 아무도 없다 다 꺼삐라", "target_len": 15, "group": "경상도_기기", "sent_id": 29}
+{"key": "U030_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U030_v0.wav", "source_len": 134, "target": "부엌 불 좀 키주라", "target_len": 10, "group": "경상도_기기", "sent_id": 30}
+{"key": "U031_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U031_v0.wav", "source_len": 91, "target": "밥 뭇나", "target_len": 4, "group": "경상도_일상", "sent_id": 31}
+{"key": "U032_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U032_v0.wav", "source_len": 99, "target": "니 어데 가노", "target_len": 7, "group": "경상도_일상", "sent_id": 32}
+{"key": "U033_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U033_v0.wav", "source_len": 207, "target": "내 오늘 억수로 피곤타", "target_len": 12, "group": "경상도_일상", "sent_id": 33}
+{"key": "U034_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U034_v0.wav", "source_len": 129, "target": "그거 머라카노", "target_len": 7, "group": "경상도_일상", "sent_id": 34}
+{"key": "U035_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U035_v0.wav", "source_len": 139, "target": "와 이래 늦게 왔노", "target_len": 10, "group": "경상도_일상", "sent_id": 35}
+{"key": "U036_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U036_v0.wav", "source_len": 114, "target": "아이고 마 됐다", "target_len": 8, "group": "경상도_일상", "sent_id": 36}
+{"key": "U037_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U037_v0.wav", "source_len": 181, "target": "내일 비 온다 카더라", "target_len": 11, "group": "경상도_일상", "sent_id": 37}
+{"key": "U038_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U038_v0.wav", "source_len": 176, "target": "니 그거 했나 안 했나", "target_len": 12, "group": "경상도_일상", "sent_id": 38}
+{"key": "U039_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U039_v0.wav", "source_len": 192, "target": "오늘 장 보러 가야 된데이", "target_len": 14, "group": "경상도_일상", "sent_id": 39}
+{"key": "U040_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U040_v0.wav", "source_len": 136, "target": "할매 집에 계시나", "target_len": 9, "group": "경상도_일상", "sent_id": 40}
+{"key": "U041_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U041_v0.wav", "source_len": 137, "target": "우리 아들 언제 오노", "target_len": 11, "group": "경상도_일상", "sent_id": 41}
+{"key": "U042_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U042_v0.wav", "source_len": 149, "target": "그래가 우째 됐는데", "target_len": 10, "group": "경상도_일상", "sent_id": 42}
+{"key": "U043_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U043_v0.wav", "source_len": 93, "target": "단디 해라", "target_len": 5, "group": "경상도_일상", "sent_id": 43}
+{"key": "U044_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U044_v0.wav", "source_len": 139, "target": "쪼매만 기다리래이", "target_len": 9, "group": "경상도_일상", "sent_id": 44}
+{"key": "U045_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U045_v0.wav", "source_len": 110, "target": "이거 얼마고", "target_len": 6, "group": "경상도_일상", "sent_id": 45}
+{"key": "U046_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U046_v0.wav", "source_len": 163, "target": "거실 조명 좀 켜 줘", "target_len": 11, "group": "표준어", "sent_id": 46}
+{"key": "U047_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U047_v0.wav", "source_len": 119, "target": "불 좀 꺼 줄래", "target_len": 8, "group": "표준어", "sent_id": 47}
+{"key": "U048_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U048_v0.wav", "source_len": 141, "target": "블라인드 올려 줘", "target_len": 9, "group": "표준어", "sent_id": 48}
+{"key": "U049_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U049_v0.wav", "source_len": 228, "target": "블라인드를 반만 내려 주세요", "target_len": 15, "group": "표준어", "sent_id": 49}
+{"key": "U050_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U050_v0.wav", "source_len": 103, "target": "에어컨 켜 줘", "target_len": 7, "group": "표준어", "sent_id": 50}
+{"key": "U051_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U051_v0.wav", "source_len": 191, "target": "에어컨 온도 좀 낮춰 줄래", "target_len": 14, "group": "표준어", "sent_id": 51}
+{"key": "U052_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U052_v0.wav", "source_len": 178, "target": "바람 세기를 약하게 해 줘", "target_len": 14, "group": "표준어", "sent_id": 52}
+{"key": "U053_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U053_v0.wav", "source_len": 180, "target": "너무 더워서 잠이 안 와", "target_len": 13, "group": "표준어", "sent_id": 53}
+{"key": "U054_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U054_v0.wav", "source_len": 144, "target": "오늘 날씨 어때", "target_len": 8, "group": "표준어", "sent_id": 54}
+{"key": "U055_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U055_v0.wav", "source_len": 139, "target": "내일 아침에 깨워 줘", "target_len": 11, "group": "표준어", "sent_id": 55}
+{"key": "U056_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U056_v0.wav", "source_len": 202, "target": "방이 좀 어두운 것 같아", "target_len": 13, "group": "표준어", "sent_id": 56}
+{"key": "U057_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U057_v0.wav", "source_len": 174, "target": "에어컨이랑 불 다 꺼 줘", "target_len": 13, "group": "표준어", "sent_id": 57}
+{"key": "U058_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U058_v0.wav", "source_len": 154, "target": "외출할 거니까 다 꺼 줘", "target_len": 13, "group": "표준어", "sent_id": 58}
+{"key": "U059_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U059_v0.wav", "source_len": 249, "target": "햇빛이 너무 강해서 눈이 부셔", "target_len": 16, "group": "표준어", "sent_id": 59}
+{"key": "U060_v0", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U060_v0.wav", "source_len": 139, "target": "창문 좀 닫아 줄래", "target_len": 10, "group": "표준어", "sent_id": 60}
+{"key": "U001_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U001_v1.wav", "source_len": 140, "target": "안방 불 좀 키주소", "target_len": 10, "group": "경상도_기기", "sent_id": 1}
+{"key": "U002_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U002_v1.wav", "source_len": 133, "target": "화장실 불 꺼뒀나", "target_len": 9, "group": "경상도_기기", "sent_id": 2}
+{"key": "U003_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U003_v1.wav", "source_len": 131, "target": "불 키놓고 나갔제", "target_len": 9, "group": "경상도_기기", "sent_id": 3}
+{"key": "U004_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U004_v1.wav", "source_len": 209, "target": "테레비 볼 때는 불 쪼매 낮차도", "target_len": 17, "group": "경상도_기기", "sent_id": 4}
+{"key": "U005_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U005_v1.wav", "source_len": 172, "target": "와 이리 불이 번쩍번쩍하노", "target_len": 14, "group": "경상도_기기", "sent_id": 5}
+{"key": "U006_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U006_v1.wav", "source_len": 161, "target": "방이 억수로 어둡데이", "target_len": 11, "group": "경상도_기기", "sent_id": 6}
+{"key": "U007_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U007_v1.wav", "source_len": 158, "target": "불 좀 밝히주이소", "target_len": 9, "group": "경상도_기기", "sent_id": 7}
+{"key": "U008_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U008_v1.wav", "source_len": 162, "target": "침대 옆에 불만 키도", "target_len": 11, "group": "경상도_기기", "sent_id": 8}
+{"key": "U009_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U009_v1.wav", "source_len": 149, "target": "블라인드 와 안 올라가노", "target_len": 13, "group": "경상도_기기", "sent_id": 9}
+{"key": "U010_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U010_v1.wav", "source_len": 171, "target": "블라인드 좀 걷어주이소", "target_len": 12, "group": "경상도_기기", "sent_id": 10}
+{"key": "U011_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U011_v1.wav", "source_len": 259, "target": "햇빛 땜에 모니터가 하나도 안 보인데이", "target_len": 21, "group": "경상도_기기", "sent_id": 11}
+{"key": "U012_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U012_v1.wav", "source_len": 184, "target": "블라인드 쪼매만 더 내리봐라", "target_len": 15, "group": "경상도_기기", "sent_id": 12}
+{"key": "U013_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U013_v1.wav", "source_len": 201, "target": "밖에 비 오나 블라인드 열어봐라", "target_len": 17, "group": "경상도_기기", "sent_id": 13}
+{"key": "U014_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U014_v1.wav", "source_len": 181, "target": "아까 그 블라인드 우째 됐노", "target_len": 15, "group": "경상도_기기", "sent_id": 14}
+{"key": "U015_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U015_v1.wav", "source_len": 145, "target": "에어컨 몇 도로 돼 있노", "target_len": 13, "group": "경상도_기기", "sent_id": 15}
+{"key": "U016_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U016_v1.wav", "source_len": 177, "target": "에어컨 바람 쫌 위로 올리라", "target_len": 15, "group": "경상도_기기", "sent_id": 16}
+{"key": "U017_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U017_v1.wav", "source_len": 162, "target": "에어컨 제습으로 돌리도", "target_len": 12, "group": "경상도_기기", "sent_id": 17}
+{"key": "U018_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U018_v1.wav", "source_len": 264, "target": "방이 꿉꿉하다 에어컨 좀 키바라", "target_len": 17, "group": "경상도_기기", "sent_id": 18}
+{"key": "U019_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U019_v1.wav", "source_len": 207, "target": "오늘따라 와 이리 후덥지근하노", "target_len": 16, "group": "경상도_기기", "sent_id": 19}
+{"key": "U020_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U020_v1.wav", "source_len": 176, "target": "땀띠 나겠다 시원하게 해도", "target_len": 14, "group": "경상도_기기", "sent_id": 20}
+{"key": "U021_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U021_v1.wav", "source_len": 217, "target": "에어컨 바람이 억수로 차갑데이", "target_len": 16, "group": "경상도_기기", "sent_id": 21}
+{"key": "U022_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U022_v1.wav", "source_len": 210, "target": "에어컨 고마 끄고 문 열자", "target_len": 14, "group": "경상도_기기", "sent_id": 22}
+{"key": "U023_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U023_v1.wav", "source_len": 221, "target": "잘 때는 에어컨 약하게 해놔라", "target_len": 16, "group": "경상도_기기", "sent_id": 23}
+{"key": "U024_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U024_v1.wav", "source_len": 220, "target": "무릎이 시리다 에어컨 쫌 줄이라", "target_len": 17, "group": "경상도_기기", "sent_id": 24}
+{"key": "U025_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U025_v1.wav", "source_len": 232, "target": "나 씻고 올 동안 에어컨 키놔라", "target_len": 17, "group": "경상도_기기", "sent_id": 25}
+{"key": "U026_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U026_v1.wav", "source_len": 262, "target": "손님 온다 불 키고 에어컨 틀어라", "target_len": 18, "group": "경상도_기기", "sent_id": 26}
+{"key": "U027_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U027_v1.wav", "source_len": 233, "target": "자기 전에 불이랑 에어컨 다 끄래이", "target_len": 19, "group": "경상도_기기", "sent_id": 27}
+{"key": "U028_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U028_v1.wav", "source_len": 210, "target": "아침에 블라인드 올리고 불 꺼도", "target_len": 17, "group": "경상도_기기", "sent_id": 28}
+{"key": "U029_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U029_v1.wav", "source_len": 162, "target": "집에 아무도 없다 다 꺼삐라", "target_len": 15, "group": "경상도_기기", "sent_id": 29}
+{"key": "U030_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U030_v1.wav", "source_len": 123, "target": "부엌 불 좀 키주라", "target_len": 10, "group": "경상도_기기", "sent_id": 30}
+{"key": "U031_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U031_v1.wav", "source_len": 84, "target": "밥 뭇나", "target_len": 4, "group": "경상도_일상", "sent_id": 31}
+{"key": "U032_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U032_v1.wav", "source_len": 86, "target": "니 어데 가노", "target_len": 7, "group": "경상도_일상", "sent_id": 32}
+{"key": "U033_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U033_v1.wav", "source_len": 184, "target": "내 오늘 억수로 피곤타", "target_len": 12, "group": "경상도_일상", "sent_id": 33}
+{"key": "U034_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U034_v1.wav", "source_len": 116, "target": "그거 머라카노", "target_len": 7, "group": "경상도_일상", "sent_id": 34}
+{"key": "U035_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U035_v1.wav", "source_len": 130, "target": "와 이래 늦게 왔노", "target_len": 10, "group": "경상도_일상", "sent_id": 35}
+{"key": "U036_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U036_v1.wav", "source_len": 105, "target": "아이고 마 됐다", "target_len": 8, "group": "경상도_일상", "sent_id": 36}
+{"key": "U037_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U037_v1.wav", "source_len": 158, "target": "내일 비 온다 카더라", "target_len": 11, "group": "경상도_일상", "sent_id": 37}
+{"key": "U038_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U038_v1.wav", "source_len": 153, "target": "니 그거 했나 안 했나", "target_len": 12, "group": "경상도_일상", "sent_id": 38}
+{"key": "U039_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U039_v1.wav", "source_len": 172, "target": "오늘 장 보러 가야 된데이", "target_len": 14, "group": "경상도_일상", "sent_id": 39}
+{"key": "U040_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U040_v1.wav", "source_len": 122, "target": "할매 집에 계시나", "target_len": 9, "group": "경상도_일상", "sent_id": 40}
+{"key": "U041_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U041_v1.wav", "source_len": 123, "target": "우리 아들 언제 오노", "target_len": 11, "group": "경상도_일상", "sent_id": 41}
+{"key": "U042_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U042_v1.wav", "source_len": 135, "target": "그래가 우째 됐는데", "target_len": 10, "group": "경상도_일상", "sent_id": 42}
+{"key": "U043_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U043_v1.wav", "source_len": 79, "target": "단디 해라", "target_len": 5, "group": "경상도_일상", "sent_id": 43}
+{"key": "U044_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U044_v1.wav", "source_len": 121, "target": "쪼매만 기다리래이", "target_len": 9, "group": "경상도_일상", "sent_id": 44}
+{"key": "U045_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U045_v1.wav", "source_len": 97, "target": "이거 얼마고", "target_len": 6, "group": "경상도_일상", "sent_id": 45}
+{"key": "U046_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U046_v1.wav", "source_len": 153, "target": "거실 조명 좀 켜 줘", "target_len": 11, "group": "표준어", "sent_id": 46}
+{"key": "U047_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U047_v1.wav", "source_len": 105, "target": "불 좀 꺼 줄래", "target_len": 8, "group": "표준어", "sent_id": 47}
+{"key": "U048_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U048_v1.wav", "source_len": 130, "target": "블라인드 올려 줘", "target_len": 9, "group": "표준어", "sent_id": 48}
+{"key": "U049_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U049_v1.wav", "source_len": 220, "target": "블라인드를 반만 내려 주세요", "target_len": 15, "group": "표준어", "sent_id": 49}
+{"key": "U050_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U050_v1.wav", "source_len": 92, "target": "에어컨 켜 줘", "target_len": 7, "group": "표준어", "sent_id": 50}
+{"key": "U051_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U051_v1.wav", "source_len": 174, "target": "에어컨 온도 좀 낮춰 줄래", "target_len": 14, "group": "표준어", "sent_id": 51}
+{"key": "U052_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U052_v1.wav", "source_len": 161, "target": "바람 세기를 약하게 해 줘", "target_len": 14, "group": "표준어", "sent_id": 52}
+{"key": "U053_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U053_v1.wav", "source_len": 159, "target": "너무 더워서 잠이 안 와", "target_len": 13, "group": "표준어", "sent_id": 53}
+{"key": "U054_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U054_v1.wav", "source_len": 110, "target": "오늘 날씨 어때", "target_len": 8, "group": "표준어", "sent_id": 54}
+{"key": "U055_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U055_v1.wav", "source_len": 125, "target": "내일 아침에 깨워 줘", "target_len": 11, "group": "표준어", "sent_id": 55}
+{"key": "U056_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U056_v1.wav", "source_len": 180, "target": "방이 좀 어두운 것 같아", "target_len": 13, "group": "표준어", "sent_id": 56}
+{"key": "U057_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U057_v1.wav", "source_len": 155, "target": "에어컨이랑 불 다 꺼 줘", "target_len": 13, "group": "표준어", "sent_id": 57}
+{"key": "U058_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U058_v1.wav", "source_len": 141, "target": "외출할 거니까 다 꺼 줘", "target_len": 13, "group": "표준어", "sent_id": 58}
+{"key": "U059_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U059_v1.wav", "source_len": 224, "target": "햇빛이 너무 강해서 눈이 부셔", "target_len": 16, "group": "표준어", "sent_id": 59}
+{"key": "U060_v1", "source": "C:\\Users\\kimyo\\Documents\\애옹\\학습데이터\\unseen\\wav\\U060_v1.wav", "source_len": 132, "target": "창문 좀 닫아 줄래", "target_len": 10, "group": "표준어", "sent_id": 60}

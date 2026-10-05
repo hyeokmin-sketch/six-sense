@@ -1,0 +1,12 @@
+[epoch 0] val CER 42.0% | sanity ['조금만 생각을 하면서 살면 훨씬 편할 거야.', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 1] loss 27.838 | val CER 32.6% | 36s | sanity ['조금만 생각을 하면서 살면 훨씬 편할 거야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 2] loss 16.758 | val CER 26.2% | 35s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 3] loss 12.208 | val CER 22.5% | 35s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 4] loss 10.650 | val CER 20.7% | 34s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 5] loss 8.817 | val CER 20.0% | 36s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 6] loss 7.811 | val CER 19.8% | 36s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 7] loss 7.988 | val CER 19.5% | 35s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 8] loss 7.406 | val CER 19.3% | 36s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 9] loss 7.058 | val CER 19.2% | 35s | sanity ['쪼금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+[epoch 10] loss 7.126 | val CER 19.3% | 36s | sanity ['조금만 생각을 하면서 살면 훨씬 편할꺼야', 'The tribal chieftain called for the boy and presented him with 50 pieces of gold.']
+best epoch 9 val CER 19.2% (base 42.0%)
