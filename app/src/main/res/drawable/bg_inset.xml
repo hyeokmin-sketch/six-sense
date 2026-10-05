@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 카드 안에 들어가는 연한 박스 (현재 → 목표 온도 등) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/ground" />
+    <corners android:radius="14dp" />
+</shape>

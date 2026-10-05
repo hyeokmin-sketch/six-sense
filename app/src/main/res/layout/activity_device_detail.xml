@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 기기 상세. 종류별 섹션 하나만 켠다 (코드에서 visibility) -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding"
+        android:paddingTop="16dp"
+        android:paddingBottom="28dp">
+
+        <!-- 상단 바 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_back"
+                style="@style/Button.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/detail_back"
+                android:textSize="@dimen/text_body"
+                app:drawableStartCompat="@drawable/ic_chevron_left"
+                app:drawableTint="@color/muted" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/button_favorite"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/device_favorite_desc"
+                android:src="@drawable/ic_star"
+                app:tint="@color/muted" />
+        </LinearLayout>
+
+        <!-- 이름 + 상태 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_circle_tint"
+                android:contentDescription="@null"
+                android:padding="14dp"
+                app:tint="@color/rose"
+                tools:src="@drawable/ic_bulb" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ink"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    tools:text="거실 조명" />
+
+                <TextView
+                    android:id="@+id/text_state"
+                    style="@style/Text.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textSize="@dimen/text_body"
+                    tools:text="켜짐 · 밝기 70%" />
+            </LinearLayout>
+
+            <!-- ON/OFF 스위치. 블라인드·냉장고는 숨김 -->
+            <com.example.six_sense.ui.widget.PowerSwitchView
+                android:id="@+id/switch_power"
+                android:layout_width="116dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+        <!-- 큰 상태/전원 버튼. 글자는 기기마다 다름 (ON/OFF, 물 받기, 청소 중, 정상 ...)
+             커피 내릴 때는 뒤의 power_fill이 왼쪽부터 차오른다 -->
+        <FrameLayout
+            android:id="@+id/power_frame"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="18dp">
+
+            <View
+                android:id="@+id/power_fill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_state_on"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/button_power"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_state_off"
+                android:clickable="true"
+                android:contentDescription="@string/detail_power"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:text="OFF" />
+        </FrameLayout>
+
+        <!-- 욕조: 물 받는 동안만 보이는 멈춤 / 이어서 받기 -->
+        <Button
+            android:id="@+id/button_bath_pause"
+            style="@style/Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/detail_bath_pause"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <!-- 보조 동작 버튼 (물 빼기 등). 필요한 기기만 -->
+        <Button
+            android:id="@+id/button_secondary"
+            style="@style/Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            tools:text="물 빼기"
+            tools:visibility="visible" />
+
+        <!-- ============ 조명: 밝기 10% 단위 + 세로 프리셋 ============ -->
+        <LinearLayout
+            android:id="@+id/section_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Text.Subheading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/detail_brightness" />
+
+                <TextView
+                    android:id="@+id/text_brightness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rose"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:text="70%" />
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seek_brightness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:max="10"
+                android:maxHeight="12dp"
+                android:minHeight="12dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:progressDrawable="@drawable/seekbar_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/seekbar_thumb"
+                android:thumbOffset="15dp" />
+
+            <TextView
+                android:id="@+id/button_preset_1"
+                style="@style/PresetRow"
+                android:text="@string/detail_brightness_dim" />
+
+            <TextView
+                android:id="@+id/button_preset_2"
+                style="@style/PresetRow"
+                android:text="@string/detail_brightness_mid" />
+
+            <TextView
+                android:id="@+id/button_preset_3"
+                style="@style/PresetRow"
+                android:text="@string/detail_brightness_bright" />
+        </LinearLayout>
+
+        <!-- ============ 에어컨 / 보일러: 현재 | 권장(강조) → 설정 ============ -->
+        <LinearLayout
+            android:id="@+id/section_climate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_now_temp" />
+
+                    <TextView
+                        android:id="@+id/text_climate_now"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/ink"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        tools:text="28°C" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <!-- 권장이 위, 조금 더 강조 -->
+                    <TextView
+                        android:id="@+id/text_climate_rec_label"
+                        style="@style/Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:text="10월 권장" />
+
+                    <TextView
+                        android:id="@+id/text_climate_rec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/rose_deep"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        tools:text="22°C" />
+
+                    <TextView
+                        style="@style/Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/detail_set_temp"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/button_climate_minus"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/bg_stepper"
+                            android:contentDescription="@string/detail_temp_down"
+                            android:src="@drawable/ic_minus"
+                            app:tint="@color/ink" />
+
+                        <TextView
+                            android:id="@+id/text_climate_set"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/rose"
+                            android:textSize="36sp"
+                            android:textStyle="bold"
+                            tools:text="24°C" />
+
+                        <ImageButton
+                            android:id="@+id/button_climate_plus"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/bg_stepper"
+                            android:contentDescription="@string/detail_temp_up"
+                            android:src="@drawable/ic_plus"
+                            app:tint="@color/ink" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_climate_compare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_inset"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/ink_soft"
+                android:textSize="@dimen/text_body"
+                tools:text="권장 온도보다 2°C 높습니다" />
+        </LinearLayout>
+
+        <!-- ============ 오븐: 온도 + 큰 예시 ============ -->
+        <LinearLayout
+            android:id="@+id/section_oven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_temperature" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/button_oven_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/detail_temp_down"
+                    android:src="@drawable/ic_minus"
+                    app:tint="@color/ink" />
+
+                <TextView
+                    android:id="@+id/text_oven_temp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/rose"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:text="180°C" />
+
+                <ImageButton
+                    android:id="@+id/button_oven_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/detail_temp_up"
+                    android:src="@drawable/ic_plus"
+                    app:tint="@color/ink" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/detail_oven_presets" />
+
+            <TextView
+                android:id="@+id/button_oven_1"
+                style="@style/PresetRow"
+                android:text="@string/detail_oven_bread" />
+
+            <TextView
+                android:id="@+id/button_oven_2"
+                style="@style/PresetRow"
+                android:text="@string/detail_oven_meat" />
+
+            <TextView
+                android:id="@+id/button_oven_3"
+                style="@style/PresetRow"
+                android:text="@string/detail_oven_pizza" />
+        </LinearLayout>
+
+        <!-- 오븐 시간 -->
+        <LinearLayout
+            android:id="@+id/section_oven_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Text.Subheading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/detail_oven_time" />
+
+                <TextView
+                    android:id="@+id/text_oven_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rose"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:text="25분" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/button_oven_time_5"
+                    style="@style/TimeButton"
+                    android:text="@string/detail_oven_plus5" />
+
+                <TextView
+                    android:id="@+id/button_oven_time_10"
+                    style="@style/TimeButton"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/detail_oven_plus10" />
+
+                <TextView
+                    android:id="@+id/button_oven_time_30"
+                    style="@style/TimeButton"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/detail_oven_plus30" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/button_oven_time_reset"
+                style="@style/Button.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp"
+                android:text="@string/detail_oven_time_reset" />
+        </LinearLayout>
+
+        <!-- ============ 욕조: 온도 ============ -->
+        <LinearLayout
+            android:id="@+id/section_bath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_temperature" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/button_bath_minus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/detail_temp_down"
+                    android:src="@drawable/ic_minus"
+                    app:tint="@color/ink" />
+
+                <TextView
+                    android:id="@+id/text_bath_temp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/rose"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:text="38°C" />
+
+                <ImageButton
+                    android:id="@+id/button_bath_plus"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/detail_temp_up"
+                    android:src="@drawable/ic_plus"
+                    app:tint="@color/ink" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:text="아이 목욕 38°C · 반신욕 40°C"
+                android:textSize="@dimen/text_body_small" />
+        </LinearLayout>
+
+        <!-- ============ 블라인드: 화면을 꽉 채우는 창 그림 + 세로 조절바 ============ -->
+        <LinearLayout
+            android:id="@+id/section_blind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Text.Subheading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/detail_blind_open"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/text_blind_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rose"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:text="60% 열림" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal">
+
+                <!-- 창 그림. 블라인드는 위에서 내려온다 -->
+                <FrameLayout
+                    android:id="@+id/window_frame"
+                    android:layout_width="0dp"
+                    android:layout_height="420dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_window_frame"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/view_blind"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/bg_blind_slats"
+                        android:divider="@drawable/divider_slat"
+                        android:orientation="vertical"
+                        android:showDividers="middle" />
+                </FrameLayout>
+
+                <!-- 오른쪽: 올리기 / 세로 바 / 내리기. 그림과 같은 높이 -->
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="420dp"
+                    android:layout_marginStart="12dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button_blind_up"
+                        style="@style/Button.Primary"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:text="@string/detail_blind_up"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        style="@style/Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/detail_blind_up_short"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.example.six_sense.ui.widget.VerticalSeekBar
+                        android:id="@+id/seek_blind"
+                        android:layout_width="56dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:max="10"
+                        android:maxHeight="16dp"
+                        android:minHeight="16dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="18dp"
+                        android:progressDrawable="@drawable/seekbar_track_thick"
+                        android:splitTrack="false"
+                        android:thumb="@drawable/seekbar_thumb_big"
+                        android:thumbOffset="18dp" />
+
+                    <TextView
+                        style="@style/Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/detail_blind_down_short"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_blind_down"
+                        style="@style/Button.Secondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:text="@string/detail_blind_down"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ============ 청소기: 타이머 링 + 배터리 ============ -->
+        <LinearLayout
+            android:id="@+id/section_vacuum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/detail_vacuum_steps" />
+
+            <!-- 링: 지난 시간 회색, 남은 시간 색. 가운데는 로봇 -->
+            <FrameLayout
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="12dp">
+
+                <com.example.six_sense.ui.widget.RingTimerView
+                    android:id="@+id/ring_vacuum"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_vacuum_zzz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_vacuum_zzz"
+                        android:textColor="@color/muted"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image_vacuum_robot"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_robot_sleep" />
+
+                    <TextView
+                        android:id="@+id/text_vacuum_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/ink"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:text="50분 / 60분" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- 청소 중에만 보인다 -->
+            <Button
+                android:id="@+id/button_vacuum_stop"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_state_off"
+                android:text="@string/detail_vacuum_stop"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/state_off"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <!-- ============ 청소기 배터리 (따로 크게) ============ -->
+        <LinearLayout
+            android:id="@+id/section_battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_battery" />
+
+            <!-- 배터리 모양 안에 글자. 채움 너비는 코드에서 (5% 단위) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/battery_shell"
+                    android:layout_width="0dp"
+                    android:layout_height="84dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_battery_shell"
+                    android:padding="5dp">
+
+                    <View
+                        android:id="@+id/view_battery_fill"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_battery_fill" />
+
+                    <TextView
+                        android:id="@+id/text_battery"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/ink"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        tools:text="충전 중 85%" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_battery_tip" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_battery_hint"
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textSize="@dimen/text_body_small"
+                tools:text="충전기에서 쉬는 중이에요" />
+        </LinearLayout>
+
+        <!-- ============ 커피머신: 세로 메뉴 + 내리기 ============ -->
+        <LinearLayout
+            android:id="@+id/section_coffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_coffee_menu" />
+
+            <TextView
+                android:id="@+id/button_coffee_1"
+                style="@style/PresetRow"
+                android:text="@string/detail_coffee_americano" />
+
+            <TextView
+                android:id="@+id/button_coffee_2"
+                style="@style/PresetRow"
+                android:text="@string/detail_coffee_espresso" />
+
+            <TextView
+                android:id="@+id/button_coffee_3"
+                style="@style/PresetRow"
+                android:text="@string/detail_coffee_latte" />
+
+            <Button
+                android:id="@+id/button_coffee_brew"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/detail_coffee_brew" />
+        </LinearLayout>
+
+        <!-- ============ 냉장고: 내용물 ============ -->
+        <LinearLayout
+            android:id="@+id/section_fridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_fridge_contents" />
+
+            <LinearLayout
+                android:id="@+id/list_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 블라인드 그림: 내려온 부분 배경. 줄무늬는 LinearLayout divider로 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/rose_tint" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 꺼짐 타일. 색 외에도 투명도(alpha)를 낮춰서 켜짐과 한 번 더 구분 (코드에서 setAlpha) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/state_off" />
+    <corners android:radius="14dp" />
+</shape>

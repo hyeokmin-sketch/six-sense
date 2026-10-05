@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 다크 모드는 아직 지원 안 함. 라이트 테마(values/themes.xml) 하나로 간다 -->
+</resources>

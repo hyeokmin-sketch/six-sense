@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 시안 색상. 포인트는 로즈핑크, 바탕은 아주 연한 분홍빛 흰색 -->
+    <color name="rose">#C9566F</color>
+    <color name="rose_deep">#A8405A</color>
+    <color name="rose_tint">#FBE4EA</color>
+    <color name="ground">#FFF7F9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="line">#F0D4DC</color>
+    <color name="divider">#F6E6EB</color>
+    <color name="toggle_off">#E6D3D9</color>
+
+    <color name="ink">#2B2226</color>
+    <color name="ink_soft">#4A3F44</color>
+    <color name="muted">#7A6A70</color>
+
+    <!-- 경고/주의 (더워요, 잘못됐어요 등) -->
+    <color name="amber">#A4521A</color>
+
+    <!-- 켜짐/꺼짐. 적록색약도 구분되도록 Okabe-Ito 팔레트의 청록·주홍을 쓴다 (초록/빨강 대신) -->
+    <color name="state_on">#009E73</color>
+    <color name="state_off">#D55E00</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

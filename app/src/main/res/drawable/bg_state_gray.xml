@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 커피 내리는 중: 아직 안 찬 부분 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#D9D0D4" />
+    <corners android:radius="14dp" />
+</shape>

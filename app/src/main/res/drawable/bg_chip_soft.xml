@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 해석 카드 안의 태그 칩 (말투 · 차분함 등) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/ground" />
+    <corners android:radius="999dp" />
+</shape>

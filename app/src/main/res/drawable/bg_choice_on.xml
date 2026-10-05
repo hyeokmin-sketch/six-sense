@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 에어컨/보일러 중 실제로 켜진 쪽. 굵고 색이 채워진 블록 -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#33FFFFFF">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/rose" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 블라인드 그림: 창틀 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#DDEEFF" />
+    <corners android:radius="10dp" />
+    <stroke android:width="3dp" android:color="#8A7E84" />
+</shape>

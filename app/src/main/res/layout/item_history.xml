@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp">
+
+    <!-- 들은 말은 작게 -->
+    <TextView
+        android:id="@+id/text_heard"
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_body_small"
+        tools:text="“커피 한 잔 묵자”" />
+
+    <!-- 실행한 내용이 주인공. 교정되면 취소선 -->
+    <TextView
+        android:id="@+id/text_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/ink"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="커피머신 · 에스프레소 2잔" />
+
+    <!-- 교정 결과 (교정된 항목만) -->
+    <TextView
+        android:id="@+id/text_correction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_card_tint"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/rose"
+        android:textSize="@dimen/text_body_small"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:drawableStartCompat="@drawable/ic_check"
+        app:drawableTint="@color/rose"
+        tools:text="교정됨: 아메리카노 1잔 · 학습에 반영돼요"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_meta"
+            style="@style/Text.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_label"
+            tools:text="09:30 · 확신도 74% · 확인 후 실행" />
+
+        <Button
+            android:id="@+id/button_wrong"
+            style="@style/Button.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minHeight="40dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="4dp"
+            android:text="@string/history_wrong"
+            android:textColor="@color/muted"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+</LinearLayout>

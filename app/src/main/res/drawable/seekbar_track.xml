@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 두꺼운 슬라이더 트랙 (12dp). 밝기/블라인드 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:height="12dp" />
+            <corners android:radius="6dp" />
+            <solid android:color="@color/line" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <size android:height="12dp" />
+                <corners android:radius="6dp" />
+                <solid android:color="@color/rose" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

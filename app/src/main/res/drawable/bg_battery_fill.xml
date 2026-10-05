@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 배터리 채움. 글자가 위에 올라가서 진한 청록 대신 연한 청록 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#9FD8C6" />
+    <corners android:radius="10dp" />
+</shape>

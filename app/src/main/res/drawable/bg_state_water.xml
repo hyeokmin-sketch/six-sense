@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 욕조 물 (#02DFFF). 밝은 하늘색이라 위에 올리는 글자는 흰색 대신 진한 글자색 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#02DFFF" />
+    <corners android:radius="14dp" />
+</shape>

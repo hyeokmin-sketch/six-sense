@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/text_greeting"
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_body_small"
+            tools:text="좋은 오후예요" />
+
+        <TextView
+            style="@style/Text.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_title" />
+
+        <!-- 프라이버시 배지. 항상 보인다 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_pill"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_lock"
+                app:tint="@color/rose" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/home_privacy_badge"
+                android:textColor="@color/rose"
+                android:textSize="@dimen/text_caption"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 마이크. 누르면 듣기 화면으로 -->
+        <FrameLayout
+            android:id="@+id/button_mic"
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_circle_tint"
+            android:clickable="true"
+            android:contentDescription="@string/home_mic_desc"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_rose"
+                android:contentDescription="@null"
+                android:padding="30dp"
+                android:src="@drawable/ic_mic"
+                app:tint="@color/white" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/Text.Subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:text="@string/home_listening"
+            android:textSize="19sp" />
+
+        <TextView
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:text="@string/home_listening_hint"
+            android:textSize="@dimen/text_body_small" />
+
+        <!-- 자주 쓰는 말 2개. 기록에서 횟수 많은 순. 누르면 그 문장으로 바로 실행 -->
+        <TextView
+            style="@style/Text.Subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/home_frequent_title"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/button_frequent_1"
+            style="@style/FrequentButton"
+            android:layout_marginTop="8dp"
+            tools:text="“불 좀 꺼주이소”" />
+
+        <TextView
+            android:id="@+id/button_frequent_2"
+            style="@style/FrequentButton"
+            android:layout_marginTop="8dp"
+            tools:text="“더버 디지기 딱 좋은 날씨고만”" />
+
+        <TextView
+            android:id="@+id/text_frequent_empty"
+            style="@style/Text.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/home_frequent_empty"
+            android:visibility="gone" />
+
+        <TextView
+            style="@style/Text.Subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/home_status_title"
+            android:textSize="17sp" />
+
+        <!-- 온도: 왼쪽 현재(읽기만), 오른쪽 희망 온도 + 에어컨/보일러 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Text.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_temp_now" />
+
+                <TextView
+                    android:id="@+id/text_temp_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/ink"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    tools:text="28°C" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Text.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_temp_desired" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_temp_minus"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_stepper"
+                        android:contentDescription="@string/home_temp_minus"
+                        android:src="@drawable/ic_minus"
+                        app:tint="@color/ink" />
+
+                    <TextView
+                        android:id="@+id/text_temp_desired"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/rose"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        tools:text="22°C" />
+
+                    <ImageButton
+                        android:id="@+id/button_temp_plus"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_stepper"
+                        android:contentDescription="@string/home_temp_plus"
+                        android:src="@drawable/ic_plus"
+                        app:tint="@color/ink" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_temp_recommended"
+                    style="@style/Text.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    android:textSize="@dimen/text_label"
+                    tools:text="10월 권장 22°C" />
+
+                <!-- 둘 중 권장되는 쪽이 커지고 굵어진다 (코드에서) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button_choice_ac"
+                        style="@style/ChoiceButton"
+                        android:text="@string/home_choice_ac" />
+
+                    <TextView
+                        android:id="@+id/button_choice_boiler"
+                        style="@style/ChoiceButton"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/home_choice_boiler" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 조명: 공간별 타일. 켜짐 청록 / 꺼짐 주홍(투명도 낮춤). 타일은 코드에서 조명 개수만큼 만든다 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_status_light" />
+
+            <LinearLayout
+                android:id="@+id/group_lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- 블라인드: ON / OFF 버튼 하나 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home_status_blind"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/button_blind"
+                android:layout_width="112dp"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_state_on"
+                android:clickable="true"
+                android:contentDescription="@string/home_blind_desc"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="ON" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

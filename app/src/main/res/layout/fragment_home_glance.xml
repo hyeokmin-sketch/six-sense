@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 한눈에 모드 홈. 스크롤 없이 한 화면에 끝난다: 마이크 → 온도 → 즐겨찾기 2칸 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/screen_padding"
+    android:paddingEnd="@dimen/screen_padding"
+    android:paddingTop="20dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/text_greeting"
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_body_small"
+        tools:text="좋은 오후예요" />
+
+    <TextView
+        style="@style/Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/home_title" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_pill"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_lock"
+            app:tint="@color/rose" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_privacy_badge"
+            android:textColor="@color/rose"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- 마이크. 남는 세로 공간을 이 영역이 흡수한다 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/button_mic"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:background="@drawable/bg_circle_tint"
+            android:clickable="true"
+            android:contentDescription="@string/home_mic_desc"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_rose"
+                android:contentDescription="@null"
+                android:padding="26dp"
+                android:src="@drawable/ic_mic"
+                app:tint="@color/white" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/Text.Subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/home_listening"
+            android:textSize="19sp" />
+
+        <TextView
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_listening_hint"
+            android:textSize="@dimen/text_body_small" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Text.Subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_status_title"
+        android:textSize="18sp" />
+
+    <!-- 온도 카드. 양쪽 다 가운데 정렬 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_temp_now" />
+
+            <TextView
+                android:id="@+id/text_temp_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/ink"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:text="28°C" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_temp_desired"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/button_temp_minus"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/home_temp_minus"
+                    android:src="@drawable/ic_minus"
+                    app:tint="@color/ink" />
+
+                <TextView
+                    android:id="@+id/text_temp_desired"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/rose"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:text="22°C" />
+
+                <ImageButton
+                    android:id="@+id/button_temp_plus"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="@drawable/bg_stepper"
+                    android:contentDescription="@string/home_temp_plus"
+                    android:src="@drawable/ic_plus"
+                    app:tint="@color/ink" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_recommended_label"
+                    style="@style/Text.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:text="10월 권장" />
+
+                <TextView
+                    android:id="@+id/text_recommended_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:textColor="@color/ink_soft"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:text="22°C" />
+            </LinearLayout>
+
+            <!-- 에어컨 / 보일러. 조명 타일처럼 이름 + ON/OFF, 켜짐 청록 / 꺼짐 주홍 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/button_choice_ac"
+                    style="@style/StateTile"
+                    tools:text="에어컨\nOFF" />
+
+                <TextView
+                    android:id="@+id/button_choice_boiler"
+                    style="@style/StateTile"
+                    android:layout_marginStart="8dp"
+                    tools:text="보일러\nOFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 즐겨찾기 2칸. 비면 회색 점선 + "기기를 추가하기" -->
+    <TextView
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:text="@string/home_favorites_label"
+        android:textSize="@dimen/text_caption"
+        app:drawableStartCompat="@drawable/ic_star_filled"
+        app:drawableTint="@color/rose" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/slot_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@+id/slot_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

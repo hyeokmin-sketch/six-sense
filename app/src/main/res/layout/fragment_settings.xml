@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            style="@style/Text.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title" />
+
+        <!-- 화면 모드 -->
+        <TextView
+            style="@style/Text.SectionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_section_mode_ui" />
+
+        <RadioGroup
+            android:id="@+id/group_ui_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_ui_glance"
+                style="@style/ModeRadio"
+                android:text="@string/ui_mode_glance" />
+
+            <TextView
+                style="@style/ModeRadio.Desc"
+                android:text="@string/ui_mode_glance_desc" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <RadioButton
+                android:id="@+id/radio_ui_detail"
+                style="@style/ModeRadio"
+                android:text="@string/ui_mode_detail" />
+
+            <TextView
+                style="@style/ModeRadio.Desc"
+                android:text="@string/ui_mode_detail_desc" />
+        </RadioGroup>
+
+        <!-- 보기 -->
+        <TextView
+            style="@style/Text.SectionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_section_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                style="@style/Text.Subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="@string/settings_font_size" />
+
+            <!-- 글자 크기 세그먼트. 선택된 버튼은 코드에서 배경 바꿈 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_segment"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/font_normal"
+                    style="@style/SegmentButton"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:text="@string/font_normal"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/font_large"
+                    style="@style/SegmentButton"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:text="@string/font_large"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/font_xlarge"
+                    style="@style/SegmentButton"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:text="@string/font_xlarge"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 말투 -->
+        <TextView
+            style="@style/Text.SectionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_section_speech" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/row_dialect"
+                style="@style/SettingsRow">
+
+                <TextView
+                    style="@style/SettingsRow.Label"
+                    android:text="@string/settings_dialect" />
+
+                <TextView
+                    android:id="@+id/text_dialect_value"
+                    style="@style/SettingsRow.Value"
+                    tools:text="경상도" />
+
+                <ImageView
+                    style="@style/SettingsRow.Chevron"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:id="@+id/row_voice"
+                style="@style/SettingsRow">
+
+                <TextView
+                    style="@style/SettingsRow.Label"
+                    android:text="@string/settings_voice" />
+
+                <TextView
+                    android:id="@+id/text_voice_value"
+                    style="@style/SettingsRow.Value"
+                    tools:text="따뜻한 여성 · 보통 속도" />
+
+                <ImageView
+                    style="@style/SettingsRow.Chevron"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 실행 방식 -->
+        <TextView
+            style="@style/Text.SectionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_section_mode" />
+
+        <RadioGroup
+            android:id="@+id/group_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_confirm"
+                style="@style/ModeRadio"
+                android:text="@string/mode_confirm" />
+
+            <TextView
+                style="@style/ModeRadio.Desc"
+                android:text="@string/mode_confirm_desc" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <RadioButton
+                android:id="@+id/radio_immediate"
+                style="@style/ModeRadio"
+                android:text="@string/mode_immediate" />
+
+            <TextView
+                style="@style/ModeRadio.Desc"
+                android:text="@string/mode_immediate_desc" />
+        </RadioGroup>
+
+        <!-- 개인정보 -->
+        <TextView
+            style="@style/Text.SectionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_section_privacy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bg_circle_rose" />
+
+                <TextView
+                    style="@style/Text.Subheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="17sp"
+                    android:text="@string/privacy_on_device" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/PrivacyRow">
+                <TextView style="@style/PrivacyRow.Key" android:text="@string/privacy_model" />
+                <TextView style="@style/PrivacyRow.Value" android:text="@string/privacy_model_value" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/PrivacyRow">
+                <TextView style="@style/PrivacyRow.Key" android:text="@string/privacy_npu" />
+                <TextView style="@style/PrivacyRow.Value" android:text="@string/privacy_npu_value" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/PrivacyRow">
+                <TextView style="@style/PrivacyRow.Key" android:text="@string/privacy_sent" />
+                <TextView
+                    android:id="@+id/text_sent_count"
+                    style="@style/PrivacyRow.Value"
+                    android:text="@string/privacy_sent_value"
+                    android:textColor="@color/rose"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

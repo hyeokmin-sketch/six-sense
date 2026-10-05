@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 잠자는 로봇청소기. 감은 눈, 볼터치, 수면 모자 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 몸통 -->
+    <path android:pathData="M24,10a17,17 0 1,1 -0.01,0z" android:fillColor="#EFEAEC" android:strokeColor="#9A8F94" android:strokeWidth="1.8" />
+    <!-- 범퍼 줄 -->
+    <path android:pathData="M9,30a15,15 0 0,0 30,0" android:strokeColor="#C9BFC4" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    <!-- 수면 모자 -->
+    <path android:pathData="M16,13 L27,3 L32,14z" android:fillColor="#B9A9C9" android:strokeColor="#8D7FA0" android:strokeWidth="1" android:strokeLineJoin="round" />
+    <path android:pathData="M27,3a1.8,1.8 0 1,1 -0.01,0z" android:fillColor="#FFFFFF" android:strokeColor="#8D7FA0" android:strokeWidth="0.8" />
+    <!-- 감은 눈 -->
+    <path android:pathData="M15.5,24 q2.75,2.6 5.5,0" android:strokeColor="#6B5F65" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M27,24 q2.75,2.6 5.5,0" android:strokeColor="#6B5F65" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <!-- 볼 -->
+    <path android:pathData="M15,29a2,2 0 1,1 -0.01,0z" android:fillColor="#F4C3CF" />
+    <path android:pathData="M33,29a2,2 0 1,1 -0.01,0z" android:fillColor="#F4C3CF" />
+    <!-- 입 (살짝 벌린 o) -->
+    <path android:pathData="M24,29.5a1.4,1.4 0 1,1 -0.01,0z" android:fillColor="#6B5F65" />
+</vector>

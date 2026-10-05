@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "잘못됐어요" 눌렀을 때. 원래 어떻게 했어야 하는지 한 줄 받는다 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/text_heard"
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="“커피 한 잔 묵자” → 커피머신 · 에스프레소 2잔" />
+
+    <EditText
+        android:id="@+id/edit_correction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/correction_hint"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="@dimen/button_height"
+        android:textSize="@dimen/text_body" />
+</LinearLayout>
