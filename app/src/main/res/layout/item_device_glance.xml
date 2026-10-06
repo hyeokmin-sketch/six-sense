@@ -63,14 +63,7 @@
         android:src="@drawable/ic_star"
         app:tint="@color/muted" />
 
-    <!-- 전원 스위치 (상세 화면과 같은 모양) -->
-    <com.example.six_sense.ui.widget.PowerSwitchView
-        android:id="@+id/switch_power"
-        android:layout_width="100dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="4dp" />
-
-    <!-- 스위치가 없는 기기용: 냉장고(정상/임박), 블라인드(열린 정도). 누르면 상세 화면 -->
+    <!-- 전원 버튼. 켜짐=초록 ON / 꺼짐=빨강 OFF. 냉장고는 정상/임박 표시 -->
     <TextView
         android:id="@+id/button_power"
         android:layout_width="92dp"

@@ -94,8 +94,9 @@ public class GlanceDevicesFragment extends Fragment implements DeviceRepository.
     }
 
     @Override
-    public void onPowerRequest(Device device, boolean wantOn) {
-        PowerControl.request(requireContext(), device, wantOn);
+    public void onPower(Device device) {
+        // 욕조 물 차 있음 / 청소 중 / 커피 내리는 중이면 안내만 하고 안 끈다 (상세 화면과 같은 규칙)
+        PowerControl.request(requireContext(), device, !device.isOn());
         refresh();   // 거절됐으면 스위치를 제자리로
     }
 

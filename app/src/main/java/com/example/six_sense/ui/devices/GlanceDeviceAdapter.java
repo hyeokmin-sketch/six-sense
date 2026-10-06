@@ -15,7 +15,6 @@ import com.example.six_sense.R;
 import com.example.six_sense.data.FridgeInventory;
 import com.example.six_sense.databinding.ItemDeviceGlanceBinding;
 import com.example.six_sense.model.Device;
-import com.example.six_sense.model.DeviceType;
 import com.example.six_sense.ui.DeviceIcons;
 
 /**
@@ -26,8 +25,8 @@ public class GlanceDeviceAdapter extends RecyclerView.Adapter<GlanceDeviceAdapte
 
     public interface Callbacks {
         void onOpen(Device device);
-        /** 스위치를 밀었을 때. 실제 반영 여부는 PowerControl 규칙에 따른다 */
-        void onPowerRequest(Device device, boolean wantOn);
+        /** ON/OFF 버튼을 눌렀을 때 */
+        void onPower(Device device);
         void onFavorite(Device device);
         boolean isFavorite(Device device);
     }
@@ -91,24 +90,17 @@ public class GlanceDeviceAdapter extends RecyclerView.Adapter<GlanceDeviceAdapte
             b.buttonFavorite.setImageTintList(ColorStateList.valueOf(fav ? rose : muted));
             b.buttonFavorite.setOnClickListener(v -> callbacks.onFavorite(d));
 
-            boolean useSwitch = d.isToggleable() && d.getType() != DeviceType.BLIND;
-            b.switchPower.setVisibility(useSwitch ? View.VISIBLE : View.GONE);
-            b.buttonPower.setVisibility(useSwitch ? View.GONE : View.VISIBLE);
-
-            if (useSwitch) {
-                // 재활용되는 뷰라 애니메이션 없이 바로 맞춘다
-                b.switchPower.setOn(d.isOn(), false);
-                b.switchPower.setContentDescription(
-                        itemView.getContext().getString(R.string.device_toggle_desc, d.getName()));
-                b.switchPower.setListener(want -> callbacks.onPowerRequest(d, want));
-            } else if (d.getType() == DeviceType.BLIND) {
-                // 블라인드는 ON/OFF가 아니라 열린 정도. 누르면 상세 화면에서 조절
-                b.buttonPower.setText(d.getValue() + "%");
+            if (d.isToggleable()) {
+                // 켜짐: 초록 ON, 꺼짐: 빨강 OFF + 반투명
+                boolean on = d.isOn();
+                b.buttonPower.setText(on ? R.string.state_on : R.string.state_off);
                 b.buttonPower.setTextSize(20f);
-                b.buttonPower.setBackgroundResource(R.drawable.bg_button_secondary);
-                b.buttonPower.setAlpha(1f);
-                b.buttonPower.setTextColor(itemView.getContext().getColor(R.color.ink));
-                b.buttonPower.setOnClickListener(v -> callbacks.onOpen(d));
+                b.buttonPower.setBackgroundResource(on ? R.drawable.bg_state_on : R.drawable.bg_state_off);
+                b.buttonPower.setAlpha(on ? 1f : OFF_ALPHA);
+                b.buttonPower.setTextColor(itemView.getContext().getColor(R.color.white));
+                b.buttonPower.setContentDescription(
+                        itemView.getContext().getString(R.string.device_toggle_desc, d.getName()));
+                b.buttonPower.setOnClickListener(v -> callbacks.onPower(d));
             } else {
                 // 냉장고: 켜고 끌 게 없으니 상태(정상 / 임박)를 보여준다
                 boolean warn = FridgeInventory.hasExpiring();

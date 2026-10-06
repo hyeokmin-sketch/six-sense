@@ -95,12 +95,6 @@
                     tools:text="켜짐 · 밝기 70%" />
             </LinearLayout>
 
-            <!-- ON/OFF 스위치. 블라인드·냉장고는 숨김 -->
-            <com.example.six_sense.ui.widget.PowerSwitchView
-                android:id="@+id/switch_power"
-                android:layout_width="116dp"
-                android:layout_height="54dp"
-                android:layout_marginStart="10dp" />
         </LinearLayout>
 
         <!-- 큰 상태/전원 버튼. 글자는 기기마다 다름 (ON/OFF, 물 받기, 청소 중, 정상 ...)

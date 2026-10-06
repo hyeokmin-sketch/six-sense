@@ -71,9 +71,8 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
 
         b.buttonBack.setOnClickListener(v -> finish());
         b.buttonFavorite.setOnClickListener(v -> toggleFavorite());
-        // 전원은 스위치로. 아래 큰 띠(button_power)는 진행/상태 표시 전용이라 누를 수 없다
-        b.buttonPower.setClickable(false);
-        b.switchPower.setListener(this::onSwitch);
+        // 큰 버튼 = 전원. 냉장고는 끄고 켜는 기기가 아니라 상태 표시만
+        b.buttonPower.setOnClickListener(v -> onPowerClick());
 
         setupForType();
         render();
@@ -101,12 +100,14 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
     // ---------------------------------------------------------------------------------------------
 
     /**
-     * 스위치를 밀었을 때. 기기마다 "꺼도 되는 때"가 달라서 여기서 거른다.
-     * 거른 경우엔 스위치가 제자리로 돌아가도록 render()로 다시 맞춘다.
+     * 큰 버튼을 눌렀을 때. 기기마다 "꺼도 되는 때"가 달라서 PowerControl이 거른다.
+     *   욕조: 꺼져 있으면 물 받기 시작. 물이 있는 동안은 아래 멈춤/물 빼기 버튼으로만
+     *   청소기: 꺼져 있으면 청소 시작. 청소 중엔 안 눌림, 중단 상태에서 누르면 OFF
+     *   커피: 내리는 중·완성! 동안은 안 눌림
      */
-    private void onSwitch(boolean wantOn) {
-        PowerControl.request(this, device, wantOn);
-        render();   // 거절됐으면 스위치가 제자리로 돌아간다
+    private void onPowerClick() {
+        if (device.getType() == DeviceType.FRIDGE) return;
+        PowerControl.request(this, device, !device.isOn());
     }
 
     private void toast(int res) {
@@ -180,8 +181,7 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
                 break;
 
             case BLIND:
-                b.switchPower.setVisibility(View.GONE);
-                b.powerFrame.setVisibility(View.GONE);
+                b.powerFrame.setVisibility(View.GONE);   // 블라인드는 ON/OFF 대신 올림/내림
                 b.sectionBlind.setVisibility(View.VISIBLE);
                 b.seekBlind.setListener(new VerticalSeekBar.Listener() {
                     @Override
@@ -220,7 +220,6 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
 
             case FRIDGE:
                 b.sectionFridge.setVisibility(View.VISIBLE);
-                b.switchPower.setVisibility(View.GONE);   // 냉장고는 끄고 켜는 기기가 아니다
                 b.buttonPower.setTextSize(22f);
                 for (FridgeInventory.Item item : FridgeInventory.items()) {
                     TextView row = new TextView(this);
@@ -283,7 +282,6 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
 
         boolean on = device.isOn();
         b.buttonSecondary.setVisibility(View.GONE);
-        b.switchPower.setOn(on, true);
 
         switch (device.getType()) {
             case LIGHT:
@@ -375,33 +373,6 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
                 renderFridge();
                 break;
         }
-        updateStatusBandVisibility();
-    }
-
-    /**
-     * 큰 띠(진행/상태 표시)는 보여줄 게 있을 때만.
-     *   조명·에어컨·보일러·오븐: 스위치로 충분해서 숨김
-     *   욕조·청소기: 켜져 있을 때 (받는 중 45%, 청소 중 등)
-     *   커피: 내리는 중·완성!일 때
-     *   냉장고: 항상 (정상 / 임박)
-     */
-    private void updateStatusBandVisibility() {
-        boolean show;
-        switch (device.getType()) {
-            case BATH:
-            case VACUUM:
-                show = device.isOn();
-                break;
-            case COFFEE:
-                show = device.isOn() && (device.getAux() > 0 || sim.isCoffeeDone(device));
-                break;
-            case FRIDGE:
-                show = true;
-                break;
-            default:
-                show = false;
-        }
-        b.powerFrame.setVisibility(show ? View.VISIBLE : View.GONE);
     }
 
     private void paintPower(int textRes, boolean on) {

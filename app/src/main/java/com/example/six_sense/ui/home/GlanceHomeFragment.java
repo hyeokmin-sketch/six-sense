@@ -30,7 +30,6 @@ import com.example.six_sense.databinding.FragmentHomeGlanceBinding;
 import com.example.six_sense.databinding.ItemFavoriteBinding;
 import com.example.six_sense.databinding.ItemFavoriteEmptyBinding;
 import com.example.six_sense.model.Device;
-import com.example.six_sense.model.DeviceType;
 import com.example.six_sense.ui.DeviceIcons;
 import com.example.six_sense.ui.devices.DeviceDetailActivity;
 import com.example.six_sense.ui.devices.PowerControl;
@@ -234,28 +233,10 @@ public class GlanceHomeFragment extends Fragment implements DeviceRepository.Lis
         tile.textName.setText(d.getName());
         tile.textState.setText(d.describeState());
 
-        boolean useSwitch = d.isToggleable() && d.getType() != DeviceType.BLIND;
-        tile.switchPower.setVisibility(useSwitch ? View.VISIBLE : View.GONE);
-        tile.buttonPower.setVisibility(useSwitch ? View.GONE : View.VISIBLE);
-
-        if (useSwitch) {
-            // 타일은 renderAll 때마다 새로 만들어지니 애니메이션 없이 현재 상태로 맞춘다.
-            // 켜고 끄는 규칙(욕조 물 차 있음, 청소 중, 커피 내리는 중 등)은 기기 화면과 똑같이 PowerControl에 맡김
-            tile.switchPower.setOn(d.isOn(), false);
-            tile.switchPower.setContentDescription(getString(R.string.device_toggle_desc, d.getName()));
-            tile.switchPower.setListener(want -> {
-                PowerControl.request(requireContext(), d, want);
-                // 거절됐으면 스위치가 원래 자리로 돌아가도록 다시 그린다.
-                // 스위치 자신의 터치 처리 도중에 타일을 갈아끼우지 않게 한 박자 뒤로 미룸
-                slot.post(() -> { if (binding != null) renderAll(); });
-            });
-        } else if (d.getType() == DeviceType.BLIND) {
-            // 블라인드는 ON/OFF가 아니라 열린 정도. 누르면 상세 화면에서 조절
-            tile.buttonPower.setText(d.getValue() + "%");
-            tile.buttonPower.setBackgroundResource(R.drawable.bg_button_secondary);
-            tile.buttonPower.setTextColor(requireContext().getColor(R.color.ink));
-            tile.buttonPower.setAlpha(1f);
-            tile.buttonPower.setOnClickListener(v -> openDetail(d));
+        if (d.isToggleable()) {
+            tile.buttonPower.setText(d.isOn() ? R.string.state_on : R.string.state_off);
+            paintState(tile.buttonPower, d.isOn());
+            tile.buttonPower.setOnClickListener(v -> PowerControl.request(requireContext(), d, !d.isOn()));
         } else {
             boolean warn = com.example.six_sense.data.FridgeInventory.hasExpiring();
             tile.buttonPower.setText(com.example.six_sense.data.FridgeInventory.statusLabel());
