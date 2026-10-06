@@ -78,7 +78,8 @@ public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.Holder> {
             int muted = itemView.getContext().getColor(R.color.muted);
 
             // 켜짐: 테두리 + 아이콘 + 상태 글자 색을 같이 바꾼다 (색만으로 구분하지 않도록 글자도 바뀜)
-            b.cardRoot.setBackgroundResource(on ? R.drawable.bg_card_accent : R.drawable.bg_card);
+            b.cardRoot.setBackgroundResource(com.example.six_sense.ui.Themed.drawable(
+                    itemView.getContext(), on ? R.attr.sixCardAccentBg : R.attr.sixCardBg));
             b.imageIcon.setImageTintList(android.content.res.ColorStateList.valueOf(on ? accent : muted));
             b.textState.setTextColor(on ? accent : muted);
             b.textState.setTypeface(null, on ? android.graphics.Typeface.BOLD : android.graphics.Typeface.NORMAL);

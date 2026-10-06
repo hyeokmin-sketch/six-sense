@@ -393,7 +393,9 @@ public class DeviceDetailActivity extends BaseActivity implements DeviceReposito
     private void setSectionEnabled(View section, boolean enabled) {
         setEnabledDeep(section, enabled);
         section.setAlpha(enabled ? 1f : DISABLED_ALPHA);
-        section.setBackgroundResource(enabled ? R.drawable.bg_card : R.drawable.bg_card_disabled);
+        section.setBackgroundResource(enabled
+                ? com.example.six_sense.ui.Themed.drawable(this, R.attr.sixCardBg)
+                : R.drawable.bg_card_disabled);
     }
 
     private static void setEnabledDeep(View v, boolean enabled) {

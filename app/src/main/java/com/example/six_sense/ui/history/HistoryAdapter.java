@@ -141,13 +141,15 @@ public class HistoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 b.textCorrection.setText(itemView.getContext()
                         .getString(R.string.history_corrected_format, e.getCorrection()));
                 b.textCorrection.setVisibility(View.VISIBLE);
-                b.cardRoot.setBackgroundResource(R.drawable.bg_card_accent);
+                b.cardRoot.setBackgroundResource(
+                        com.example.six_sense.ui.Themed.drawable(itemView.getContext(), R.attr.sixCardAccentBg));
                 b.buttonWrong.setVisibility(View.GONE);
             } else {
                 b.textAction.setPaintFlags(b.textAction.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
                 b.textAction.setTextColor(itemView.getContext().getColor(R.color.ink));
                 b.textCorrection.setVisibility(View.GONE);
-                b.cardRoot.setBackgroundResource(R.drawable.bg_card);
+                b.cardRoot.setBackgroundResource(
+                        com.example.six_sense.ui.Themed.drawable(itemView.getContext(), R.attr.sixCardBg));
                 // 교정은 오늘 것만. 되물은 항목은 조치가 없으니 교정할 것도 없음
                 boolean canCorrect = e.getMode() != HistoryEntry.Mode.ASKED && isToday(e.getTimestamp());
                 b.buttonWrong.setVisibility(canCorrect ? View.VISIBLE : View.GONE);

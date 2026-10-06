@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ground"
+    android:background="?attr/sixScreenBg"
     android:orientation="vertical"
     android:paddingStart="@dimen/screen_padding"
     android:paddingEnd="@dimen/screen_padding"
@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@drawable/bg_card"
+        android:background="?attr/sixCardBg"
         android:orientation="vertical"
         android:padding="18dp">
 
@@ -90,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:background="@drawable/bg_card_accent"
+        android:background="?attr/sixCardAccentBg"
         android:orientation="vertical"
         android:padding="20dp">
 

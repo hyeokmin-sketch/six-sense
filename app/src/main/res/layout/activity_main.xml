@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/ground">
+    android:background="?attr/sixScreenBg">
 
     <!-- 탭별 Fragment가 들어가는 자리 -->
     <androidx.fragment.app.FragmentContainerView
@@ -17,7 +17,8 @@
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/surface"
+        android:background="?attr/sixNavBg"
+        app:elevation="0dp"
         app:itemIconTint="@drawable/bottom_nav_color"
         app:itemTextColor="@drawable/bottom_nav_color"
         app:itemActiveIndicatorStyle="@style/BottomNavIndicator"

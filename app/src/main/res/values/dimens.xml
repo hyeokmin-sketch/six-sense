@@ -3,6 +3,8 @@
     <!-- 고령 사용자 기준. 본문 15sp 이상, 버튼 56dp 이상 -->
     <dimen name="screen_padding">20dp</dimen>
     <dimen name="card_radius">18dp</dimen>
+    <!-- 유리 카드는 조금 더 둥글게 -->
+    <dimen name="glass_radius">22dp</dimen>
     <dimen name="button_height">56dp</dimen>
     <dimen name="button_height_primary">60dp</dimen>
     <dimen name="touch_min">44dp</dimen>

@@ -18,6 +18,30 @@
         <item name="android:textColorSecondary">@color/muted</item>
         <item name="android:fontFamily">sans-serif</item>
         <item name="materialAlertDialogTheme">@style/Dialog.SixSense</item>
+
+        <!-- 자세히 모드: 기존 단색 그대로 -->
+        <item name="sixScreenBg">@color/ground</item>
+        <item name="sixCardBg">@drawable/bg_card</item>
+        <item name="sixCardAccentBg">@drawable/bg_card_accent</item>
+        <item name="sixNavBg">@color/surface</item>
+        <item name="sixMicBg">@drawable/bg_circle_rose</item>
+        <item name="sixMicRingBg">@drawable/bg_circle_tint</item>
+    </style>
+
+    <!-- 한눈에 모드: 글래스모피즘.
+         창 바탕에 분홍·라벤더 그라데이션을 깔고, 화면 루트는 투명으로 둬서 그게 비치게 한다.
+         카드/하단 탭은 반투명 흰 유리 + 흰 테두리. 진짜 배경 흐림(blur)은 Android 12+ 전용이라
+         최소 버전(8.0)까지 똑같이 보이도록 반투명 + 테두리 + 위쪽 하이라이트로만 표현했다.
+         ON/OFF(청록/주홍) 버튼은 색이 탁해지지 않게 유리 처리하지 않는다. -->
+    <style name="Theme.SixSense.Glass" parent="Theme.SixSense">
+        <item name="android:windowBackground">@drawable/bg_glass_screen</item>
+        <item name="android:statusBarColor">@color/glass_top</item>
+        <item name="sixScreenBg">@android:color/transparent</item>
+        <item name="sixCardBg">@drawable/bg_glass_card</item>
+        <item name="sixCardAccentBg">@drawable/bg_glass_card_accent</item>
+        <item name="sixNavBg">@drawable/bg_glass_nav</item>
+        <item name="sixMicBg">@drawable/bg_glass_mic</item>
+        <item name="sixMicRingBg">@drawable/bg_glass_mic_ring</item>
     </style>
 
     <!-- 팝업: 카드와 같은 둥근 모서리. 확인(켜기)은 청록, 아니요는 주홍 -->
