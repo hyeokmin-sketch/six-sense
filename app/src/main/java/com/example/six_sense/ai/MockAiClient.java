@@ -46,13 +46,12 @@ public class MockAiClient implements AiClient {
 
         // A. 사투리 명령
         put(Interpretation.builder("불 좀 꺼주이소")
-                .summary("거실 조명 끄기")
+                .summary("조명 끄기")
                 .dialect("‘꺼주이소’ → ‘꺼 주세요’ (경상도)")
                 .tone("차분함")
-                .context("지금 거실에 계세요")
                 .confidence(0.92f)
-                .action(DeviceAction.off(DeviceRepository.ID_LIGHT_LIVING, "거실 조명 끔", "밝기 70% → 꺼짐"))
-                .response("네, 거실 불을 껐어요.")
+                .action(DeviceAction.off(DeviceRepository.ID_LIGHT_LIVING, "조명 끔", "밝기 70% → 꺼짐"))
+                .response("네, 불을 껐어요.")
                 .build());
 
         // C. 사투리 + 혼잣말. 상황 인지로 두 기기 동시 제어
@@ -64,7 +63,7 @@ public class MockAiClient implements AiClient {
                 .monologue("덥다고 느끼시는 것 같아요")
                 .temperature(roomTemp, 24)
                 .action(DeviceAction.set(DeviceRepository.ID_AC, 24, "에어컨 켬 · 24°C", "냉방 · 바람 보통"))
-                .action(DeviceAction.on(DeviceRepository.ID_BLIND, "블라인드 내림", "햇빛 차단 · 거실 창"))
+                .action(DeviceAction.on(DeviceRepository.ID_BLIND, "블라인드 내림", "햇빛 차단"))
                 .response("네, 에어컨을 24도로 켜고 블라인드를 내렸어요. 금방 시원해질 거예요.")
                 .build());
 
@@ -86,7 +85,7 @@ public class MockAiClient implements AiClient {
                 .confidence(0.74f)
                 .monologue("많이 피곤해 보이세요")
                 .action(DeviceAction.set(DeviceRepository.ID_LIGHT_LIVING, 30, "조명 은은하게 · 30%", "따뜻한 색으로"))
-                .action(DeviceAction.on(DeviceRepository.ID_BLIND, "블라인드 내림", "거실 창"))
+                .action(DeviceAction.on(DeviceRepository.ID_BLIND, "블라인드 내림", "햇빛 차단"))
                 .response("조명을 은은하게 낮추고 블라인드를 내렸어요. 푹 쉬세요.")
                 .build());
 
@@ -109,12 +108,13 @@ public class MockAiClient implements AiClient {
                 .response("욕조에 38도로 물을 받을게요. 다 받으면 알려드릴게요.")
                 .build());
 
-        // 낮은 확신도 → 되묻기. 조명이 두 개라 어디인지 모름
-        put(Interpretation.builder("불 켜라")
-                .summary("조명 켜기 (어느 방인지 불분명)")
+        // 낮은 확신도 → 되묻기. 원룸 기준이라 방은 묻지 않고, 무엇을 끌지 모를 때만 묻는다 (팀 리뷰 10/8)
+        put(Interpretation.builder("그거 좀 꺼도")
+                .summary("끌 기기가 불분명")
+                .dialect("‘꺼도’ → ‘꺼 줘’ (경상도)")
                 .tone("차분함")
-                .confidence(0.62f)
-                .askBack("어느 방 불 말씀이세요? 거실, 주방 중에 말씀해 주세요.")
+                .confidence(0.55f)
+                .askBack("어떤 기기를 말씀하시는 건가요?")
                 .build());
     }
 
@@ -146,17 +146,17 @@ public class MockAiClient implements AiClient {
                     .build();
         }
         if (u.contains("불") && (u.contains("꺼") || u.contains("끄"))) {
-            return b.summary("거실 조명 끄기")
+            return b.summary("조명 끄기")
                     .confidence(0.80f)
-                    .action(DeviceAction.off(DeviceRepository.ID_LIGHT_LIVING, "거실 조명 끔", null))
-                    .response("거실 불을 껐어요.")
+                    .action(DeviceAction.off(DeviceRepository.ID_LIGHT_LIVING, "조명 끔", null))
+                    .response("불을 껐어요.")
                     .build();
         }
         if (u.contains("불") && u.contains("켜")) {
-            return b.summary("거실 조명 켜기")
+            return b.summary("조명 켜기")
                     .confidence(0.80f)
-                    .action(DeviceAction.on(DeviceRepository.ID_LIGHT_LIVING, "거실 조명 켬", null))
-                    .response("거실 불을 켰어요.")
+                    .action(DeviceAction.on(DeviceRepository.ID_LIGHT_LIVING, "조명 켬", null))
+                    .response("불을 켰어요.")
                     .build();
         }
         if (u.contains("커피")) {
@@ -169,7 +169,7 @@ public class MockAiClient implements AiClient {
         if (u.contains("청소")) {
             return b.summary("청소기 돌리기")
                     .confidence(0.79f)
-                    .action(DeviceAction.on(DeviceRepository.ID_VACUUM, "청소기 시작", "거실부터"))
+                    .action(DeviceAction.on(DeviceRepository.ID_VACUUM, "청소기 시작", "자동 청소 60분"))
                     .response("청소 시작할게요.")
                     .build();
         }

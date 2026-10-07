@@ -51,7 +51,7 @@ public class HistoryRepository {
 
         // 오늘
         entries.add(new HistoryEntry(nextId++, now - 2 * hour,
-                "불 좀 꺼주이소", "거실 조명 끔", 92,
+                "불 좀 꺼주이소", "조명 끔", 92,
                 HistoryEntry.Mode.IMMEDIATE, false, null));
 
         // 어제
@@ -73,7 +73,7 @@ public class HistoryRepository {
 
         // 그제
         entries.add(new HistoryEntry(nextId++, now - 2 * day - 4 * hour,
-                "청소기 좀 돌리라", "청소기 시작 · 거실", 90,
+                "청소기 좀 돌리라", "청소기 시작", 90,
                 HistoryEntry.Mode.IMMEDIATE, false, null));
     }
 

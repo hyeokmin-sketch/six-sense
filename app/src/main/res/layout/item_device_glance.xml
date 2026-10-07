@@ -39,7 +39,7 @@
             android:textColor="@color/ink"
             android:textSize="21sp"
             android:textStyle="bold"
-            tools:text="거실 조명" />
+            tools:text="조명" />
 
         <TextView
             android:id="@+id/text_state"

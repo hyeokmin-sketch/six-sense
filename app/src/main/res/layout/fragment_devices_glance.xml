@@ -23,8 +23,10 @@
         android:text="@string/devices_subtitle"
         android:textSize="@dimen/text_body_small" />
 
+    <!-- 원룸 기준이라 방 필터는 숨김 (팀 리뷰 10/8). 다시 쓰려면 visibility만 지우면 됨 -->
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/group_rooms"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"

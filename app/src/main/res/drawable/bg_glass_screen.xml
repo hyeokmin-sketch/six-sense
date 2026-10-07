@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 한눈에 모드 화면 바탕: 분홍→라벤더→분홍 그라데이션 위에 흐릿한 색 덩어리 4개.
+     유리 카드가 이 색을 비춰야 유리처럼 보인다 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="@color/glass_top"
+                android:centerColor="@color/glass_mid" android:endColor="@color/glass_bottom" />
+        </shape>
+    </item>
+    <!-- 오른쪽 위: 진분홍 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:centerX="0.9" android:centerY="0.05"
+                android:gradientRadius="70%" android:startColor="#CCFFA4C4" android:endColor="#00FFA4C4" />
+        </shape>
+    </item>
+    <!-- 왼쪽 가운데: 라벤더 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:centerX="0.05" android:centerY="0.45"
+                android:gradientRadius="75%" android:startColor="#9EC4A8FF" android:endColor="#00C4A8FF" />
+        </shape>
+    </item>
+    <!-- 오른쪽 아래: 살구 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:centerX="0.95" android:centerY="0.78"
+                android:gradientRadius="65%" android:startColor="#99FFC4AA" android:endColor="#00FFC4AA" />
+        </shape>
+    </item>
+    <!-- 왼쪽 아래: 분홍 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:centerX="0.15" android:centerY="0.98"
+                android:gradientRadius="55%" android:startColor="#73FF96BE" android:endColor="#00FF96BE" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 조치 목록의 기기 아이콘 배경 (둥근 사각) -->
+<!-- 조치 목록의 기기 아이콘 배경 (둥근 사각). 로즈를 옅게 -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <solid android:color="@color/rose_tint" />
+    <solid android:color="#21C9566F" />
     <corners android:radius="12dp" />
 </shape>

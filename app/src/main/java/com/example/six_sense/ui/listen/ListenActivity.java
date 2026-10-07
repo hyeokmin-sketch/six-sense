@@ -274,8 +274,10 @@ public class ListenActivity extends BaseActivity {
         chip.setText(text);
         chip.setClickable(false);
         chip.setCheckable(false);
-        chip.setChipBackgroundColorResource(R.color.ground);
-        chip.setChipStrokeWidth(0f);
+        // 시안처럼 반투명 흰 유리 칩 + 흰 테두리
+        chip.setChipBackgroundColor(android.content.res.ColorStateList.valueOf(0x99FFFFFF));
+        chip.setChipStrokeColor(android.content.res.ColorStateList.valueOf(0xE6FFFFFF));
+        chip.setChipStrokeWidth(getResources().getDisplayMetrics().density);
         chip.setTextColor(getColor(R.color.ink_soft));
         chip.setTextSize(14f);
         chip.setEnsureMinTouchTargetSize(false);

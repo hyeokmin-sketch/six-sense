@@ -48,7 +48,7 @@ public class DeviceRepository {
     private final List<Device> devices = new ArrayList<>();
     private final List<Listener> listeners = new CopyOnWriteArrayList<>();
 
-    /** 거실 온도 센서 값. 지금은 고정값, 시뮬레이터 붙으면 갱신 */
+    /** 실내 온도 센서 값. 원룸 기준이라 하나. 지금은 고정값, 시뮬레이터 붙으면 갱신 */
     private int roomTemperature = 28;
 
     /** 사용자가 홈에서 고른 희망 온도. 처음엔 이달 권장 온도로 시작 (HomeFragment에서 세팅) */
@@ -60,8 +60,8 @@ public class DeviceRepository {
 
     /** 시안 홈 화면의 초기 상태와 같게 맞춘 기본값 */
     private void seed() {
-        devices.add(new Device(ID_LIGHT_LIVING, DeviceType.LIGHT, "거실 조명", Room.LIVING, true, 70, null));
-        devices.add(new Device(ID_LIGHT_KITCHEN, DeviceType.LIGHT, "주방 조명", Room.KITCHEN, true, 100, null));
+        devices.add(new Device(ID_LIGHT_LIVING, DeviceType.LIGHT, "조명", Room.LIVING, true, 70, null));
+        devices.add(new Device(ID_LIGHT_KITCHEN, DeviceType.LIGHT, "스탠드", Room.LIVING, true, 100, null));
         devices.add(new Device(ID_AC, DeviceType.AC, "에어컨", Room.LIVING, false, 24, null));
         devices.add(new Device(ID_BOILER, DeviceType.BOILER, "보일러", Room.LIVING, false, 22, null));
         devices.add(new Device(ID_BLIND, DeviceType.BLIND, "블라인드", Room.LIVING, false, 100, null));   // 100 = 다 올림
@@ -122,13 +122,13 @@ public class DeviceRepository {
         return n;
     }
 
-    /** 켜진 조명이 있는 방 이름 ("거실 · 주방"). 홈 화면 조명 카드 아랫줄 */
+    /** 켜진 조명 이름 ("조명 · 스탠드"). 홈 화면 조명 카드 아랫줄. 원룸 기준이라 방 대신 기기 이름 */
     public String describeLightRooms() {
         StringBuilder sb = new StringBuilder();
         for (Device d : devices) {
             if (d.getType() == DeviceType.LIGHT && d.isOn()) {
                 if (sb.length() > 0) sb.append(" · ");
-                sb.append(d.getRoom().getLabel());
+                sb.append(d.getName());
             }
         }
         return sb.length() == 0 ? "모두 꺼짐" : sb.toString();

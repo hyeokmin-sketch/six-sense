@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 화면 모드별로 바뀌는 바탕/카드. 자세히 모드 = 기존 단색, 한눈에 모드 = 유리(글래스모피즘)
+         레이아웃은 @drawable 대신 ?attr/... 로 참조하고, 값은 테마(themes.xml)가 정한다 -->
+    <attr name="sixScreenBg" format="reference|color" />
+    <attr name="sixCardBg" format="reference|color" />
+    <attr name="sixCardAccentBg" format="reference|color" />
+    <attr name="sixNavBg" format="reference|color" />
+    <attr name="sixMicBg" format="reference|color" />
+    <attr name="sixMicRingBg" format="reference|color" />
+</resources>

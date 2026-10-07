@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 하단 탭 유리: 맨 위 1dp 흰 빛줄 + 반투명 흰 바탕 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/glass_edge" />
+        </shape>
+    </item>
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="#B8FFFFFF" android:endColor="#A6FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

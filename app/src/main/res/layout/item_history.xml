@@ -52,7 +52,7 @@
         android:visibility="gone"
         app:drawableStartCompat="@drawable/ic_check"
         app:drawableTint="@color/rose"
-        tools:text="교정됨: 아메리카노 1잔 · 학습에 반영돼요"
+        tools:text="교정됨: 아메리카노 1잔"
         tools:visibility="visible" />
 
     <LinearLayout

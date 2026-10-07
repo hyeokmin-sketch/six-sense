@@ -16,7 +16,7 @@
         style="@style/Text.Caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="거실 온도" />
+        tools:text="실내 온도" />
 
     <TextView
         android:id="@+id/text_value"

@@ -58,7 +58,7 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_circle_rose"
+                android:background="?attr/sixMicBg"
                 android:contentDescription="@null"
                 android:padding="7dp"
                 android:src="@drawable/ic_check"

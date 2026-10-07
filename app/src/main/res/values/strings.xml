@@ -30,7 +30,7 @@
     <string name="home_favorites_empty">기기 화면에서 별표를 누르면 여기 2개까지 보여요</string>
     <string name="home_favorite_add">기기를 추가하기</string>
     <string name="home_favorites_label">즐겨찾기 기기</string>
-    <string name="detail_now_temp">지금 거실</string>
+    <string name="detail_now_temp">지금 실내</string>
     <string name="detail_recommended">%1$d월 권장</string>
     <string name="detail_set_temp">설정 온도</string>
     <string name="detail_vs_higher">권장 온도보다 %d°C 높습니다</string>
@@ -90,7 +90,7 @@
     <string name="detail_blind_opened">완전히 올림</string>
     <string name="home_frequent_empty">아직 기록이 없어요. 한 번 말씀하시면 여기 모여요.</string>
     <string name="home_status_title">지금 집 상태</string>
-    <string name="home_temp_now">지금 거실</string>
+    <string name="home_temp_now">지금 실내</string>
     <string name="home_temp_desired">희망 온도</string>
     <string name="home_temp_recommended">%1$d월 권장 %2$d°C</string>
     <string name="home_temp_minus">희망 온도 1도 내리기</string>
@@ -113,7 +113,7 @@
     <string name="listen_countdown_remaining">%d초</string>
     <string name="listen_run_now">네, 지금 실행</string>
     <string name="listen_cancel">아니요, 취소</string>
-    <string name="listen_retry">잘못 알아들었어요 · 다시 말하기</string>
+    <string name="listen_retry">잘못 알아들었어요, 다시 말하기</string>
     <string name="listen_ask_again_title">다시 여쭤볼게요</string>
     <string name="listen_waiting">말씀을 기다리고 있어요…</string>
     <string name="listen_thinking">생각하는 중…</string>
@@ -127,7 +127,7 @@
     <string name="result_title">이렇게 했어요</string>
     <string name="result_auto_home">%d초 뒤 홈으로 돌아가요</string>
     <string name="result_heard_label">들은 말</string>
-    <string name="result_now">지금 거실</string>
+    <string name="result_now">지금 실내</string>
     <string name="result_target">목표</string>
     <string name="result_actions_label">조치한 가전</string>
     <string name="result_undo">되돌리기</string>
@@ -181,7 +181,7 @@
     <string name="history_today">오늘</string>
     <string name="history_yesterday">어제</string>
     <string name="history_wrong">잘못됐어요</string>
-    <string name="history_corrected_format">교정됨: %s · 학습에 반영돼요</string>
+    <string name="history_corrected_format">교정됨: %s</string>
     <string name="history_meta_format">%1$s · 확신도 %2$d%%</string>
     <string name="history_meta_mode_confirm">확인 후 실행</string>
     <string name="history_meta_mode_immediate">즉시 실행</string>
@@ -191,7 +191,7 @@
     <string name="correction_hint">예: 아메리카노 1잔</string>
     <string name="correction_save">저장</string>
     <string name="correction_cancel">취소</string>
-    <string name="correction_saved">교정 내용을 저장했어요. 학습에 반영할게요.</string>
+    <string name="correction_saved">교정 내용을 기록했어요.</string>
 
     <!-- 설정 -->
     <string name="settings_title">설정</string>

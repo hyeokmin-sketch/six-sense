@@ -9,7 +9,7 @@ public class Device {
 
     private final String id;
     private final DeviceType type;
-    private final String name;      // 화면에 보이는 이름 ("거실 조명")
+    private final String name;      // 화면에 보이는 이름 ("조명")
     private final Room room;
 
     private boolean on;

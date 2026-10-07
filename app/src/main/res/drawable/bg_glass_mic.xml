@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 마이크 버튼: 왼쪽 위가 밝은 로즈 그라데이션 (빛 받는 구슬 느낌) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <gradient android:angle="315" android:startColor="#E2819A"
+        android:centerColor="@color/rose" android:endColor="#B03F5A" />
+</shape>
