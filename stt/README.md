@@ -11,11 +11,26 @@
 | 처음 보는 문장 (120) | 38.0% | 22.0% |
 | 실제 녹음 (7) | 56.8% | 2.3% |
 
+## 표준어 성능 · 오인식 사전 (2026-10-15)
+
+표준어 TTS 8,000개(일반 1,000문장 + 블라인드·에어컨·조명 3,000문장 × 목소리 2개)로 평가했습니다.
+원본 모델의 CER은 일반 4.2%, 도메인 5.2%입니다(SAPI 목소리 기준).
+결과는 [`문서/평가지표/SIX-SENSE_STT_표준어평가.md`](문서/평가지표/SIX-SENSE_STT_표준어평가.md)에 있습니다.
+LLM 보정용 사전은 `문서/평가지표/STT_오인식사전_LLM용_원본.json`입니다(예: `거`→`꺼`, `플라인드`→`블라인드`, `3 개`→`세게`).
+
+```powershell
+python stt\std_sentences.py; python stt\make_std_tts.py
+python stt\eval_std.py --models <models 폴더>
+python stt\build_confusion_dict.py --model 원본; python stt\build_confusion_dict.py --model tts_a1
+python stt\report_std.py; python stt\make_dict_xlsx.py
+```
+
 ## 폴더
 
 ```
 stt/                 ← 모든 명령은 이 폴더에서 실행
 ├─ 문서/              요약 · 작업정리 · ABC 데이터셋(xlsx) · 데이터셋 양식
+│  └─ 평가지표/       표준어 평가 보고서 · 평가요약.txt · stt_딕셔너리.xlsx · 오인식 사전 json
 ├─ stt/               학습·변환·평가 코드
 ├─ data_build/        ABC 데이터셋 엑셀 생성
 └─ 학습데이터/

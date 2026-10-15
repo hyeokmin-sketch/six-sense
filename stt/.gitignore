@@ -5,3 +5,4 @@ models/
 학습데이터/runs/**/*.pt
 문서/참고자료/
 .venv/
+학습데이터/std/wav/
