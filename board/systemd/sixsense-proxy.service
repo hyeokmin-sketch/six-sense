@@ -1,0 +1,12 @@
+[Unit]Description=SIX-SENSE proxy (dictionary + system prompt + CORS)
+After=network.target sixsense-llm.service
+
+[Service]
+User=orangepi
+WorkingDirectory=/home/orangepi/board_proxy
+ExecStart=/usr/bin/python3 /home/orangepi/board_proxy/six_sense_board_proxy.py --port 8000
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

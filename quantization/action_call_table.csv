@@ -1,0 +1,17 @@
+﻿기기,동작,정답 호출
+조명,켜기,"<six_0>(object=1, type=1)<six_end>"
+조명,끄기,"<six_0>(object=1, type=2)<six_end>"
+조명,더 밝게,"<six_1>(object=1, type=1)<six_end>"
+조명,은은하게,"<six_1>(object=1, type=2)<six_end>"
+에어컨,켜기,"<six_0>(object=2, type=1)<six_end>"
+에어컨,끄기,"<six_0>(object=2, type=2)<six_end>"
+에어컨,온도 올리기(온도↑),"<six_1>(object=2, type=1)<six_end>"
+에어컨,온도 내리기(온도↓),"<six_1>(object=2, type=2)<six_end>"
+에어컨,바람 세게(바람↑),"<six_1>(object=2, type=3)<six_end>"
+에어컨,바람 약하게(바람↓),"<six_1>(object=2, type=4)<six_end>"
+블라인드,올리기,"<six_0>(object=3, type=1)<six_end>"
+블라인드,내리기,"<six_0>(object=3, type=2)<six_end>"
+블라인드,멈추기,"<six_0>(object=3, type=3)<six_end>"
+블라인드,반쯤 내리기,"<six_0>(object=3, type=4)<six_end>"
+(되묻기),어떤 기기인지 불분명,<six_0>(object=-1)<six_end>
+(해당 없음),기기와 관계없는 말,<six_2>()<six_end>

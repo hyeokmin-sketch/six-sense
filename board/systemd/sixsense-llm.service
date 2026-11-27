@@ -1,0 +1,15 @@
+[Unit]Description=SIX-SENSE LLM server (RKLLM, NPU)
+After=network.target
+
+[Service]
+User=orangepi
+WorkingDirectory=/home/orangepi/rkllm/server
+Environment=RKLLM_LOG_LEVEL=1
+Environment=PATH=/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStartPre=+/bin/bash /home/orangepi/rkllm/server/fix_freq_rk3588.sh
+ExecStart=/usr/bin/python3 /home/orangepi/board_proxy/six_sense_llm_server.py --model /home/orangepi/rkllm/sixsense-smarthome_w8a8_opt1_cal499.rkllm --port 8080 --repeat-penalty 1.0
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

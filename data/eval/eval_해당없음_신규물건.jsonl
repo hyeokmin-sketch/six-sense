@@ -1,0 +1,54 @@
+{"text": "고마 전자레인지 키도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0001"}
+{"text": "함 전자레인지 틀어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0002"}
+{"text": "아 에어프라이어 키도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0003"}
+{"text": "야 에어프라이어 좀 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0004"}
+{"text": "퍼뜩 식기세척기 좀 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0005"}
+{"text": "고마 식기세척기 켜 도고", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0006"}
+{"text": "고마 드라이기 켜 주이소", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0007"}
+{"text": "아 드라이기 켜봐라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0008"}
+{"text": "마 빔프로젝터 좀 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0009"}
+{"text": "인자 빔프로젝터 틀어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0010"}
+{"text": "인자 정수기 켜뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0011"}
+{"text": "정수기 켜 주이소", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0012"}
+{"text": "인자 모니터 켜 도고", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0013"}
+{"text": "야 모니터 키도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0014"}
+{"text": "아 노트북 켜 주이소", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0015"}
+{"text": "마 노트북 쫌 키라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0016"}
+{"text": "야 커피머신 좀 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0017"}
+{"text": "함 커피머신 켜 도고", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0018"}
+{"text": "인자 스피커 좀 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0019"}
+{"text": "야 스피커 켜뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0020"}
+{"text": "마 전자레인지 끄래이", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0021"}
+{"text": "고마 전자레인지 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0022"}
+{"text": "퍼뜩 에어프라이어 좀 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0023"}
+{"text": "퍼뜩 에어프라이어 꺼도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0024"}
+{"text": "식기세척기 끄래이", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0025"}
+{"text": "식기세척기 꺼뿌래이", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0026"}
+{"text": "마 드라이기 좀 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0027"}
+{"text": "야 드라이기 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0028"}
+{"text": "야 빔프로젝터 꺼 도고", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0029"}
+{"text": "인자 빔프로젝터 쫌 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0030"}
+{"text": "인자 정수기 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0031"}
+{"text": "마 정수기 꺼 주이소", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0032"}
+{"text": "모니터 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0033"}
+{"text": "함 모니터 꺼뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0034"}
+{"text": "노트북 좀 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0035"}
+{"text": "노트북 꺼뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0036"}
+{"text": "함 커피머신 쫌 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0037"}
+{"text": "퍼뜩 커피머신 꺼도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0038"}
+{"text": "고마 스피커 꺼도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0039"}
+{"text": "퍼뜩 스피커 쫌 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0040"}
+{"text": "식기세척기 새로 살까 싶다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0041"}
+{"text": "전자레인지 고장났다 카더라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0042"}
+{"text": "에어프라이어로 치킨 해 묵자", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0043"}
+{"text": "드라이기 소리가 억수로 시끄럽다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0044"}
+{"text": "정수기 필터 갈 때 됐나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0045"}
+{"text": "노트북 새로 사야겠다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0046"}
+{"text": "모니터가 너무 커가 책상이 좁다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0047"}
+{"text": "커피머신 청소해야 되는데", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0048"}
+{"text": "스피커 음질이 좋더라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0049"}
+{"text": "빔프로젝터 영화 보면 좋겠다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0050"}
+{"text": "전자레인지에 뭐 돌렸노", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0051"}
+{"text": "에어프라이어 샀는데 쓸 일이 없다", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0052"}
+{"text": "식기세척기 세제 어데 있노", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0053"}
+{"text": "드라이기 어데 뒀노", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "neg_v3:평가_학습에없는물건", "id": "E0054"}

@@ -1,0 +1,2 @@
+{"text": "에어컨 돌리라.", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "stt_aug:supertonic_dict_A_v3", "id": "s0099_v3"}
+{"text": "인자 블라인드 좀걷고불쫌 켜놔라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "T0006"}

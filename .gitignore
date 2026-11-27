@@ -1,2 +1,29 @@
+# 가상환경·캐시
 myenv/
+venv/
+.venv/
 __pycache__/
+*.pyc
+.DS_Store
+
+# 모델·결과물 (용량 큼, Drive로 공유)
+models/*
+!models/README.md
+runs/
+*.safetensors
+*.rkllm
+*.gguf
+
+# 팀 내부·원본 자료 (공개 저장소에 올리지 않음)
+data/raw/
+*.xlsx
+
+# 비밀·개인 정보
+.env
+*.pem
+
+# 실제 녹음·평가 원본 (대외비)
+data/eval/eval_real50_*
+*.wav
+*.m4a
+*.mp3

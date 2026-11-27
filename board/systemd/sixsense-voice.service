@@ -1,0 +1,17 @@
+[Unit]Description=SIX-SENSE voice agent (mic -> STT -> proxy -> speaker)
+After=sixsense-proxy.service sound.target
+Wants=sixsense-proxy.service
+
+[Service]
+User=orangepi
+SupplementaryGroups=audio
+WorkingDirectory=/home/orangepi/board_proxy
+ExecStartPre=-/usr/bin/amixer -c Device sset Mic capture 65%
+ExecStartPre=-/usr/bin/amixer -c Device sset Speaker 70%
+ExecStartPre=/bin/sleep 3
+ExecStart=/usr/bin/python3 /home/orangepi/board_proxy/six_sense_voice.py --card Device --proxy http://127.0.0.1:8000 --models /home/orangepi/voice/models --gain 1.6
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

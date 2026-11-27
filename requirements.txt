@@ -1,0 +1,5 @@
+# 모델 서버(server/six_sense_server.py)를 로컬에서 돌릴 때 필요
+# (서버 자체는 파이썬 기본 라이브러리만 사용. 학습은 Colab에서 하므로 peft 등은 여기에 넣지 않음)
+transformers>=4.44
+torch
+accelerate

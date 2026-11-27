@@ -1,0 +1,400 @@
+{"text": "블라인드 좀 올려봐라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V001"}
+{"text": "블라인드 내라고 에어컨 꺼뿌고 전등 끄래이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V002"}
+{"text": "마 가스불 좀 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V003"}
+{"text": "저기 바람이 션찮다 바람 세게 해도", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V004"}
+{"text": "블라인드 쳐주라 불 꺼놓고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V005"}
+{"text": "블라인드 반만 내라라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V006"}
+{"text": "인자 땀난다 에어컨 키라 마", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V007"}
+{"text": "인자 너무 춥다 온도 쪼매 올리봐라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V008"}
+{"text": "인자 어둡다, 전등 껴놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V009"}
+{"text": "마 가스불 꺼뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V010"}
+{"text": "에어컨키고 조명은은하게 해봐라이", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V011"}
+{"text": "저기 인자 어두버졌다, 전등 좀 켜놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V012"}
+{"text": "에어컨키고 불빛 쪼매 낯추래이", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V013"}
+{"text": "병원 가야 되는데", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V014"}
+{"text": "아 좀 서늘하다 에어컨 온도 올리라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V015"}
+{"text": "인자 덥은데 바람이 약하다 바람 쫌 팍팍 나오게 해라", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V016"}
+{"text": "퍼뜩 눈이 시리다 불 좀 약하게 해주라", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V017"}
+{"text": "마 거기까지 블라인드 거기서 멈추봐라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V018"}
+{"text": "쪼매 춥다, 에어컨 온도 쪼매 올려 주세요", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V019"}
+{"text": "아 불하나더키고 블라인드도 좀 올리봐라", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V020"}
+{"text": "그것 좀 더 낮차도", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V021"}
+{"text": "에어컨 쫌 틀어주라 블라인드도 내라고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V022"}
+{"text": "퍼뜩 청소기 좀 돌리봐라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V023"}
+{"text": "아 알람 끄라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V024"}
+{"text": "인자 냉장고 문 닫았나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V025"}
+{"text": "퍼뜩 어두븐데 전등 껴놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V026"}
+{"text": "더 낮차라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V027"}
+{"text": "퍼뜩 전기장판 온도 올리라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V028"}
+{"text": "마 오늘 억수로 덥네, 에어컨 틀어 주세요", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V029"}
+{"text": "블라인드 좀 내려주라 불끄고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V030"}
+{"text": "아 불 쪼매 어둡게 해래이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V031"}
+{"text": "퍼뜩 전기밥솥 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V032"}
+{"text": "내일 비 온다 카더나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V033"}
+{"text": "불 더 밝게 하고 블라인드도좀걷어뿌라", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V034"}
+{"text": "불 끄고 에어컨도 좀 꺼주라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V035"}
+{"text": "마 글씨가 잘 안 비인다 불 쫌 더 환하게 해봐라이", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V036"}
+{"text": "불 은은하게 하고 블라인드 좀 쳐주라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V037"}
+{"text": "에어컨 좀 켜고 조명 은은하게해봐라이", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V038"}
+{"text": "창문 열어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V039"}
+{"text": "인자 에어컨온도 좀 낮춰라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V040"}
+{"text": "저거 마 키도", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V041"}
+{"text": "바람이 약하네, 바람 쫌 팍팍 나오게 해봐라이", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V042"}
+{"text": "쪼매만 가리게 블라인드 반쯤만 쳐봐라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V043"}
+{"text": "저기 어두븐데 전등 좀 껴놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V044"}
+{"text": "테레비 볼 긴데, 불 좀 은은하게 해봐라이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V045"}
+{"text": "퍼뜩 바람 좀 약하게 해라 마", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V046"}
+{"text": "마 블라인드 올리고 불도 좀 켜봐라이", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V047"}
+{"text": "블라인드 좀 올리뿌라 에어컨키고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V048"}
+{"text": "마 퍼뜩 꺼뿌라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V049"}
+{"text": "에어컨 새로 사야 되나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V050"}
+{"text": "퍼뜩 자러 갈란다 불 좀 끄래이", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V051"}
+{"text": "인자 불 하나 더켜뿌리라", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V052"}
+{"text": "저기 블라인드 거기서 서라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V053"}
+{"text": "에어컨 틀고 블라인드도 쫌 올리라 마", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V054"}
+{"text": "불 좀낯추고 에어컨 쫌 키라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V055"}
+{"text": "인자 바람 좀 약하게 해봐라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V056"}
+{"text": "불 좀 꺼봐라이블라인드내루고", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V057"}
+{"text": "아 전등 좀 끄라이", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V058"}
+{"text": "심심하다 얘기 쫌 하자", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V059"}
+{"text": "아 바람 세게 해래이", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V060"}
+{"text": "저기 블라인드 좀 내려주세요", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V061"}
+{"text": "그것 좀 좀 더 올려주라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V062"}
+{"text": "에어컨 좀켜고 블라인드내려줘", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V063"}
+{"text": "인자 아직 덥다 아이가 온도 쪼매 낯추라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V064"}
+{"text": "전등 키봐라이", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V065"}
+{"text": "인자 바람이 직빵으로 온다 에어컨 바람 살살 나오게 해래이", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V066"}
+{"text": "저기 인자 안 덥다 에어컨 꺼봐라", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V067"}
+{"text": "퍼뜩 불 꺼놓고 에어컨 끄고 블라인드 쫌 내려 주세요", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V068"}
+{"text": "에어컨 쫌 키래이", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V069"}
+{"text": "퍼뜩 에어컨 꺼라", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V070"}
+{"text": "인자 에어컨좀끄고 불도끄고 블라인드 쫌 내라라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V071"}
+{"text": "불 줄이래이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V072"}
+{"text": "블라인드 좀 내라라 불도 키고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V073"}
+{"text": "고마 낮차도", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V074"}
+{"text": "텔레비 소리 키아라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V075"}
+{"text": "블라인드 내라고 불 좀 약하게 해래이", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V076"}
+{"text": "불꺼뿌고 블라인드도치고 에어컨쫌 꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V077"}
+{"text": "마 블라인드 반츰만 쳐도", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V078"}
+{"text": "바람이 약하네 바람 세게 해라이", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V079"}
+{"text": "불 쫌 더 환하게 해라 마", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V080"}
+{"text": "바람이 션찮다, 바람 세게 틀어줘", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V081"}
+{"text": "퍼뜩 숨이 막힌다, 에어컨키봐라이", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V082"}
+{"text": "아 블라인드 쫌걷어 주세요", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V083"}
+{"text": "불 켜고 블라인드도 걷어라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V084"}
+{"text": "마 해가 너무 쎄다 블라인드 쫌 내려 주세요", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V085"}
+{"text": "그거 틀어봐라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V086"}
+{"text": "인자 아직도 덥다 에어컨 온도 좀 낮춰줘", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V087"}
+{"text": "인자 됐다 블라인드 멈추라 마", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V088"}
+{"text": "마 밥솥 열어봐라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V089"}
+{"text": "저기 불 더 밝게 해줘", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V090"}
+{"text": "에어컨 쫌 틀어봐라 블라인드 좀 걷고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V091"}
+{"text": "히터 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V092"}
+{"text": "에어컨 켜봐라 불도좀낮차고", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V093"}
+{"text": "너무 춥다 에어컨 쫌 꺼라 마", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V094"}
+{"text": "햇빛이 쪼매 따갑다, 블라인드 반츰만 내려뿌라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V095"}
+{"text": "쪼매 줄여주라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V096"}
+{"text": "햇빛은 쪼매 들어오게 블라인드 반츰만 내라라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V097"}
+{"text": "쪼매 춥다, 온도 쫌 올리래이", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V098"}
+{"text": "퍼뜩 블라인드 좀 내려봐라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V099"}
+{"text": "마 숨이 막힌다 에어컨 켜도", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V100"}
+{"text": "아 음악 쪼매 크게 해라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V101"}
+{"text": "저기 바람이 너무 세다, 에어컨 바람 낮차봐라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V102"}
+{"text": "에어컨 바람 살살 나오게 해봐라이", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V103"}
+{"text": "아 그만 블라인드 멈추라 마", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V104"}
+{"text": "불 껴놔라 블라인드걷고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V105"}
+{"text": "인자 쪼매 춥다, 온도 쫌 올리봐라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V106"}
+{"text": "저기 퍼뜩 내리라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V107"}
+{"text": "아 냉장고 열어봐라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V108"}
+{"text": "눈부시다 블라인드 좀 내려봐라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V109"}
+{"text": "고마 됐다 에어컨 쫌 꺼라이", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V110"}
+{"text": "블라인드 내라고 에어컨 좀 키뿌라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V111"}
+{"text": "좀 더 환하게 해라 블라인드도 올리고", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V112"}
+{"text": "아 바느질 해야 되는데 침침하다, 조명 더 밝게 해래이", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V113"}
+{"text": "에어컨 틀고 조명 은은하게 해라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V114"}
+{"text": "아 눈부시다 블라인드 내려도", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V115"}
+{"text": "에어컨좀끄고 불끄고 블라인드 쫌 내려줘", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V116"}
+{"text": "불 좀 끄고 블라인드 쫌 내리봐라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V117"}
+{"text": "저기 불 꺼놓고 블라인드 내루고 에어컨도 꺼주라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V118"}
+{"text": "에어컨 좀 끄고 불 좀 꺼라 마", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V119"}
+{"text": "다 내리지는 말고 블라인드 중간까지만 쳐줘", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V120"}
+{"text": "불켜놓고 블라인드 좀내라라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V121"}
+{"text": "인자 불더 환하게해라", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V122"}
+{"text": "아 불쪼매어둡게해봐라이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V123"}
+{"text": "저기 글씨가 잘 안 비인다 불 더 밝게 해 주세요", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V124"}
+{"text": "너무 환하다 블라인드반만 내리래이", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V125"}
+{"text": "인자 다 했다 전등 좀 꺼래이", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V126"}
+{"text": "저기 햇빛은 쪼매 들어오게 블라인드 반쯤만쳐봐라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V127"}
+{"text": "불 좀 키고 블라인드도 쫌 올리봐라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V128"}
+{"text": "불 꺼뿌고 블라인드 내리라 마", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V129"}
+{"text": "찜통이다 에어컨쫌 키봐라", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V130"}
+{"text": "청소기 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V131"}
+{"text": "인자 현관문 잠갔나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V132"}
+{"text": "전등 켜놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V133"}
+{"text": "바람이 션찮다 바람세게 틀어뿌라", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V134"}
+{"text": "불꺼놓고 에어컨 좀 꺼버리라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V135"}
+{"text": "아 블라인드좀내리고 불도끄고에어컨끄라 마", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V136"}
+{"text": "불꺼뿌고블라인드 쫌 내라라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V137"}
+{"text": "불쪼매낯차봐라블라인드 내루고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V138"}
+{"text": "블라인드 좀 걷고 불 더 환하게 해라 마", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V139"}
+{"text": "온도 쫌 낯추래이", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V140"}
+{"text": "아 바람이 약하네 바람 쎄게 해줘", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V141"}
+{"text": "아 가스불 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V142"}
+{"text": "블라인드 쫌 올려뿌라 불좀키고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V143"}
+{"text": "마 거기까지, 블라인드 멈추래이", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V144"}
+{"text": "아 블라인드 쫌 내려 주세요", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V145"}
+{"text": "너무 환하다 블라인드반쯤만 내라라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V146"}
+{"text": "에어컨 끄고 불도 좀 꺼주라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V147"}
+{"text": "저기 전등 좀 켜놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V148"}
+{"text": "바람이 너무 세다 바람 좀 줄이라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V149"}
+{"text": "저기 바람이 션찮다 바람 좀 올려뿌라", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V150"}
+{"text": "거기 쫌 올리라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V151"}
+{"text": "블라인드치고 불 좀 약하게 해래이", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V152"}
+{"text": "불 좀 낮차고 블라인드 쫌 쳐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V153"}
+{"text": "아 에어컨 좀끄고 불도 꺼놓고 블라인드 쫌 쳐뿌라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V154"}
+{"text": "마 블라인드 고마 해라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V155"}
+{"text": "방이 어둡다 블라인드 쫌 올려뿌라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V156"}
+{"text": "인자 불 쫌 켜라 마", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V157"}
+{"text": "화분에 물 줬나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V158"}
+{"text": "저기 에어컨 키뿌라", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V159"}
+{"text": "에어컨좀켜고 블라인드도 쫌 걷어줘", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V160"}
+{"text": "아 블라인드 거기서 서라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V161"}
+{"text": "퍼뜩 좀 써늘하다 에어컨 온도 올려주라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V162"}
+{"text": "그거 쫌 줄이라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V163"}
+{"text": "불은은하게하고 에어컨 좀 틀어봐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V164"}
+{"text": "아 에어컨 좀 틀어 주세요", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V165"}
+{"text": "에어컨 키고 블라인드좀 걷어 주세요", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V166"}
+{"text": "춥다 에어컨 바람 낮차라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V167"}
+{"text": "좀 써늘하다 에어컨 온도올려도", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V168"}
+{"text": "마 블라인드 좀 걷어 주세요", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V169"}
+{"text": "블라인드좀 걷고불 더환하게 해줘", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V170"}
+{"text": "저기 해 다 졌다 불 쫌 켜뿌라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V171"}
+{"text": "퍼뜩 블라인드 올리고 불 더 밝게 해도", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V172"}
+{"text": "마 고마 잘란다 불 꺼버리라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V173"}
+{"text": "아 바람 줄여뿌라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V174"}
+{"text": "불 꺼주라 에어컨끄고", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V175"}
+{"text": "블라인드 됐다 고마 해라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V176"}
+{"text": "아 에어컨 온도 쪼매 낯추라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V177"}
+{"text": "퍼뜩 불좀낯추고 에어컨 쫌 틀어라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V178"}
+{"text": "저기 에어컨꺼라 마", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V179"}
+{"text": "춥다 바람 좀약하게해라이", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V180"}
+{"text": "마 블라인드 고마 멈추라 마", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V181"}
+{"text": "거기까지 블라인드 멈추라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V182"}
+{"text": "마이 덥네 에어컨 틀어라", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V183"}
+{"text": "춥다 바람 좀 약하게 해봐라이", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V184"}
+{"text": "아 가스불 꺼뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V185"}
+{"text": "아 블라인드 내라고 에어컨도 키래이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V186"}
+{"text": "아 다 내리지는 말고 블라인드반츰만 내라라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V187"}
+{"text": "마 에어컨틀고블라인드쫌 내려주라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V188"}
+{"text": "햇빛 좀 쬐자 블라인드 쫌 올리라 마", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V189"}
+{"text": "저거 고마 켜라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V190"}
+{"text": "블라인드 좀 올리라이 불 키고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V191"}
+{"text": "블라인드 내루고 에어컨좀끄고 불 좀 끄라 마", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V192"}
+{"text": "인자 블라인드 올려주라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V193"}
+{"text": "불 켜고 블라인드도 내라라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V194"}
+{"text": "저거 좀 줄여도", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V195"}
+{"text": "인자 에어컨 온도 쪼매 내리라 마", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V196"}
+{"text": "라디오 틀어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V197"}
+{"text": "에어컨 필요 없다 아이가", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V198"}
+{"text": "조명 은은하게해봐라 에어컨좀켜고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V199"}
+{"text": "저기 전등 꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V200"}
+{"text": "아 음악 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V201"}
+{"text": "불 켜고 블라인드도 좀 내려 주세요", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V202"}
+{"text": "에어컨 전기세 마이 나오나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V203"}
+{"text": "블라인드 좀 내라라 불도 꺼뿌고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V204"}
+{"text": "자러 갈란다 전등 좀 꺼라 마", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V205"}
+{"text": "에어컨 틀었는데도 덥네 에어컨 온도 좀낮추래이", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V206"}
+{"text": "블라인드 걷고 에어컨도 틀어뿌라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V207"}
+{"text": "온도 쪼매 낮추라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V208"}
+{"text": "전기밥솥 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V209"}
+{"text": "좀 더환하게 해도", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V210"}
+{"text": "에어컨끄고불 좀 꺼봐라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V211"}
+{"text": "퍼뜩 너무 환하다 블라인드 중간까지만 내리래이", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V212"}
+{"text": "선풍기 틀어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V213"}
+{"text": "마 블라인드 내려도", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V214"}
+{"text": "퍼뜩 너무 춥다 에어컨 쫌 꺼봐라", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V215"}
+{"text": "인자 선풍기 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V216"}
+{"text": "인자 다 했다 방에 불 끄라이", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V217"}
+{"text": "저것 좀 마 틀어봐라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V218"}
+{"text": "블라인드 쳐뿌라 불도 좀 끄고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V219"}
+{"text": "블라인드 반츰만 쳐봐라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V220"}
+{"text": "마 너무 춥다 에어컨 온도 올려도", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V221"}
+{"text": "좀 더 환하게 해줘 블라인드 좀 걷고", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V222"}
+{"text": "블라인드 좀 걷고 에어컨 키놔라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V223"}
+{"text": "저기 바람 줄이라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V224"}
+{"text": "불 쪼매 줄이라 마 블라인드도내리고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V225"}
+{"text": "블라인드 거기서 서라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V226"}
+{"text": "블라인드 걷어라 에어컨좀켜고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V227"}
+{"text": "아 거기까지 블라인드 거기서 멈추라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V228"}
+{"text": "블라인드 좀 걷고 불도 좀 키래이", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V229"}
+{"text": "아무것도 안 비이네 전등 키봐라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V230"}
+{"text": "눈이 시리다 불 좀 낮추라", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V231"}
+{"text": "아 바람이 너무 세다 에어컨 바람 살살나오게해래이", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V232"}
+{"text": "서향이라 해가 쎄다, 블라인드 쫌 내려 주세요", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V233"}
+{"text": "퍼뜩 불 쪼매 줄이라 마", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V234"}
+{"text": "퍼뜩 날이 밝았네 블라인드 쫌 올리래이", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V235"}
+{"text": "불 낮추봐라에어컨좀켜고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V236"}
+{"text": "어제 꿈을 꿨는데 이상하데이", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V237"}
+{"text": "서향이라 해가 쎄다, 블라인드 좀 내려도", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V238"}
+{"text": "아 에어컨 끄고 블라인드도치고 방에 불 끄라이", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V239"}
+{"text": "블라인드 좀 내리고 전등 좀 꺼뿌라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V240"}
+{"text": "에어컨 꺼뿌고 블라인드좀내리고전등도끄라 마", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V241"}
+{"text": "마 텔레비 소리 키아라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V242"}
+{"text": "불켜고블라인드올리라이", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V243"}
+{"text": "블라인드좀걷고 방에 불 켜놔라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V244"}
+{"text": "마 불 좀 약하게 해줘", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V245"}
+{"text": "아 온도쪼매내려뿌라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V246"}
+{"text": "불키고 블라인드 내려도", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V247"}
+{"text": "바람 낮차라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V248"}
+{"text": "에어컨 먼저 틀어봐라 블라인드좀내리고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V249"}
+{"text": "됐다 블라인드 거기서 서라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V250"}
+{"text": "블라인드 쫌 걷어봐라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V251"}
+{"text": "불쪼매 낮추래이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V252"}
+{"text": "에어컨 좀 꺼 주세요", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V253"}
+{"text": "저기 해가 너무 쎄다 블라인드 쫌 쳐도", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V254"}
+{"text": "블라인드치고 에어컨 먼저 틀어주라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V255"}
+{"text": "블라인드 쳐뿌라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V256"}
+{"text": "인자 밥솥 열어봐라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V257"}
+{"text": "테레비 볼 긴데 불 쪼매 어둡게 해라 마", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V258"}
+{"text": "아 바람이 약하네 바람 올려뿌라", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V259"}
+{"text": "저기 불끄고 에어컨 좀 꺼라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V260"}
+{"text": "블라인드 반츰만 쳐주라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V261"}
+{"text": "저기 에어컨 온도 좀 내리라 마", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V262"}
+{"text": "저기 저녁 됐다 전등 좀 키도", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V263"}
+{"text": "블라인드좀내리고 불 좀 껴놔라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V264"}
+{"text": "퍼뜩 텔레비 소리 키아라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V265"}
+{"text": "인자 안 덥다, 에어컨 꺼버리라", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V266"}
+{"text": "인자 너무 춥다 에어컨 온도 좀 올리봐라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V267"}
+{"text": "더 환했으면 좋겠다 불 좀 더 밝게 해봐라", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V268"}
+{"text": "에어컨켜고 블라인드 올리래이", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V269"}
+{"text": "불 에어컨다 꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V270"}
+{"text": "블라인드내루고 전등도좀 꺼뿌리라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V271"}
+{"text": "땀난다 에어컨좀 키라이", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V272"}
+{"text": "아 블라인드 쫌 걷어줘", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V273"}
+{"text": "퍼뜩 텔레비 소리 줄이라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V274"}
+{"text": "블라인드 치고 불 좀 끄고 에어컨도 좀 꺼줘", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V275"}
+{"text": "오늘 억수로 덥네 에어컨 좀켜라 마", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V276"}
+{"text": "에어컨 끄래이", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V277"}
+{"text": "블라인드좀걷고 에어컨 쫌 틀어라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V278"}
+{"text": "아 블라인드 좀 내리고 에어컨 틀어도", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V279"}
+{"text": "마 텔레비 채널 돌리라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V280"}
+{"text": "퍼뜩 블라인드 쫌 내라라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V281"}
+{"text": "불 좀 낯추라 블라인드 내루고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V282"}
+{"text": "퍼뜩 전화 걸어라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V283"}
+{"text": "블라인드좀걷고에어컨쫌틀어뿌라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:올리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V284"}
+{"text": "마 블라인드 올리고 불 더 밝게 해봐라", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V285"}
+{"text": "블라인드 내루고 불도 꺼놓고 에어컨도 쫌 끄래이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V286"}
+{"text": "저기 눈이 침침해가 안 비인다 조명 더 밝게 해도", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V287"}
+{"text": "눈이 아프다, 불 쪼매 낮춰 주세요", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V288"}
+{"text": "에어컨 끄고 전등좀꺼주세요", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V289"}
+{"text": "바느질 해야 되는데 침침하다 좀 더 환하게 해봐라이", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V290"}
+{"text": "너무 춥다 에어컨 온도 올리라 마", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V291"}
+{"text": "저기 블라인드 좀 걷어뿌라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V292"}
+{"text": "불 꺼래이 블라인드좀내리고", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V293"}
+{"text": "인자 시원하다, 에어컨 끄래이", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V294"}
+{"text": "좀 서늘하다 에어컨 온도 올려뿌라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V295"}
+{"text": "인자 잘란다 방에 불 꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V296"}
+{"text": "에어컨 좀 끄고 블라인드내라고 불 꺼도", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "블라인드:내리기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V297"}
+{"text": "에어컨 쫌 꺼뿌라", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V298"}
+{"text": "아 온풍기 켜라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V299"}
+{"text": "마 저녁 됐다 불 좀껴놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V300"}
+{"text": "인자 에어컨온도쪼매 낮추래이", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V301"}
+{"text": "불 더 환하게 하고 블라인드 걷어봐라", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V302"}
+{"text": "불 좀 낯추래이블라인드 내리고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:은은하게", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V303"}
+{"text": "불 낮추봐라", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V304"}
+{"text": "블라인드 쫌 내려도 불도 낯차고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V305"}
+{"text": "에어컨 꺼뿌고 방에 불 꺼뿌리라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V306"}
+{"text": "불 좀 은은하게 해라 마", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V307"}
+{"text": "퍼뜩 고마 잘란다, 불 꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V308"}
+{"text": "인자 전화 받아라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V309"}
+{"text": "저기 너무 춥다 에어컨 끄래이", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V310"}
+{"text": "에어컨 틀고 불도 낮추라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["에어컨:켜기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V311"}
+{"text": "저기 좀 더 낮차봐라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V312"}
+{"text": "더 시원하게 온도 쫌낮차라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V313"}
+{"text": "저것 좀 더 줄이봐라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V314"}
+{"text": "블라인드 내리고 에어컨 켜주라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V315"}
+{"text": "불꺼놓고 블라인드 내루고 에어컨 쫌 꺼주라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V316"}
+{"text": "아 인자 시원하다 에어컨 꺼줘", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V317"}
+{"text": "마 좀 더 환하게 해 주세요", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V318"}
+{"text": "시원치가 않다 바람 세게 해주라", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V319"}
+{"text": "아 자러 갈란다 불 꺼뿌라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V320"}
+{"text": "바람이 션찮다 바람 쎄게 해라 마", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V321"}
+{"text": "마 블라인드 쫌 올리라 마", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V322"}
+{"text": "인자 블라인드 좀 걷고 전등도 껴놔라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V323"}
+{"text": "저기 에어컨 좀 틀어뿌라", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V324"}
+{"text": "블라인드 내리고 전등 켜놔라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V325"}
+{"text": "에어컨 온도 좀 낮춰 주세요", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V326"}
+{"text": "아 방에 불 켜뿌라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V327"}
+{"text": "저기 에어컨켜고 블라인드 쫌 내리라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V328"}
+{"text": "잠이 온다 불 좀 꺼 주세요", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V329"}
+{"text": "퍼뜩 전화 받아라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V330"}
+{"text": "덥다", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1_indirect", "id": "V331"}
+{"text": "바람 쫌팍팍 나오게 해래이", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V332"}
+{"text": "아 해가 너무 쎄다 블라인드쫌 내라라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V333"}
+{"text": "에어컨 좀 켜고 블라인드 걷어도", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["에어컨:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V334"}
+{"text": "저기 불 껴놔라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V335"}
+{"text": "블라인드 치고 에어컨 켜 주세요", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["블라인드:내리기", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V336"}
+{"text": "퍼뜩 서향이라 해가 쎄다, 블라인드 좀 내라라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V337"}
+{"text": "마 햇빛 따갑다 블라인드 쫌 내라라", "output": "<six_0>(object=3, type=2)<six_end>", "functions": ["블라인드:내리기"], "category": "단일", "source": "template_v1", "id": "V338"}
+{"text": "전등 전기세 마이 나오나", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V339"}
+{"text": "퍼뜩 블라인드 반만 내려줘", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V340"}
+{"text": "저기 눈이 시리다 조명 은은하게 해라이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V341"}
+{"text": "블라인드 치고 에어컨도 좀 끄고 전등도 좀 꺼래이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V342"}
+{"text": "블라인드 좀 올려도", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V343"}
+{"text": "춥다, 바람 좀 줄여뿌라", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V344"}
+{"text": "마 보일러 꺼뿌라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V345"}
+{"text": "전등 좀 켜도 블라인드 내리고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V346"}
+{"text": "불 쪼매 어둡게 해라 마 에어컨 키고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "functions": ["조명:은은하게", "에어컨:켜기"], "category": "복합", "source": "template_v1", "id": "V347"}
+{"text": "마 불 켜놓고 블라인드 쳐줘", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V348"}
+{"text": "눈이 아프다 불 좀은은하게해봐라이", "output": "<six_1>(object=1, type=2)<six_end>", "functions": ["조명:은은하게"], "category": "단일", "source": "template_v1", "id": "V349"}
+{"text": "마 방이 어둡다, 블라인드 좀올려뿌라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V350"}
+{"text": "불 꺼버리고 에어컨도좀끄고 블라인드도 내려줘", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V351"}
+{"text": "블라인드내라고 불 줄여주라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V352"}
+{"text": "좀 써늘하다 온도 쫌 올려뿌라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V353"}
+{"text": "아직도 덥다 에어컨 온도 쪼매 낯추봐라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V354"}
+{"text": "불 좀 끄고 블라인드 쫌 내려도", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V355"}
+{"text": "너무 춥다 에어컨 끄라이", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V356"}
+{"text": "블라인드 좀내리고 불 좀 낮추라 마", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V357"}
+{"text": "더버 죽겠다", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1_indirect", "id": "V358"}
+{"text": "퍼뜩 창문 좀 열어도", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V359"}
+{"text": "퍼뜩 에어컨 키래이", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V360"}
+{"text": "아 블라인드 내라고 전등 키라이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V361"}
+{"text": "아 에어컨 쫌 꺼도", "output": "<six_0>(object=2, type=2)<six_end>", "functions": ["에어컨:끄기"], "category": "단일", "source": "template_v1", "id": "V362"}
+{"text": "좀 써늘하다 에어컨온도 좀 올려봐라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V363"}
+{"text": "저기 불 쫌 더 환하게 해라 마", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V364"}
+{"text": "저기 마 블라인드 됐다 고마 해라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V365"}
+{"text": "퍼뜩 에어컨 키고 블라인드 쫌 내라라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["에어컨:켜기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V366"}
+{"text": "블라인드 쫌 내라라 불 좀 낮차고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "functions": ["블라인드:내리기", "조명:은은하게"], "category": "복합", "source": "template_v1", "id": "V367"}
+{"text": "저기 너무 환하다 블라인드 반츰만 내리봐라", "output": "<six_0>(object=3, type=4)<six_end>", "functions": ["블라인드:반쯤 내리기"], "category": "단일", "source": "template_v1", "id": "V368"}
+{"text": "저기 불 키도", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V369"}
+{"text": "덥은데 바람이 약하다 에어컨 바람 올리라이", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V370"}
+{"text": "불 좀 키고 블라인드도 좀 걷어 주세요", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V371"}
+{"text": "아 고마 잘란다 전등 좀 끄래이", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V372"}
+{"text": "인자 잘란다 불끄라마", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V373"}
+{"text": "방에 불꺼뿌리라", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V374"}
+{"text": "블라인드 올리고 조명 더 밝게 해라 마", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V375"}
+{"text": "불 키주라", "output": "<six_0>(object=1, type=1)<six_end>", "functions": ["조명:켜기"], "category": "단일", "source": "template_v1", "id": "V376"}
+{"text": "에어컨 온도 올려주라", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V377"}
+{"text": "저기 방이 후끈하네 에어컨 먼저틀어라", "output": "<six_0>(object=2, type=1)<six_end>", "functions": ["에어컨:켜기"], "category": "단일", "source": "template_v1", "id": "V378"}
+{"text": "마 블라인드치고전등좀켜놔라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V379"}
+{"text": "틀어도", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V380"}
+{"text": "마 마 블라인드 멈추라", "output": "<six_0>(object=3, type=3)<six_end>", "functions": ["블라인드:멈추기"], "category": "단일", "source": "template_v1", "id": "V381"}
+{"text": "아 불 쫌 더 환하게해라 마", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V382"}
+{"text": "인자 알람 꺼라", "output": "<six_2>()<six_end>", "functions": ["해당 없음"], "category": "해당 없음", "source": "template_v1", "id": "V383"}
+{"text": "저기 불 끄고 에어컨 쫌 꺼봐라이", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기"], "category": "복합", "source": "template_v1", "id": "V384"}
+{"text": "거기 쫌 해래이", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V385"}
+{"text": "불 좀 더 밝게 해 주세요", "output": "<six_1>(object=1, type=1)<six_end>", "functions": ["조명:더 밝게"], "category": "단일", "source": "template_v1", "id": "V386"}
+{"text": "해 들어오게 블라인드 쫌 올리라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V387"}
+{"text": "거기 조금만 낮차라", "output": "<six_0>(object=-1)<six_end>", "functions": ["되묻기"], "category": "되묻기", "source": "template_v1", "id": "V388"}
+{"text": "퍼뜩 시원치가 않다 에어컨 바람 좀 쎄게 해도", "output": "<six_1>(object=2, type=3)<six_end>", "functions": ["에어컨:바람↑"], "category": "단일", "source": "template_v1", "id": "V389"}
+{"text": "블라인드걷고 불 더 밝게 해봐라", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "functions": ["블라인드:올리기", "조명:더 밝게"], "category": "복합", "source": "template_v1", "id": "V390"}
+{"text": "블라인드 쫌 쳐도 불도 켜고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "functions": ["블라인드:내리기", "조명:켜기"], "category": "복합", "source": "template_v1", "id": "V391"}
+{"text": "저기 온도 쫌 올리래이", "output": "<six_1>(object=2, type=1)<six_end>", "functions": ["에어컨:온도↑"], "category": "단일", "source": "template_v1", "id": "V392"}
+{"text": "인자 불 더 밝게 하고 블라인드 쫌 걷어주라", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:더 밝게", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V393"}
+{"text": "마 불 꺼버리고 에어컨 끄고 블라인드 좀 내리라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "functions": ["조명:끄기", "에어컨:끄기", "블라인드:내리기"], "category": "복합", "source": "template_v1", "id": "V394"}
+{"text": "인자 잘란다 전등 꺼 주세요", "output": "<six_0>(object=1, type=2)<six_end>", "functions": ["조명:끄기"], "category": "단일", "source": "template_v1", "id": "V395"}
+{"text": "블라인드 올리봐라", "output": "<six_0>(object=3, type=1)<six_end>", "functions": ["블라인드:올리기"], "category": "단일", "source": "template_v1", "id": "V396"}
+{"text": "에어컨 끄라 불도 꺼놓고", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "functions": ["에어컨:끄기", "조명:끄기"], "category": "복합", "source": "template_v1", "id": "V397"}
+{"text": "마 바람이 직빵으로 온다 에어컨 바람 쪼매 줄여 주세요", "output": "<six_1>(object=2, type=4)<six_end>", "functions": ["에어컨:바람↓"], "category": "단일", "source": "template_v1", "id": "V398"}
+{"text": "에어컨 틀었는데도 덥네, 에어컨 온도 내리봐라", "output": "<six_1>(object=2, type=2)<six_end>", "functions": ["에어컨:온도↓"], "category": "단일", "source": "template_v1", "id": "V399"}
+{"text": "불키고 블라인드도 쫌걷어주라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "functions": ["조명:켜기", "블라인드:올리기"], "category": "복합", "source": "template_v1", "id": "V400"}

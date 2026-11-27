@@ -1,0 +1,708 @@
+{"text": "테레비 소리 종해 줄이래", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0003_원본_VITS", "gold_text": "테레비 소리 쪼매 줄이라"}
+{"text": "테레비 소리 쪼매 해주이이라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0003_tts_a1_VITS", "gold_text": "테레비 소리 쪼매 줄이라"}
+{"text": "불 좀 낮추 고 블라인드 차도", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0006_원본_SAPI", "gold_text": "불 좀낯추고블라인드쳐도"}
+{"text": "불 좀 낮추고 블라인드 쳐도", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0006_tts_a1_SAPI", "gold_text": "불 좀낯추고블라인드쳐도"}
+{"text": "불 좀 맞추고 블라인드 쳐", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0006_tts_a1_VITS", "gold_text": "불 좀낯추고블라인드쳐도"}
+{"text": "퍼뜨가 바람이 약하네 바람 세게 틀어", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0007_tts_a1_VITS", "gold_text": "퍼뜩 바람이 약하네 바람 세게 틀어도"}
+{"text": "에어컨 온도 좀 에 올려 줘", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0009_원본_SAPI", "gold_text": "에어컨 온도 쪼매 올려줘"}
+{"text": "에어컨 온도 좀 매 올렸소", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0009_원본_VITS", "gold_text": "에어컨 온도 쪼매 올려줘"}
+{"text": "에어컨 온도 쪼매 올려주", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0009_tts_a1_SAPI", "gold_text": "에어컨 온도 쪼매 올려줘"}
+{"text": "에어컨 온도 좀매 올리소", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0009_tts_a1_VITS", "gold_text": "에어컨 온도 쪼매 올려줘"}
+{"text": "불 낮춰봐라 블라인드츠", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0011_원본_VITS", "gold_text": "불 낮춰봐라 블라인드 치고"}
+{"text": "불 낮춰봐라 블라인드 치소", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0011_tts_a1_VITS", "gold_text": "불 낮춰봐라 블라인드 치고"}
+{"text": "에어컨 켜줘", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0012_tts_a1_VITS", "gold_text": "에어컨 좀 켜줘"}
+{"text": "눈 보시다 불 좀 에 어둡 게 해 레이", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0013_원본_SAPI", "gold_text": "눈부시다 불 쪼매 어둡게 해래이"}
+{"text": "눈 보다 불쪼매 어둡게 해라이", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0013_tts_a1_SAPI", "gold_text": "눈부시다 불 쪼매 어둡게 해래이"}
+{"text": "눈부시다 불쪼매 어둡게 내리래", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0013_tts_a1_VITS", "gold_text": "눈부시다 불 쪼매 어둡게 해래이"}
+{"text": "아 블라인드 좀 차라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0014_tts_a1_VITS", "gold_text": "아 블라인드 좀 쳐도"}
+{"text": "인자 전등이 좀 꺼주세요", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0017_원본_VITS", "gold_text": "인자 전등 좀 꺼 주세요"}
+{"text": "퍼듯 냉장고 문 닫았다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0020_원본_SAPI", "gold_text": "퍼뜩 냉장고 문 닫았나"}
+{"text": "퍼튼 냉장고 문닫달 난", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0020_원본_VITS", "gold_text": "퍼뜩 냉장고 문 닫았나"}
+{"text": "버뜩 냉장고 문 닫 안다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0020_tts_a1_SAPI", "gold_text": "퍼뜩 냉장고 문 닫았나"}
+{"text": "퍼뜩 냉장고 문 닫다놨", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0020_tts_a1_VITS", "gold_text": "퍼뜩 냉장고 문 닫았나"}
+{"text": "퍼뜩 불 좀 끄 고 블라인드 도 좀 내려라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0021_원본_SAPI", "gold_text": "퍼뜩 불좀끄고블라인드도좀내라라"}
+{"text": "퍼티고 불 좀 끄고 블라인드 도 좀 내아라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0021_원본_VITS", "gold_text": "퍼뜩 불좀끄고블라인드도좀내라라"}
+{"text": "버뜩 불 좀 끄고 블라인드도 좀 내려라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0021_tts_a1_SAPI", "gold_text": "퍼뜩 불좀끄고블라인드도좀내라라"}
+{"text": "퍼띠고 불 끄고 블라인드도 좀놔라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0021_tts_a1_VITS", "gold_text": "퍼뜩 불좀끄고블라인드도좀내라라"}
+{"text": "비오난", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0025_원본_VITS", "gold_text": "비 오나"}
+{"text": "비 오라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0025_tts_a1_SAPI", "gold_text": "비 오나"}
+{"text": "에어컨 켜 라이블라드 걷 고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0028_원본_SAPI", "gold_text": "에어컨 켜라이블라인드 걷고"}
+{"text": "에어컨 케라이블라인드 컵", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0028_원본_VITS", "gold_text": "에어컨 켜라이블라인드 걷고"}
+{"text": "에어컨 켜라블라인드 걷고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0028_tts_a1_SAPI", "gold_text": "에어컨 켜라이블라인드 걷고"}
+{"text": "에어컨 켜라 블라인드 꺼", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0028_tts_a1_VITS", "gold_text": "에어컨 켜라이블라인드 걷고"}
+{"text": "저기 방에 불 켜레이", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0033_tts_a1_SAPI", "gold_text": "저기 방에 불 켜래이"}
+{"text": "저기 반에 불 켜래", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0033_tts_a1_VITS", "gold_text": "저기 방에 불 켜래이"}
+{"text": "퍼뜩 아 직도덥다 온도 좀매 내리리라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0041_원본_SAPI", "gold_text": "퍼뜩 아직도 덥다 온도 쪼매 내리라 마"}
+{"text": "퍼띠 아직도 덥다 온도 좀매 내리라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0041_tts_a1_VITS", "gold_text": "퍼뜩 아직도 덥다 온도 쪼매 내리라 마"}
+{"text": "오늘 먼 요일이고", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0045_원본_SAPI", "gold_text": "오늘 뭔 요일이고"}
+{"text": "오늘 먼요일이", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0045_원본_VITS", "gold_text": "오늘 뭔 요일이고"}
+{"text": "오늘 온 요 이이고", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0045_tts_a1_SAPI", "gold_text": "오늘 뭔 요일이고"}
+{"text": "버뜩 보일러 온도 낮 차라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0050_tts_a1_SAPI", "gold_text": "퍼뜩 보일러 온도 낮차라"}
+{"text": "퍼드고 보일러 온도 낮 차라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0050_tts_a1_VITS", "gold_text": "퍼뜩 보일러 온도 낮차라"}
+{"text": "인자 바람 이, 약한의 에어컨 바람 좀 세 게 해 줘", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0055_원본_SAPI", "gold_text": "인자 바람이 약하네 에어컨 바람좀 쎄게 해줘"}
+{"text": "인자 바람이 약하네 에어컨 바람 좀 세게 해줘", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0055_원본_VITS", "gold_text": "인자 바람이 약하네 에어컨 바람좀 쎄게 해줘"}
+{"text": "에어컨 거부 고, 전 등도 좀 과도", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0057_원본_SAPI", "gold_text": "에어컨 꺼뿌고 전등도 좀 꺼도"}
+{"text": "에어컨 거프고 전등도 좀 꺼도", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0057_tts_a1_SAPI", "gold_text": "에어컨 꺼뿌고 전등도 좀 꺼도"}
+{"text": "에어컨은 꺼 보고 전등도 좀 꺼", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0057_tts_a1_VITS", "gold_text": "에어컨 꺼뿌고 전등도 좀 꺼도"}
+{"text": "인자 청소 속기 좀 돌리버라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0061_원본_SAPI", "gold_text": "인자 청소기 좀 돌리봐라"}
+{"text": "인자청기 좀 돌리봐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0061_원본_VITS", "gold_text": "인자 청소기 좀 돌리봐라"}
+{"text": "인자 청소기 좀 올리봐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0061_tts_a1_SAPI", "gold_text": "인자 청소기 좀 돌리봐라"}
+{"text": "인자 청소기 좀 돌봐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0061_tts_a1_VITS", "gold_text": "인자 청소기 좀 돌리봐라"}
+{"text": "퍼뜩 너무 춥다 에어컨 거 부라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0064_원본_SAPI", "gold_text": "퍼뜩 너무 춥다 에어컨 꺼뿌라"}
+{"text": "버뜩 너무 춥다 에어컨 꺼삐라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0064_tts_a1_SAPI", "gold_text": "퍼뜩 너무 춥다 에어컨 꺼뿌라"}
+{"text": "퍼뜩 너무 춥다 에어컨 꺼 보아", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0064_tts_a1_VITS", "gold_text": "퍼뜩 너무 춥다 에어컨 꺼뿌라"}
+{"text": "방에 불 편 화라 블라인드 걷 고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0066_원본_SAPI", "gold_text": "방에 불 켜놔라 블라인드 걷고"}
+{"text": "바에 불 켜놔놔라 블라인드꺼", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0066_tts_a1_VITS", "gold_text": "방에 불 켜놔라 블라인드 걷고"}
+{"text": "불빛쪼매 줄여부라 에어컨도 틀", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0073_tts_a1_SAPI", "gold_text": "불빛 쪼매 줄여뿌라 에어컨도틀고"}
+{"text": "불빛쪼매 줄여부라 에어컨도 틀고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0073_tts_a1_VITS", "gold_text": "불빛 쪼매 줄여뿌라 에어컨도틀고"}
+{"text": "좀 선을 하다 에어컨 온도 올리라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0075_원본_SAPI", "gold_text": "좀 서늘하다, 에어컨 온도 올리라이"}
+{"text": "서늘하다 에어컨 온도 올리라이", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0075_tts_a1_SAPI", "gold_text": "좀 서늘하다, 에어컨 온도 올리라이"}
+{"text": "쪼 서늘하다 에어컨 온도 올리래", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0075_tts_a1_VITS", "gold_text": "좀 서늘하다, 에어컨 온도 올리라이"}
+{"text": "선풍기 바람 3 개 해라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0076_원본_SAPI", "gold_text": "선풍기 바람 세게 해라"}
+{"text": "선 풍게 바람 쎄게 해라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0076_tts_a1_VITS", "gold_text": "선풍기 바람 세게 해라"}
+{"text": "고마 됐다 에어컨 좀 거버라이", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0077_원본_SAPI", "gold_text": "고마 됐다 에어컨 좀 꺼봐라이"}
+{"text": "고마 됐다 에어컨 좀 꺼버라이", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0077_tts_a1_SAPI", "gold_text": "고마 됐다 에어컨 좀 꺼봐라이"}
+{"text": "고마 에어컨 좀 꺼봐라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0077_tts_a1_VITS", "gold_text": "고마 됐다 에어컨 좀 꺼봐라이"}
+{"text": "인자 테레비 소리 좀 해 주 리라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0080_원본_SAPI", "gold_text": "인자 테레비 소리 쪼매 줄이라"}
+{"text": "인자 테레리 소리 좀 외 줄리라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0080_원본_VITS", "gold_text": "인자 테레비 소리 쪼매 줄이라"}
+{"text": "인자 테레리 소리쪼 줄이라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0080_tts_a1_VITS", "gold_text": "인자 테레비 소리 쪼매 줄이라"}
+{"text": "블라인드 내 로고 에어 컨 좀 끄 고 불 도 좀 거라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0085_원본_SAPI", "gold_text": "블라인드 내루고 에어컨좀끄고 불도 쫌 꺼라"}
+{"text": "블라인드 내 고 에어컨 좀 끄 고 불 도 좀 꺼라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0085_원본_VITS", "gold_text": "블라인드 내루고 에어컨좀끄고 불도 쫌 꺼라"}
+{"text": "블라인드 내리고 에어컨 좀 끄고 불도 좀 꺼라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0085_tts_a1_SAPI", "gold_text": "블라인드 내루고 에어컨좀끄고 불도 쫌 꺼라"}
+{"text": "인자 블라인드 올려소", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0086_원본_VITS", "gold_text": "인자 블라인드 올려줘"}
+{"text": "인자 블라인드 올려주", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0086_tts_a1_SAPI", "gold_text": "인자 블라인드 올려줘"}
+{"text": "퍼뜩 눈부시다 불 좀 에 낮춰 줘", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0093_원본_SAPI", "gold_text": "퍼뜩 눈부시다 불 쪼매 낮춰줘"}
+{"text": "퍼뜩 눈부시다 불 좀에 낮춰쇼", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0093_원본_VITS", "gold_text": "퍼뜩 눈부시다 불 쪼매 낮춰줘"}
+{"text": "버뜩 눈부시다 불쪼매 낮춰줘", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0093_tts_a1_SAPI", "gold_text": "퍼뜩 눈부시다 불 쪼매 낮춰줘"}
+{"text": "발래 넣어야 되는데", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0094_tts_a1_SAPI", "gold_text": "빨래 널어야 되는데"}
+{"text": "에어컨 설치 하러 온다 하 더라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0095_원본_SAPI", "gold_text": "에어컨 설치하러 온다 카더라"}
+{"text": "에어컨 설치 하러 문답 하더라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0095_원본_VITS", "gold_text": "에어컨 설치하러 온다 카더라"}
+{"text": "에어컨 설치하러 온다 하도라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0095_tts_a1_SAPI", "gold_text": "에어컨 설치하러 온다 카더라"}
+{"text": "에어컨 설치하러 온 하더라라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0095_tts_a1_VITS", "gold_text": "에어컨 설치하러 온다 카더라"}
+{"text": "그거 고마해", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0098_원본_VITS", "gold_text": "그거 고마 해도"}
+{"text": "저기 아침이다 블라인드 좀 올리라마", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0104_원본_SAPI", "gold_text": "저기 아침이다 블라인드 쫌 올리라 마"}
+{"text": "저기 다 블라인드 좀 올리라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0104_tts_a1_VITS", "gold_text": "저기 아침이다 블라인드 쫌 올리라 마"}
+{"text": "블라인드 내라라 불 좀 에 낮 추고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0107_원본_SAPI", "gold_text": "블라인드 내라라 불 쪼매 낮추고"}
+{"text": "블라인드 에라라 불종의 낮추", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0107_원본_VITS", "gold_text": "블라인드 내라라 불 쪼매 낮추고"}
+{"text": "블라인드 내리라라 불쪼매 낮추고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0107_tts_a1_SAPI", "gold_text": "블라인드 내라라 불 쪼매 낮추고"}
+{"text": "블라인드 내리라라 불 좀 해 낮추소", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0107_tts_a1_VITS", "gold_text": "블라인드 내라라 불 쪼매 낮추고"}
+{"text": "블라인드 반층 만 내렸 보라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0110_원본_SAPI", "gold_text": "블라인드반츰만 내려뿌라"}
+{"text": "블라인드 반쯤만 내프라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0110_원본_VITS", "gold_text": "블라인드반츰만 내려뿌라"}
+{"text": "블라인드 반층만 내려보라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0110_tts_a1_SAPI", "gold_text": "블라인드반츰만 내려뿌라"}
+{"text": "블라인드 반쯤만 내려봐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0110_tts_a1_VITS", "gold_text": "블라인드반츰만 내려뿌라"}
+{"text": "마찰러 갈란다 불꺼 죠", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0122_원본_SAPI", "gold_text": "마 자러 갈란다 불 꺼줘"}
+{"text": "마차러 갈란다 불 꺼줘", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0122_tts_a1_SAPI", "gold_text": "마 자러 갈란다 불 꺼줘"}
+{"text": "마 자로 갈란다 불 꺼도", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0122_tts_a1_VITS", "gold_text": "마 자러 갈란다 불 꺼줘"}
+{"text": "불 좀 에 낮 추고 블라인드 좀 내려도", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0123_원본_SAPI", "gold_text": "불쪼매낮추고 블라인드 좀 내려도"}
+{"text": "불 좀이 낮추고 블라인드 좀 내려도", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0123_tts_a1_VITS", "gold_text": "불쪼매낮추고 블라인드 좀 내려도"}
+{"text": "블라인드 좀 네라라 에어 컨 틀 고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0124_원본_SAPI", "gold_text": "블라인드 쫌 내라라 에어컨틀고"}
+{"text": "블라인드 좀 날아라 에어컨 틀로", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0124_원본_VITS", "gold_text": "블라인드 쫌 내라라 에어컨틀고"}
+{"text": "블라인드 좀 내리라라 에어컨 틀고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0124_tts_a1_SAPI", "gold_text": "블라인드 쫌 내라라 에어컨틀고"}
+{"text": "에어컨 틀 고 불빛 좀 에 낮추라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0137_원본_SAPI", "gold_text": "에어컨 틀고 불빛 쪼매 낯추라"}
+{"text": "에어컨 틀 불빛쪼매 낮주라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0137_tts_a1_SAPI", "gold_text": "에어컨 틀고 불빛 쪼매 낯추라"}
+{"text": "에어컨 틀고 불빛 쪼매 낮춰라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0137_tts_a1_VITS", "gold_text": "에어컨 틀고 불빛 쪼매 낯추라"}
+{"text": "마 불빛이 너무 세다 불 나 차도", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0138_원본_SAPI", "gold_text": "마 불빛이 너무 쎄다 불 낯차도"}
+{"text": "마 불빛이 너무 쎄다 불 낮차도", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0138_tts_a1_SAPI", "gold_text": "마 불빛이 너무 쎄다 불 낯차도"}
+{"text": "마 불빛이 너무 쎄다 불라차", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0138_tts_a1_VITS", "gold_text": "마 불빛이 너무 쎄다 불 낯차도"}
+{"text": "앗 서향 이라 해가 세다 블라인드넬리라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0141_원본_SAPI", "gold_text": "아 서향이라 해가 쎄다 블라인드내리라 마"}
+{"text": "아 서향랑 해가 쎄다 블라인드 내리라 마", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0141_tts_a1_SAPI", "gold_text": "아 서향이라 해가 쎄다 블라인드내리라 마"}
+{"text": "인자 불 낮추라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0143_원본_SAPI", "gold_text": "인자 불 낯추라"}
+{"text": "전등 광고 반", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0146_원본_VITS", "gold_text": "전등 광고 봤나"}
+{"text": "전등 광고고 봤다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0146_tts_a1_SAPI", "gold_text": "전등 광고 봤나"}
+{"text": "전등 광고고 봤네", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0146_tts_a1_VITS", "gold_text": "전등 광고 봤나"}
+{"text": "인자 불 안 더 켜놔라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0152_원본_SAPI", "gold_text": "인자 불하나 더켜놔라"}
+{"text": "인자 불 하나 하나 더 켜놔라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0152_tts_a1_SAPI", "gold_text": "인자 불하나 더켜놔라"}
+{"text": "온도 좀매 올리부라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0155_원본_SAPI", "gold_text": "온도 쪼매 올리뿌라"}
+{"text": "온도쪼매 올리부라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0155_tts_a1_SAPI", "gold_text": "온도 쪼매 올리뿌라"}
+{"text": "시원치가 않다타 바람 좀 올리라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0159_tts_a1_SAPI", "gold_text": "시원치가 않다 바람 좀올리뿌라"}
+{"text": "시원지가 않다 바람 좀 올리 보라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0159_tts_a1_VITS", "gold_text": "시원치가 않다 바람 좀올리뿌라"}
+{"text": "인자 바람 이 너무 새다 바람 줄 이 라나", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0160_원본_SAPI", "gold_text": "인자 바람이 너무 세다 바람줄이라마"}
+{"text": "인자 바람이 너무 세다 바람줄이다", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0160_원본_VITS", "gold_text": "인자 바람이 너무 세다 바람줄이라마"}
+{"text": "인자 바람이 너무쎄다 바람 줄이라 마", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0160_tts_a1_SAPI", "gold_text": "인자 바람이 너무 세다 바람줄이라마"}
+{"text": "블라인드 에로고 전 등도 거 죠", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0168_원본_SAPI", "gold_text": "블라인드내루고 전등도 꺼줘"}
+{"text": "블라인드 내리고 전등도꺼주", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0168_tts_a1_SAPI", "gold_text": "블라인드내루고 전등도 꺼줘"}
+{"text": "블라인드 좀 걷 어 줘어 불 도 켜 놓 고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0169_원본_SAPI", "gold_text": "블라인드 쫌 걷어줘 불도 켜놓고"}
+{"text": "블라인드 좀 걷어주 불도 켜놓고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0169_tts_a1_SAPI", "gold_text": "블라인드 쫌 걷어줘 불도 켜놓고"}
+{"text": "에어컨켜 고 블라인드 내아라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0173_원본_VITS", "gold_text": "에어컨 켜고 블라인드 내라라"}
+{"text": "에어컨 켜고 블라인드 내려라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0173_tts_a1_SAPI", "gold_text": "에어컨 켜고 블라인드 내라라"}
+{"text": "에어컨 켜고 블라인드 내리라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0173_tts_a1_VITS", "gold_text": "에어컨 켜고 블라인드 내라라"}
+{"text": "전등 얼마 안노", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0174_원본_SAPI", "gold_text": "전등 얼마하노"}
+{"text": "전등 얼마 안", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0174_원본_VITS", "gold_text": "전등 얼마하노"}
+{"text": "전등 얼마 노", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0174_tts_a1_VITS", "gold_text": "전등 얼마하노"}
+{"text": "오늘 박수로 피곤하다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0175_원본_VITS", "gold_text": "오늘 억수로 피곤하다"}
+{"text": "마이어다", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0178_원본_VITS", "gold_text": "마이 덥다"}
+{"text": "인자 안 덥다 에어컨 끄라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0182_원본_SAPI", "gold_text": "인자 안 덥다, 에어컨 끄라"}
+{"text": "인자 안 덥다 에어컨 꺼", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0182_tts_a1_VITS", "gold_text": "인자 안 덥다, 에어컨 끄라"}
+{"text": "아 더 화냈으면 좋겠다 불 하나 더 켜놔라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0183_원본_SAPI", "gold_text": "아 더 환했으면 좋겠다 불 하나 더 켜놔라"}
+{"text": "아 더 환냈으면 좋겠다 불 하나 더 켜놔라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0183_tts_a1_SAPI", "gold_text": "아 더 환했으면 좋겠다 불 하나 더 켜놔라"}
+{"text": "추석언고", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0185_원본_SAPI", "gold_text": "추석 언제고"}
+{"text": "추석 언제요", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0185_원본_VITS", "gold_text": "추석 언제고"}
+{"text": "추석 언제 오", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0185_tts_a1_SAPI", "gold_text": "추석 언제고"}
+{"text": "추석 언제 어", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0185_tts_a1_VITS", "gold_text": "추석 언제고"}
+{"text": "그것 좀 좀 거라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0188_원본_SAPI", "gold_text": "그것 좀 좀 꺼라"}
+{"text": "그것도 좀 좀 웃꺼라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0188_원본_VITS", "gold_text": "그것 좀 좀 꺼라"}
+{"text": "그것도 좀 꺼라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0188_tts_a1_VITS", "gold_text": "그것 좀 좀 꺼라"}
+{"text": "닌자 바람이 너무 세다 바람 좀 약하게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0192_원본_VITS", "gold_text": "인자 바람이 너무 세다 바람 좀 약하게 해줘"}
+{"text": "인자 바람이 너무쎄다 바람 좀 약하게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0192_tts_a1_SAPI", "gold_text": "인자 바람이 너무 세다 바람 좀 약하게 해줘"}
+{"text": "인자 바람이 너무 쎄다 바람 좀 약하게 해 해주", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0192_tts_a1_VITS", "gold_text": "인자 바람이 너무 세다 바람 좀 약하게 해줘"}
+{"text": "너무 환다 블라인드 반 만쳐여 주라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0194_원본_SAPI", "gold_text": "너무 환하다 블라인드 반만 쳐주라"}
+{"text": "너무 하나다 블라인드 반반 쳐주라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0194_원본_VITS", "gold_text": "너무 환하다 블라인드 반만 쳐주라"}
+{"text": "너무하다 블라인드 반만 쳐주라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0194_tts_a1_VITS", "gold_text": "너무 환하다 블라인드 반만 쳐주라"}
+{"text": "저기 인자 안 덥다 에어컨 거부라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0195_원본_SAPI", "gold_text": "저기 인자 안 덥다, 에어컨 꺼뿌라"}
+{"text": "저기 인 안 덥다 에어컨 꺼부라", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0195_tts_a1_SAPI", "gold_text": "저기 인자 안 덥다, 에어컨 꺼뿌라"}
+{"text": "저기인자 안덥다 에어컨 꺼다", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0195_tts_a1_VITS", "gold_text": "저기 인자 안 덥다, 에어컨 꺼뿌라"}
+{"text": "인자 바람 세개 틀어우", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0196_원본_VITS", "gold_text": "인자 바람 세게 틀어도"}
+{"text": "저기 블라인드 좀 내리고 블라쳐라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0202_tts_a1_VITS", "gold_text": "저기 블라인드 좀 내리고 불 낮추라"}
+{"text": "퍼뜩 알람 거라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0205_원본_SAPI", "gold_text": "퍼뜩 알람 꺼라"}
+{"text": "버뜩 알람꺼라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0205_tts_a1_SAPI", "gold_text": "퍼뜩 알람 꺼라"}
+{"text": "블라인드 좀 내 리고 에어컨 먼저 기도", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0207_원본_SAPI", "gold_text": "블라인드 좀 내리고 에어컨 먼저 키도"}
+{"text": "블라 인도도 좀 내 리고 에어컨 먼저 키", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0207_원본_VITS", "gold_text": "블라인드 좀 내리고 에어컨 먼저 키도"}
+{"text": "블라인드 좀 내리고 에어컨 먼저 키", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0207_tts_a1_VITS", "gold_text": "블라인드 좀 내리고 에어컨 먼저 키도"}
+{"text": "저기 더 좀 나 차도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0208_원본_SAPI", "gold_text": "저기 더 쫌 낮차도"}
+{"text": "저기 더 좀 낮 차도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0208_tts_a1_SAPI", "gold_text": "저기 더 쫌 낮차도"}
+{"text": "에어컨 좀 키래", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0209_tts_a1_VITS", "gold_text": "에어컨좀키래이"}
+{"text": "더 시 원하 게 온도 좀매 내려 주세요", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0223_원본_SAPI", "gold_text": "더 시원하게 온도 쪼매내려 주세요"}
+{"text": "더 시원 게 온도 좀 내려 주세요", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0223_원본_VITS", "gold_text": "더 시원하게 온도 쪼매내려 주세요"}
+{"text": "에어컨 끄 고 블라인드 좀 내 리고 전등 과도", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0225_원본_SAPI", "gold_text": "에어컨끄고 블라인드 좀 내리고 전등 꺼도"}
+{"text": "에어컨 끄 고 블라인드 좀 내 리고 전등껏", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0225_원본_VITS", "gold_text": "에어컨끄고 블라인드 좀 내리고 전등 꺼도"}
+{"text": "에어컨 끄고 블라인드 좀 내리고 전등 꺼", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0225_tts_a1_VITS", "gold_text": "에어컨끄고 블라인드 좀 내리고 전등 꺼도"}
+{"text": "거기 고마 올리브라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0228_원본_SAPI", "gold_text": "거기 고마 올리뿌라"}
+{"text": "거기 고마 올리부라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0228_tts_a1_SAPI", "gold_text": "거기 고마 올리뿌라"}
+{"text": "거기 고마 올리라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0228_tts_a1_VITS", "gold_text": "거기 고마 올리뿌라"}
+{"text": "이거 나 차봐라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0233_원본_VITS", "gold_text": "이거 낮차봐라"}
+{"text": "이건 낮 차봐라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0233_tts_a1_SAPI", "gold_text": "이거 낮차봐라"}
+{"text": "이거 안 차봐라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0233_tts_a1_VITS", "gold_text": "이거 낮차봐라"}
+{"text": "퍼뜩 에어컨 좀 켜 고 블라인드 좀 거 더라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0236_원본_SAPI", "gold_text": "퍼뜩 에어컨좀켜고 블라인드 좀 걷어라"}
+{"text": "퍼트 에어 컨 좀 켜고 블라인드 좀 걷둬라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0236_원본_VITS", "gold_text": "퍼뜩 에어컨좀켜고 블라인드 좀 걷어라"}
+{"text": "버뜩 에어컨 좀 켜고 블라인드 좀꺼둬라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0236_tts_a1_SAPI", "gold_text": "퍼뜩 에어컨좀켜고 블라인드 좀 걷어라"}
+{"text": "퍼뜨 에어컨 좀 켜고 블라인드 좀 꺼둬라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0236_tts_a1_VITS", "gold_text": "퍼뜩 에어컨좀켜고 블라인드 좀 걷어라"}
+{"text": "블라인드 치고 에어 컨도 좀 켜불 리라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0240_원본_SAPI", "gold_text": "블라인드 치고 에어컨도 좀 켜뿌리라"}
+{"text": "블라인드 치고 에어 컨도 좀 켜불 해", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0240_원본_VITS", "gold_text": "블라인드 치고 에어컨도 좀 켜뿌리라"}
+{"text": "블라인드 치고 에어컨도 좀 켜불라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0240_tts_a1_SAPI", "gold_text": "블라인드 치고 에어컨도 좀 켜뿌리라"}
+{"text": "블라인드 치고 에어컨도 켜불래", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0240_tts_a1_VITS", "gold_text": "블라인드 치고 에어컨도 좀 켜뿌리라"}
+{"text": "안 냉장고 문 닫 아라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0246_원본_SAPI", "gold_text": "아 냉장고 문 닫아라"}
+{"text": "불 하나 더 키너 라블라인드 올리고", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0247_원본_SAPI", "gold_text": "불 하나 더 키놔라블라인드올리고"}
+{"text": "불 하나 더 키나라 블라인드 올리", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0247_tts_a1_VITS", "gold_text": "불 하나 더 키놔라블라인드올리고"}
+{"text": "아 창문 좀 열도", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0254_원본_SAPI", "gold_text": "아 창문 좀 열어도"}
+{"text": "퍼트 에어컨 온도도 올려", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0259_원본_VITS", "gold_text": "퍼뜩 에어컨 온도 올려도"}
+{"text": "퍼뜨 에어컨 온도 올리도", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0259_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 온도 올려도"}
+{"text": "불 좀 약하 게 하고 에어컨 좀", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0264_원본_SAPI", "gold_text": "불 좀 약하게 하고 에어컨 좀 키도"}
+{"text": "불 좀 약하 게 하고 에어컨 좀케요", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0264_원본_VITS", "gold_text": "불 좀 약하게 하고 에어컨 좀 키도"}
+{"text": "불 좀 약하게 하고 에어컨 좀 키노", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0264_tts_a1_SAPI", "gold_text": "불 좀 약하게 하고 에어컨 좀 키도"}
+{"text": "불 좀 약하게 하고 에어컨 좀 키라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0264_tts_a1_VITS", "gold_text": "불 좀 약하게 하고 에어컨 좀 키도"}
+{"text": "저기 좀 나 차도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0266_원본_SAPI", "gold_text": "저기 좀 낮차도"}
+{"text": "저게 좀 낮춰도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0266_tts_a1_VITS", "gold_text": "저기 좀 낮차도"}
+{"text": "인자 블라인드 치고 불 끄 고 에어컨 좀끄라이", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0273_원본_SAPI", "gold_text": "인자 블라인드 치고 불끄고 에어컨 쫌 끄라이"}
+{"text": "인자 블라인드 치고 불 끄고 에어컨 좀 끌아", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0273_원본_VITS", "gold_text": "인자 블라인드 치고 불끄고 에어컨 쫌 끄라이"}
+{"text": "그거 키주라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0274_tts_a1_SAPI", "gold_text": "그거 켜주라"}
+{"text": "불 좀 켜놔라 블라인드 에로고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0275_원본_SAPI", "gold_text": "불 좀 켜놔라 블라인드내루고"}
+{"text": "불 좀 켜놔라 블라인드 내리고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0275_tts_a1_SAPI", "gold_text": "불 좀 켜놔라 블라인드내루고"}
+{"text": "불 좀 켜놔라 블라인드 내리로", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0275_tts_a1_VITS", "gold_text": "불 좀 켜놔라 블라인드내루고"}
+{"text": "마 블라인드 고마멈버라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0277_원본_SAPI", "gold_text": "마 블라인드고마 멈추봐라"}
+{"text": "마블라 도구고마멈춰 봐라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0277_원본_VITS", "gold_text": "마 블라인드고마 멈추봐라"}
+{"text": "아 에어컨 바람 올리레이이", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0281_원본_SAPI", "gold_text": "아 에어컨 바람 올리래이"}
+{"text": "에어컨 바람 올리", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0281_tts_a1_VITS", "gold_text": "아 에어컨 바람 올리래이"}
+{"text": "불어 버 리고 블라인드쳐도", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0285_원본_SAPI", "gold_text": "불 꺼버리고 블라인드 쳐도"}
+{"text": "불 꺼버리고 블라인드 쳐", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0285_원본_VITS", "gold_text": "불 꺼버리고 블라인드 쳐도"}
+{"text": "인자 에어컨 바람 살살 나오 게 해라나", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0286_원본_SAPI", "gold_text": "인자 에어컨 바람 살살 나오게 해라 마"}
+{"text": "인자 에어컨 바람살살로 나오게 해라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0286_원본_VITS", "gold_text": "인자 에어컨 바람 살살 나오게 해라 마"}
+{"text": "인자 에어컨 바람 살살 나오게 해라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0286_tts_a1_SAPI", "gold_text": "인자 에어컨 바람 살살 나오게 해라 마"}
+{"text": "인자 에어컨 바람 살 싹어 나오게 해라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0286_tts_a1_VITS", "gold_text": "인자 에어컨 바람 살살 나오게 해라 마"}
+{"text": "저거 기라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0288_원본_SAPI", "gold_text": "저거 키라"}
+{"text": "저거 키라노", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0288_tts_a1_VITS", "gold_text": "저거 키라"}
+{"text": "더분데 바람 이 약하다 바람 세 게 해라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0290_원본_SAPI", "gold_text": "덥은데 바람이 약하다 바람쎄게 해라"}
+{"text": "더군데 바람이 약하다 바람 세게 해라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0290_원본_VITS", "gold_text": "덥은데 바람이 약하다 바람쎄게 해라"}
+{"text": "더군데 바람이 약하다 바람 쎄게 해라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0290_tts_a1_SAPI", "gold_text": "덥은데 바람이 약하다 바람쎄게 해라"}
+{"text": "저기 글씨 가 잘 안 비린다다 좀 더 화나 게 해도", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0292_원본_SAPI", "gold_text": "저기 글씨가 잘 안 비인다 좀 더 환하게 해도"}
+{"text": "저기 글씨가 잘 안 비인다 좀 더 편하게 해도라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0292_tts_a1_VITS", "gold_text": "저기 글씨가 잘 안 비인다 좀 더 환하게 해도"}
+{"text": "블라인드 거더도", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0301_원본_SAPI", "gold_text": "블라인드 걷어도"}
+{"text": "블라인드 걷둬도", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0301_tts_a1_SAPI", "gold_text": "블라인드 걷어도"}
+{"text": "춥다 에어컨 좀 그레이", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0303_원본_SAPI", "gold_text": "춥다 에어컨좀끄래이"}
+{"text": "춥다 에어컨 종 그래", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0303_원본_VITS", "gold_text": "춥다 에어컨좀끄래이"}
+{"text": "춥다 에어컨 좀 그래이", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0303_tts_a1_VITS", "gold_text": "춥다 에어컨좀끄래이"}
+{"text": "바람 좀 줄이래", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0306_tts_a1_VITS", "gold_text": "바람 좀 줄이래이"}
+{"text": "아어콘 바람 줄르라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0309_원본_VITS", "gold_text": "아 에어컨 바람 줄이라"}
+{"text": "에어컨 바람 줄이라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0309_tts_a1_VITS", "gold_text": "아 에어컨 바람 줄이라"}
+{"text": "그것 좀 좀 에만 올려도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0315_원본_SAPI", "gold_text": "그것 좀 쪼매만 올려도"}
+{"text": "그것도 좀쪼매만 올리도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0315_tts_a1_VITS", "gold_text": "그것 좀 쪼매만 올려도"}
+{"text": "블라인드 좀 내려 주라 불 좀 낮 추고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0323_원본_SAPI", "gold_text": "블라인드 쫌 내려주라 불 좀 낯추고"}
+{"text": "블라인드 좀 내려주라 불 좀 낮죠", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0323_tts_a1_VITS", "gold_text": "블라인드 쫌 내려주라 불 좀 낯추고"}
+{"text": "바람이 찍방으로 온다 바람 좀 약하 게 줘라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0326_원본_VITS", "gold_text": "바람이 직빵으로 온다 바람 좀 약하게 해주라"}
+{"text": "아이어콘 먼저 틀어라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0331_원본_VITS", "gold_text": "아 에어컨 먼저 틀어라"}
+{"text": "에어컨 먼저 틀어라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0331_tts_a1_VITS", "gold_text": "아 에어컨 먼저 틀어라"}
+{"text": "블라인드 중간까지만 내 주나", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0332_원본_VITS", "gold_text": "블라인드 중간까지만 내려주라"}
+{"text": "퍼뜩 너무 환하다 블라인드 반 만 내리라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0336_원본_SAPI", "gold_text": "퍼뜩 너무 환하다 블라인드 반만 내리라 마"}
+{"text": "퍼뜩 너무 환하다 블라인드 반만 내리라다", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0336_tts_a1_SAPI", "gold_text": "퍼뜩 너무 환하다 블라인드 반만 내리라 마"}
+{"text": "퍼뜩 너무 화하다 블라인드 반만 안 내리라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0336_tts_a1_VITS", "gold_text": "퍼뜩 너무 환하다 블라인드 반만 내리라 마"}
+{"text": "아무 것도, 안 비리네", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0338_원본_SAPI", "gold_text": "아무것도 안 비이네"}
+{"text": "아무것도 안 비리네", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0338_tts_a1_SAPI", "gold_text": "아무것도 안 비이네"}
+{"text": "아무것도 안 비노", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0338_tts_a1_VITS", "gold_text": "아무것도 안 비이네"}
+{"text": "아 어둡다 불 좀 길라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0342_원본_SAPI", "gold_text": "아 어둡다 불 좀 키라 마"}
+{"text": "마 에어컨 틀어주", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0344_tts_a1_SAPI", "gold_text": "마 에어컨 틀어줘"}
+{"text": "마이어컨 틀어주", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0344_tts_a1_VITS", "gold_text": "마 에어컨 틀어줘"}
+{"text": "인자 선풍기 바람 3 개 해라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0346_원본_SAPI", "gold_text": "인자 선풍기 바람 세게 해라"}
+{"text": "인자선풍기 바람3 해라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0346_원본_VITS", "gold_text": "인자 선풍기 바람 세게 해라"}
+{"text": "인제 불 꺼 버 리고 에어 컨도 조금 꺼 죠", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0347_원본_VITS", "gold_text": "인자 불 꺼버리고 에어컨도 좀 꺼줘"}
+{"text": "인자 불 꺼버리고 에어컨도 좀 꺼주", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0347_tts_a1_SAPI", "gold_text": "인자 불 꺼버리고 에어컨도 좀 꺼줘"}
+{"text": "인제 불 꺼버리고 에어컨도 좀 꺼주", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0347_tts_a1_VITS", "gold_text": "인자 불 꺼버리고 에어컨도 좀 꺼줘"}
+{"text": "방이 깜깜하네 불 좀 켜래이", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0350_tts_a1_SAPI", "gold_text": "방이 깜깜하네 불 쫌켜래이"}
+{"text": "반이 깜깜하네 불 좀켜래", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0350_tts_a1_VITS", "gold_text": "방이 깜깜하네 불 쫌켜래이"}
+{"text": "아 방이 깜깜 하네 불 좀 기도", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0351_원본_SAPI", "gold_text": "아 방이 깜깜하네 불 좀 키도"}
+{"text": "아 방이 깜깜하네 불 좀 키노", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0351_tts_a1_SAPI", "gold_text": "아 방이 깜깜하네 불 좀 키도"}
+{"text": "아 안이 깜깜하네 불 좀 키여", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0351_tts_a1_VITS", "gold_text": "아 방이 깜깜하네 불 좀 키도"}
+{"text": "마다 했다 불거부라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0353_원본_SAPI", "gold_text": "마 다 했다 불 꺼뿌라"}
+{"text": "마 다 했다 불 꺼부라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0353_tts_a1_SAPI", "gold_text": "마 다 했다 불 꺼뿌라"}
+{"text": "앞 을 좀 약하 게 하고 블라인드 도 내버라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0361_원본_SAPI", "gold_text": "아 불 좀 약하게하고블라인드도 내리봐라"}
+{"text": "아을 좀 약하게 하고 블라인드도 내리버라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0361_tts_a1_SAPI", "gold_text": "아 불 좀 약하게하고블라인드도 내리봐라"}
+{"text": "아을 좀 약하게 오 블라인드로 내리봐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0361_tts_a1_VITS", "gold_text": "아 불 좀 약하게하고블라인드도 내리봐라"}
+{"text": "바람 이, 약한의 바람 좀 팍팍 나오 게 해도", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0362_원본_SAPI", "gold_text": "바람이 약하네 바람 쫌 팍팍 나오게 해도"}
+{"text": "바람이 약하네 바람 좀 팍팍 나오게", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0362_원본_VITS", "gold_text": "바람이 약하네 바람 쫌 팍팍 나오게 해도"}
+{"text": "바람이 약하네 바람 좀 팍팍 나오게 해도", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0362_tts_a1_SAPI", "gold_text": "바람이 약하네 바람 쫌 팍팍 나오게 해도"}
+{"text": "블라인드 치고 에어컨 좀 켜도", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0365_원본_SAPI", "gold_text": "블라인드 치고 에어컨 쫌 켜도"}
+{"text": "블라인드 치고 에어컨 좀 켜", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0365_원본_VITS", "gold_text": "블라인드 치고 에어컨 쫌 켜도"}
+{"text": "아날리 발았내 블라인드 올리버라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0366_원본_SAPI", "gold_text": "아 날이 밝았네 블라인드 올리봐라"}
+{"text": "아알리 밝았네 블라인드 올리버라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0366_tts_a1_SAPI", "gold_text": "아 날이 밝았네 블라인드 올리봐라"}
+{"text": "날이 밝아네 블라인드 올리봐라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0366_tts_a1_VITS", "gold_text": "아 날이 밝았네 블라인드 올리봐라"}
+{"text": "퍼뜩 시원 치가 안타 에어컨 바람 좀 올리라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0372_원본_SAPI", "gold_text": "퍼뜩 시원치가 않다 에어컨 바람 좀 올리라이"}
+{"text": "퍼뜩 시원치가 안타 에어컨 바람 좀 올리라이", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0372_tts_a1_SAPI", "gold_text": "퍼뜩 시원치가 않다 에어컨 바람 좀 올리라이"}
+{"text": "아 바람 이 너무 새다 에어컨 바람 살살 나오 게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0378_원본_SAPI", "gold_text": "아 바람이 너무 세다 에어컨 바람 살살 나오게 해줘"}
+{"text": "아바람이 너무 세다 에어코 바람 살살 나오게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0378_원본_VITS", "gold_text": "아 바람이 너무 세다 에어컨 바람 살살 나오게 해줘"}
+{"text": "아바이 너무 쎄다 에어컨 바람 살살 나오게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0378_tts_a1_SAPI", "gold_text": "아 바람이 너무 세다 에어컨 바람 살살 나오게 해줘"}
+{"text": "아바람이 너무 쎄다 에어컨 바람 살살 나오게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0378_tts_a1_VITS", "gold_text": "아 바람이 너무 세다 에어컨 바람 살살 나오게 해줘"}
+{"text": "아 인자 됐 다 블라인드 거 기서멈버라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0380_원본_SAPI", "gold_text": "아 인자 됐다 블라인드 거기서 멈추봐라"}
+{"text": "아닌 자 됐다 더 블라인드 거기서 멈춰 봐", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0380_원본_VITS", "gold_text": "아 인자 됐다 블라인드 거기서 멈추봐라"}
+{"text": "안인 됐다 다 블라인드 거기서 멈추봐라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0380_tts_a1_VITS", "gold_text": "아 인자 됐다 블라인드 거기서 멈추봐라"}
+{"text": "퍼뜨 에어컨노 바람 올리줘", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0381_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 바람 올려줘"}
+{"text": "됐다 다 블라인드 스토", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0385_원본_SAPI", "gold_text": "됐다 블라인드 스톱"}
+{"text": "됐다 블라인드 스통", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0385_tts_a1_SAPI", "gold_text": "됐다 블라인드 스톱"}
+{"text": "퍼뜻 바람 좀 줄여 줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0387_원본_SAPI", "gold_text": "퍼뜩 바람 좀 줄여줘"}
+{"text": "퍼뜨고 바람 좀 줄여줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0387_원본_VITS", "gold_text": "퍼뜩 바람 좀 줄여줘"}
+{"text": "인자 온도 좀 에 올리라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0390_원본_SAPI", "gold_text": "인자 온도 쪼매 올리라이"}
+{"text": "인자 온도 좀매 올리겠", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0390_tts_a1_VITS", "gold_text": "인자 온도 쪼매 올리라이"}
+{"text": "인자 불 좀 약하 게둬", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0391_원본_SAPI", "gold_text": "인자 불 좀 약하게 해도"}
+{"text": "인자불 좀 약하게", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0391_원본_VITS", "gold_text": "인자 불 좀 약하게 해도"}
+{"text": "인자 불 좀 약하게 해 해도", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0391_tts_a1_SAPI", "gold_text": "인자 불 좀 약하게 해도"}
+{"text": "인자 불 좀 약하게 해도라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0391_tts_a1_VITS", "gold_text": "인자 불 좀 약하게 해도"}
+{"text": "저거 좀 좀 줄려도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0392_원본_SAPI", "gold_text": "저것 좀 좀 줄여도"}
+{"text": "저것 좀 줄여도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0392_tts_a1_SAPI", "gold_text": "저것 좀 좀 줄여도"}
+{"text": "저것도 좀 줄여", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0392_tts_a1_VITS", "gold_text": "저것 좀 좀 줄여도"}
+{"text": "블라인드 네 라고 불 좀 에 어둡 게 해줘요", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0393_원본_SAPI", "gold_text": "블라인드내라고 불 쪼매 어둡게 해줘"}
+{"text": "블라인드 해 라고 불조 매어둡 게 해 죠", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0393_원본_VITS", "gold_text": "블라인드내라고 불 쪼매 어둡게 해줘"}
+{"text": "블라인드 해라 불쪼매 어둡게 해줘소", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0393_tts_a1_SAPI", "gold_text": "블라인드내라고 불 쪼매 어둡게 해줘"}
+{"text": "블라인드 해라 불 좀매 어둡게 해 해도", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0393_tts_a1_VITS", "gold_text": "블라인드내라고 불 쪼매 어둡게 해줘"}
+{"text": "경호당 가야 되는", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0405_원본_VITS", "gold_text": "경로당 가야 되는데"}
+{"text": "아 햇빛 이 좀매 따갑다 블라인드 좀 반 만 내버라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0410_원본_SAPI", "gold_text": "아 햇빛이 쪼매 따갑다 블라인드 좀반만내리봐라"}
+{"text": "아 햇빛이 쪼매 따갑다 블라인드 좀 반만 내리버라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0410_tts_a1_SAPI", "gold_text": "아 햇빛이 쪼매 따갑다 블라인드 좀반만내리봐라"}
+{"text": "아이빛이 좀매다갑다 블라인드 좀 밤만 내리봐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0410_tts_a1_VITS", "gold_text": "아 햇빛이 쪼매 따갑다 블라인드 좀반만내리봐라"}
+{"text": "그거 고마으어라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0412_원본_VITS", "gold_text": "그거 고마 틀어라"}
+{"text": "햇빛 이 좀매 따갑다 블라인드 반 만 쳐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0413_원본_SAPI", "gold_text": "햇빛이 쪼매 따갑다 블라인드 반만 쳐라"}
+{"text": "햇피이 좀 에갔다 블라인드 반 만쳐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0413_원본_VITS", "gold_text": "햇빛이 쪼매 따갑다 블라인드 반만 쳐라"}
+{"text": "햇빛이 쪼매갑다 블라인드 반만 쳐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0413_tts_a1_SAPI", "gold_text": "햇빛이 쪼매 따갑다 블라인드 반만 쳐라"}
+{"text": "블라인드 새로 사였낸", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0423_원본_VITS", "gold_text": "블라인드 새로 사야 되나"}
+{"text": "블라인드 세로 사야 되나", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0423_tts_a1_SAPI", "gold_text": "블라인드 새로 사야 되나"}
+{"text": "블라인드 새로 사네", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0423_tts_a1_VITS", "gold_text": "블라인드 새로 사야 되나"}
+{"text": "블라인드 좀 올려 봐라 에어컨 좀 켜 고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0424_원본_SAPI", "gold_text": "블라인드 쫌 올려봐라 에어컨 좀 켜고"}
+{"text": "블라인드 쪽 몰려봐라 에어컨 좀 켜", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0424_원본_VITS", "gold_text": "블라인드 쫌 올려봐라 에어컨 좀 켜고"}
+{"text": "블라인드 좀 올리봐라 에어컨 켜고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0424_tts_a1_SAPI", "gold_text": "블라인드 쫌 올려봐라 에어컨 좀 켜고"}
+{"text": "블라인드 좀 올려봐라 에어컨 켜도", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0424_tts_a1_VITS", "gold_text": "블라인드 쫌 올려봐라 에어컨 좀 켜고"}
+{"text": "퍼뜩 에어 컨 온도 좀 에 올려 줘", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0429_원본_SAPI", "gold_text": "퍼뜩 에어컨 온도 쪼매 올려줘"}
+{"text": "퍼뜩 에어컨 온도 좀 해 올려줘", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0429_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 온도 쪼매 올려줘"}
+{"text": "저기 에어컨 온도 내려라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0432_원본_SAPI", "gold_text": "저기 에어컨온도 내라라"}
+{"text": "저기 에어컨 운도 내라라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0432_원본_VITS", "gold_text": "저기 에어컨온도 내라라"}
+{"text": "저기 에어컨 온도 내려라라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0432_tts_a1_VITS", "gold_text": "저기 에어컨온도 내라라"}
+{"text": "불라고 에어컨 다도", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0433_원본_SAPI", "gold_text": "불하고 에어컨 다 꺼도"}
+{"text": "불라 에어컨 다 꺼", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0433_tts_a1_VITS", "gold_text": "불하고 에어컨 다 꺼도"}
+{"text": "인자 시원하다 에어컨 좀 거래리", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0434_원본_SAPI", "gold_text": "인자 시원하다, 에어컨 쫌 꺼래이"}
+{"text": "인자 시원하다 에어컨 좀 거래", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0434_원본_VITS", "gold_text": "인자 시원하다, 에어컨 쫌 꺼래이"}
+{"text": "인자 시원하다 에어컨 좀꺼래이", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0434_tts_a1_SAPI", "gold_text": "인자 시원하다, 에어컨 쫌 꺼래이"}
+{"text": "인자 시원하다 에어컨 좀 꺼래", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0434_tts_a1_VITS", "gold_text": "인자 시원하다, 에어컨 쫌 꺼래이"}
+{"text": "바람 낮라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0435_tts_a1_SAPI", "gold_text": "바람낮추라"}
+{"text": "마 날이 밝았네 블라인드 좀 올리레이이", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0438_원본_SAPI", "gold_text": "마 날이 밝았네 블라인드 좀 올리래이"}
+{"text": "만 날이 밝았네 블라인드 좀 올리래이", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0438_tts_a1_SAPI", "gold_text": "마 날이 밝았네 블라인드 좀 올리래이"}
+{"text": "만아리 밝가네 블라인드 좀 올리래", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0438_tts_a1_VITS", "gold_text": "마 날이 밝았네 블라인드 좀 올리래이"}
+{"text": "텔레비 틀러라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0440_원본_SAPI", "gold_text": "텔레비 틀어라"}
+{"text": "텔레비 차려라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0440_원본_VITS", "gold_text": "텔레비 틀어라"}
+{"text": "텔레비 차라라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0440_tts_a1_VITS", "gold_text": "텔레비 틀어라"}
+{"text": "안 눈부시다 블라인드 좀 쳐도", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0441_원본_SAPI", "gold_text": "아 눈부시다 블라인드 쫌 쳐도"}
+{"text": "눈부주시다 블라인드 좀 쳐", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0441_tts_a1_VITS", "gold_text": "아 눈부시다 블라인드 쫌 쳐도"}
+{"text": "거기 까지 블라인드 거기 까지 마해라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0447_원본_VITS", "gold_text": "거기까지 블라인드 거기까지만 해라"}
+{"text": "에어컨 좀 거 주세요", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0455_원본_SAPI", "gold_text": "마 에어컨 쫌 꺼 주세요"}
+{"text": "마 에어컨 좀꺼주세요", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0455_tts_a1_SAPI", "gold_text": "마 에어컨 쫌 꺼 주세요"}
+{"text": "에이어컨 좀 꺼주세요", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0455_tts_a1_VITS", "gold_text": "마 에어컨 쫌 꺼 주세요"}
+{"text": "마 아무 것도, 안 피 이네 전등 좀 켜뿌 리라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0459_원본_SAPI", "gold_text": "마 아무것도 안 비이네 전등 좀 켜뿌리라"}
+{"text": "마 아무것도 안 비리네 전등 좀 켜불라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0459_tts_a1_SAPI", "gold_text": "마 아무것도 안 비이네 전등 좀 켜뿌리라"}
+{"text": "에어컨 틀 었 는데도덥 내 온도 좀 낮 차도", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0461_원본_SAPI", "gold_text": "에어컨 틀었는데도 덥네 온도 쫌 낮차도"}
+{"text": "에어컨 틀었는데도 덥네 온도 좀 낮차도", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0461_tts_a1_SAPI", "gold_text": "에어컨 틀었는데도 덥네 온도 쫌 낮차도"}
+{"text": "에어컨 틀었는데 더덥네 온도 좀 낮아도", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0461_tts_a1_VITS", "gold_text": "에어컨 틀었는데도 덥네 온도 쫌 낮차도"}
+{"text": "저거 좀매만 줄여 주라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0464_원본_SAPI", "gold_text": "저거 쪼매만 줄여주라"}
+{"text": "마 햇빛 따갑다 블라인드 내렸 보라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0465_원본_SAPI", "gold_text": "마 햇빛 따갑다 블라인드 내려뿌라"}
+{"text": "마 햇빛 다갑다 블라인드 내려보라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0465_tts_a1_SAPI", "gold_text": "마 햇빛 따갑다 블라인드 내려뿌라"}
+{"text": "아 청소 속기 좀 돌리버라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0466_원본_SAPI", "gold_text": "아 청소기 좀 돌리봐라"}
+{"text": "아 청소기 좀 돌리버라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0466_원본_VITS", "gold_text": "아 청소기 좀 돌리봐라"}
+{"text": "아 청소 속이 좀 올리봐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0466_tts_a1_SAPI", "gold_text": "아 청소기 좀 돌리봐라"}
+{"text": "아 청소소기 좀 돌봐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0466_tts_a1_VITS", "gold_text": "아 청소기 좀 돌리봐라"}
+{"text": "버뜩 됐다다 블라인드 거기서 서라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0471_tts_a1_SAPI", "gold_text": "퍼뜩 됐다 블라인드 거기서 서라"}
+{"text": "블라인드 좀 내 리라 불끼고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0479_원본_SAPI", "gold_text": "블라인드 좀 내리라 불 키고"}
+{"text": "블라인드 좀 내리라 불 키", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0479_tts_a1_VITS", "gold_text": "블라인드 좀 내리라 불 키고"}
+{"text": "너무 환다 블라인드 반칙 만 내려 버라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0485_원본_SAPI", "gold_text": "너무 환하다 블라인드 반츰만 내려봐라"}
+{"text": "너무 하다 블라인드 반칙 만 내려 봐", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0485_원본_VITS", "gold_text": "너무 환하다 블라인드 반츰만 내려봐라"}
+{"text": "너무 환하다 블라인드 반쯤만 내려봐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0485_tts_a1_SAPI", "gold_text": "너무 환하다 블라인드 반츰만 내려봐라"}
+{"text": "너무 화하다 블라인드 반침만 내려봐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0485_tts_a1_VITS", "gold_text": "너무 환하다 블라인드 반츰만 내려봐라"}
+{"text": "에어컨 틀어라 불도 좀 낮 차도", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0493_tts_a1_VITS", "gold_text": "에어컨 먼저 틀어라 불도 좀 낮차고"}
+{"text": "그것도 좀 좀 낮 차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0494_원본_VITS", "gold_text": "그것 좀 좀 낮차라"}
+{"text": "그것도 좀 낮차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0494_tts_a1_VITS", "gold_text": "그것 좀 좀 낮차라"}
+{"text": "막 거기 까지 블라인드 거 기서 멈 추라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0496_원본_SAPI", "gold_text": "마 거기까지 블라인드 거기서 멈추라"}
+{"text": "거기까지 블라인드 거기서 멈춰", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0496_원본_VITS", "gold_text": "마 거기까지 블라인드 거기서 멈추라"}
+{"text": "막 거기까지 블라인드 거기서 멈추차", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0496_tts_a1_VITS", "gold_text": "마 거기까지 블라인드 거기서 멈추라"}
+{"text": "저기 아무 것도, 안 비 인의 불 좀 기라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0498_원본_SAPI", "gold_text": "저기 아무것도 안 비이네 불 쫌 키라"}
+{"text": "저기 아무것도 안 비이네 불 좀 키라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0498_tts_a1_SAPI", "gold_text": "저기 아무것도 안 비이네 불 쫌 키라"}
+{"text": "저기 아무것도 안 비인네 불 좀 키라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0498_tts_a1_VITS", "gold_text": "저기 아무것도 안 비이네 불 쫌 키라"}
+{"text": "아 너무 박다 을 줄여 줘", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0499_원본_SAPI", "gold_text": "아 너무 밝다 불 줄여줘"}
+{"text": "너무 밝다 불 줄여 줘", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0499_원본_VITS", "gold_text": "아 너무 밝다 불 줄여줘"}
+{"text": "너무 밝다 불 줄여줘소", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0499_tts_a1_VITS", "gold_text": "아 너무 밝다 불 줄여줘"}
+{"text": "그것 좀 좀 틀라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0503_tts_a1_SAPI", "gold_text": "그것 좀 좀 틀어라"}
+{"text": "그것도 좀 틀어라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0503_tts_a1_VITS", "gold_text": "그것 좀 좀 틀어라"}
+{"text": "불 좀 에 낮 추고 에어 컨도 키라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0504_원본_SAPI", "gold_text": "불쪼매 낮추고 에어컨도키라"}
+{"text": "불 좀매 낮추고 에어컨도 키라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0504_tts_a1_SAPI", "gold_text": "불쪼매 낮추고 에어컨도키라"}
+{"text": "오늘 억 수로 덥 네 에어컨 기불 이라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0505_원본_SAPI", "gold_text": "오늘 억수로 덥네, 에어컨 키뿌리라"}
+{"text": "오늘 억수로 덥네 에어컨 키 불라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0505_tts_a1_SAPI", "gold_text": "오늘 억수로 덥네, 에어컨 키뿌리라"}
+{"text": "오늘 럭수로덥네 에어컨 키블이", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0505_tts_a1_VITS", "gold_text": "오늘 억수로 덥네, 에어컨 키뿌리라"}
+{"text": "에어컨 좀 켜레이", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0508_원본_SAPI", "gold_text": "에어컨 쫌 켜래이"}
+{"text": "에어컨 좀 켜래이", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0508_tts_a1_SAPI", "gold_text": "에어컨 쫌 켜래이"}
+{"text": "에어컨 좀 켜래", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0508_tts_a1_VITS", "gold_text": "에어컨 쫌 켜래이"}
+{"text": "블라인드 내려래요", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0511_원본_VITS", "gold_text": "블라인드 내려도"}
+{"text": "블라인드 내리도", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0511_tts_a1_VITS", "gold_text": "블라인드 내려도"}
+{"text": "불 에어컨 다 거 버 리라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0518_원본_SAPI", "gold_text": "불에어컨 다 꺼버리라"}
+{"text": "불에어컨 다 꺼버라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0518_tts_a1_VITS", "gold_text": "불에어컨 다 꺼버리라"}
+{"text": "에어컨 먼저 키라 블라인드 도, 내고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0524_원본_SAPI", "gold_text": "에어컨 먼저 키라 블라인드도내루고"}
+{"text": "에어컨 먼저 키라 블라인드론 내로", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0524_원본_VITS", "gold_text": "에어컨 먼저 키라 블라인드도내루고"}
+{"text": "에어컨 먼저 키라 블라인드도 내리고", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0524_tts_a1_SAPI", "gold_text": "에어컨 먼저 키라 블라인드도내루고"}
+{"text": "에어컨 먼저 키라 블라인드로 내리로", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0524_tts_a1_VITS", "gold_text": "에어컨 먼저 키라 블라인드도내루고"}
+{"text": "에어컨 틀 고 블라인드 좀 걷 어 주라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0525_원본_SAPI", "gold_text": "에어컨 틀고 블라인드 쫌 걷어주라"}
+{"text": "에어컨 틀고 블라인드 좀 걷 어줘자", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0525_원본_VITS", "gold_text": "에어컨 틀고 블라인드 쫌 걷어주라"}
+{"text": "에어컨 틀 블라인드 좀 걷둬주라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0525_tts_a1_SAPI", "gold_text": "에어컨 틀고 블라인드 쫌 걷어주라"}
+{"text": "에어컨 틀고 블라인드 좀 걷어주자", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0525_tts_a1_VITS", "gold_text": "에어컨 틀고 블라인드 쫌 걷어주라"}
+{"text": "아 전등 좀깁 어라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0527_원본_SAPI", "gold_text": "아 전등 좀 키봐라"}
+{"text": "아 전등 좀켜봐라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0527_원본_VITS", "gold_text": "아 전등 좀 키봐라"}
+{"text": "저기 잠 이 온다 불꺼버라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0528_원본_SAPI", "gold_text": "저기 잠이 온다 불 꺼봐라"}
+{"text": "불 좀 낮추바라 블라인드 치고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0530_원본_SAPI", "gold_text": "불 좀 낯추봐라 블라인드치고"}
+{"text": "불 좀 낮추 봐라 블라인드 치요", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0530_원본_VITS", "gold_text": "불 좀 낯추봐라 블라인드치고"}
+{"text": "불 좀 낮주봐라 블라인드 치고", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0530_tts_a1_SAPI", "gold_text": "불 좀 낯추봐라 블라인드치고"}
+{"text": "불 좀 낮추봐라 블라인드 치소", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0530_tts_a1_VITS", "gold_text": "불 좀 낯추봐라 블라인드치고"}
+{"text": "블라인드 좀 내려 주라 불 좀 끼 고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0531_원본_SAPI", "gold_text": "블라인드 쫌 내려주라 불좀키고"}
+{"text": "블라인드 좀 내려지라 불 좀 김", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0531_원본_VITS", "gold_text": "블라인드 쫌 내려주라 불좀키고"}
+{"text": "블라인드 좀 내려주라 불 좀 키고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0531_tts_a1_SAPI", "gold_text": "블라인드 쫌 내려주라 불좀키고"}
+{"text": "블라인드 좀 내려주라 불 좀 키", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0531_tts_a1_VITS", "gold_text": "블라인드 쫌 내려주라 불좀키고"}
+{"text": "가스 불 꺼부라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0536_tts_a1_SAPI", "gold_text": "가스불 꺼뿌라"}
+{"text": "가수 불 꺼꺼라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0536_tts_a1_VITS", "gold_text": "가스불 꺼뿌라"}
+{"text": "퍼뜩 눈부시다 블라인드 좀 내르레이이", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0538_원본_SAPI", "gold_text": "퍼뜩 눈부시다, 블라인드 좀 내리래이"}
+{"text": "팥뜨 눈부시겠다 블라인드 좀 내리", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0538_원본_VITS", "gold_text": "퍼뜩 눈부시다, 블라인드 좀 내리래이"}
+{"text": "퍼뜩 눈부시다 블라인드 좀 내리래이", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0538_tts_a1_SAPI", "gold_text": "퍼뜩 눈부시다, 블라인드 좀 내리래이"}
+{"text": "퍼뜩 눈부시겠다 블라인드 내리이", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0538_tts_a1_VITS", "gold_text": "퍼뜩 눈부시다, 블라인드 좀 내리래이"}
+{"text": "퍼뜩 문 따갑다 블라인드 좀 내라라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0545_원본_SAPI", "gold_text": "퍼뜩 눈 따갑다 블라인드 좀 내라라"}
+{"text": "퍼뜩 눈 따갑다 블라인드 좀 내아라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0545_원본_VITS", "gold_text": "퍼뜩 눈 따갑다 블라인드 좀 내라라"}
+{"text": "버뜩 문 따갑다 블라인드 좀 내려라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0545_tts_a1_SAPI", "gold_text": "퍼뜩 눈 따갑다 블라인드 좀 내라라"}
+{"text": "퍼뜩 눈 따갑다 블라인드 좀 내라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0545_tts_a1_VITS", "gold_text": "퍼뜩 눈 따갑다 블라인드 좀 내라라"}
+{"text": "아 거기 까지 블라인드 스톡", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0547_원본_SAPI", "gold_text": "아 거기까지 블라인드 스톱"}
+{"text": "아 거기까지 블라인드 스죠", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0547_원본_VITS", "gold_text": "아 거기까지 블라인드 스톱"}
+{"text": "아 거기까지 블라인드주소", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0547_tts_a1_VITS", "gold_text": "아 거기까지 블라인드 스톱"}
+{"text": "전등 어디서 산노", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0551_tts_a1_SAPI", "gold_text": "전등 어데서 샀노"}
+{"text": "블라인드 좀 쳐 주세요 부르 는 하 게 하고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0554_원본_SAPI", "gold_text": "블라인드 좀쳐 주세요 불은은하게하고"}
+{"text": "블라인드 좀 쳐주세요 불는하게 하고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0554_tts_a1_SAPI", "gold_text": "블라인드 좀쳐 주세요 불은은하게하고"}
+{"text": "블라인드 좀 쳐주세요 노 부르는하게 하", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0554_tts_a1_VITS", "gold_text": "블라인드 좀쳐 주세요 불은은하게하고"}
+{"text": "바람 세 게 해 주세요", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0560_원본_SAPI", "gold_text": "바람 쎄게 해 주세요"}
+{"text": "다람 세게 해 주세요", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0560_원본_VITS", "gold_text": "바람 쎄게 해 주세요"}
+{"text": "바람 쎄게 해 주", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0560_tts_a1_VITS", "gold_text": "바람 쎄게 해 주세요"}
+{"text": "파트 그 블라인드 내려주세요", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0563_원본_VITS", "gold_text": "퍼뜩 블라인드 내려 주세요"}
+{"text": "버뜩 블라인드 내려주세요", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0563_tts_a1_SAPI", "gold_text": "퍼뜩 블라인드 내려 주세요"}
+{"text": "퍼뜨고 블라인드 내려주세요", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0563_tts_a1_VITS", "gold_text": "퍼뜩 블라인드 내려 주세요"}
+{"text": "그 것도 좀 해라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0570_원본_VITS", "gold_text": "그것 좀 해라"}
+{"text": "아 불 하나 더 켰보라", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0574_tts_a1_SAPI", "gold_text": "아 불 하나 더 켜뿌라"}
+{"text": "이거 더 올리라나", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0575_원본_SAPI", "gold_text": "이거 더 올리라 마"}
+{"text": "이거 더 올리라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0575_tts_a1_VITS", "gold_text": "이거 더 올리라 마"}
+{"text": "에어컨 좀 켜고 블라인드 좀 올리자", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0576_tts_a1_VITS", "gold_text": "에어컨 좀 켜고 블라인드 좀 올려주라"}
+{"text": "블라인드 좀 걷어지려 불켜노", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0581_원본_VITS", "gold_text": "블라인드좀 걷어주라 불 켜놓고"}
+{"text": "블라인드 좀 걷둬주라 불 켜놓고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0581_tts_a1_SAPI", "gold_text": "블라인드좀 걷어주라 불 켜놓고"}
+{"text": "블라인드 좀 거어지라 불 켜노소", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0581_tts_a1_VITS", "gold_text": "블라인드좀 걷어주라 불 켜놓고"}
+{"text": "에어컨 온도 올리버라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0583_원본_SAPI", "gold_text": "에어컨 온도 올리봐라"}
+{"text": "불 좀 켜라", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0584_원본_VITS", "gold_text": "불 좀 켜라 마"}
+{"text": "불 좀 무 끄 고 블라인드 내려줘", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0591_원본_VITS", "gold_text": "불 좀 끄고 블라인드 내려줘"}
+{"text": "불 좀 끄고 블라인드 내려주", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0591_tts_a1_SAPI", "gold_text": "불 좀 끄고 블라인드 내려줘"}
+{"text": "에어컨 끄 고 불 꺼 놓 고 블라인드 좀 내리라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0592_원본_SAPI", "gold_text": "에어컨 끄고 불 꺼놓고 블라인드 좀 내리라 마"}
+{"text": "에어컨 끄 고 불 꺼놓고 고 블라인인데 좀 내려라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0592_원본_VITS", "gold_text": "에어컨 끄고 불 꺼놓고 블라인드 좀 내리라 마"}
+{"text": "에어컨 끄고 불 꺼 오고 블라인드 좀 내리라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0592_tts_a1_VITS", "gold_text": "에어컨 끄고 불 꺼놓고 블라인드 좀 내리라 마"}
+{"text": "에어컨 온도 좀 올리소라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0596_tts_a1_VITS", "gold_text": "에어컨 온도 좀 올려주라"}
+{"text": "블라인드 전기 기세 마 나오나", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0597_원본_SAPI", "gold_text": "블라인드 전기세 마이 나오나"}
+{"text": "블라인드 전기세 마 나오라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0597_tts_a1_SAPI", "gold_text": "블라인드 전기세 마이 나오나"}
+{"text": "블라인드 전기세 마이 안하노", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0597_tts_a1_VITS", "gold_text": "블라인드 전기세 마이 나오나"}
+{"text": "인자 블라인드줘 물려줘", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0612_원본_VITS", "gold_text": "인자 블라인드 좀 올려줘"}
+{"text": "인자 블라인드 좀 올리주", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0612_tts_a1_SAPI", "gold_text": "인자 블라인드 좀 올려줘"}
+{"text": "인자 블라인드 좀 올리줘소", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0612_tts_a1_VITS", "gold_text": "인자 블라인드 좀 올려줘"}
+{"text": "바깥 좀 보자 블라인드 올라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0614_원본_SAPI", "gold_text": "바깥 좀 보자 블라인드 올리라"}
+{"text": "바닥 좀 보자 블라인드 올리", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0614_tts_a1_VITS", "gold_text": "바깥 좀 보자 블라인드 올리라"}
+{"text": "저기 죽가 에어컨 좀 드라마", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0628_원본_SAPI", "gold_text": "저기 춥다 에어컨 좀 끄라 마"}
+{"text": "저기 춥다 에어컨 좀 끄어놔", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0628_tts_a1_SAPI", "gold_text": "저기 춥다 에어컨 좀 끄라 마"}
+{"text": "블라인드 내 리고 불 낮추라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0629_원본_SAPI", "gold_text": "블라인드내리고 불 낯추라"}
+{"text": "블라인드 내리고 블 낮라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0629_tts_a1_VITS", "gold_text": "블라인드내리고 불 낯추라"}
+{"text": "저기 눈 이 아프다 조명 은 은하 게 해 버라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0630_원본_SAPI", "gold_text": "저기 눈이 아프다 조명 은은하게 해봐라이"}
+{"text": "저기 눈이 아프다 조 영 은은하게 해봐라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0630_tts_a1_VITS", "gold_text": "저기 눈이 아프다 조명 은은하게 해봐라이"}
+{"text": "저기 더 시 원하 게 온도 좀 내리라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0632_원본_SAPI", "gold_text": "저기 더 시원하게, 온도 쫌 내리라 마"}
+{"text": "저기 더 시원 게 온도 좀 내리 리라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0632_원본_VITS", "gold_text": "저기 더 시원하게, 온도 쫌 내리라 마"}
+{"text": "저기 더 시원하게 온도 좀 내리라 마", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0632_tts_a1_SAPI", "gold_text": "저기 더 시원하게, 온도 쫌 내리라 마"}
+{"text": "그것 좀 나 차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0634_원본_SAPI", "gold_text": "그것 좀 낮차라"}
+{"text": "그것도 좀 낮차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0634_tts_a1_VITS", "gold_text": "그것 좀 낮차라"}
+{"text": "인자 블라인드 거 더라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0640_원본_SAPI", "gold_text": "인자 블라인드 걷어라"}
+{"text": "인자 블라인드거더라라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0640_원본_VITS", "gold_text": "인자 블라인드 걷어라"}
+{"text": "인자 블라인드꺼어라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0640_tts_a1_SAPI", "gold_text": "인자 블라인드 걷어라"}
+{"text": "인자 블라인드 꺼다라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0640_tts_a1_VITS", "gold_text": "인자 블라인드 걷어라"}
+{"text": "인자 너무 죽가 에어컨 온도 좀 올려 주라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0643_원본_SAPI", "gold_text": "인자 너무 춥다 에어컨 온도 좀 올려주라"}
+{"text": "인자 너무 춥다 에어컨 온도 좀 올리자", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0643_tts_a1_VITS", "gold_text": "인자 너무 춥다 에어컨 온도 좀 올려주라"}
+{"text": "불 좀킥고 블라인드 좀 쳐 줘", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0645_원본_SAPI", "gold_text": "불 좀 키고블라인드 좀 쳐줘"}
+{"text": "불 좀 키고 블라인드 좀 쳐주", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0645_tts_a1_SAPI", "gold_text": "불 좀 키고블라인드 좀 쳐줘"}
+{"text": "시장 갔다 와라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0646_원본_VITS", "gold_text": "시장 갔다 왔다"}
+{"text": "반느 질 해야 되는데 침침마다 불더받 게 해 주세요", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0647_원본_VITS", "gold_text": "바느질 해야 되는데 침침하다 불더밝게 해 주세요"}
+{"text": "반줄 해야 되는데 침침하다 불더 밝게 해주세요", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0647_tts_a1_VITS", "gold_text": "바느질 해야 되는데 침침하다 불더밝게 해 주세요"}
+{"text": "저기 바람 줄여부라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0648_tts_a1_SAPI", "gold_text": "저기 바람 줄여뿌라"}
+{"text": "저기 바람 줄여 마", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0648_tts_a1_VITS", "gold_text": "저기 바람 줄여뿌라"}
+{"text": "아덥다 에어컨 좀 켜봐라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0650_원본_SAPI", "gold_text": "아 덥다, 에어컨 쫌 켜봐라"}
+{"text": "아떴다 에어컨 좀 켜봐", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0650_원본_VITS", "gold_text": "아 덥다, 에어컨 쫌 켜봐라"}
+{"text": "아깝다 에어컨 좀 켜봐라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0650_tts_a1_VITS", "gold_text": "아 덥다, 에어컨 쫌 켜봐라"}
+{"text": "그거 좀 틀도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0665_원본_SAPI", "gold_text": "그거 쫌 틀어도"}
+{"text": "그거 좀 틀어도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0665_tts_a1_SAPI", "gold_text": "그거 쫌 틀어도"}
+{"text": "불 좀 켜불 이라 블라인드 내고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0666_원본_SAPI", "gold_text": "불 쫌 켜뿌리라 블라인드 내루고"}
+{"text": "불 좀 켜불리라 블라인드 내리고", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0666_tts_a1_SAPI", "gold_text": "불 쫌 켜뿌리라 블라인드 내루고"}
+{"text": "불 좀 켜불리라 블라인드 내리도", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0666_tts_a1_VITS", "gold_text": "불 쫌 켜뿌리라 블라인드 내루고"}
+{"text": "너무 춥다 에어컨 초 못꺼줘", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0668_원본_VITS", "gold_text": "너무 춥다 에어컨 좀 꺼줘"}
+{"text": "너무 춥다 에어컨 좀꺼주", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0668_tts_a1_SAPI", "gold_text": "너무 춥다 에어컨 좀 꺼줘"}
+{"text": "반이 깜깜 한 애 불 좀 켜줘", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0669_원본_VITS", "gold_text": "방이 깜깜하네 불 좀 켜줘"}
+{"text": "방이 깜깜하네 불 좀 켜주", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0669_tts_a1_SAPI", "gold_text": "방이 깜깜하네 불 좀 켜줘"}
+{"text": "방이 깜깜하데 불 좀 켜주", "output": "<six_0>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0669_tts_a1_VITS", "gold_text": "방이 깜깜하네 불 좀 켜줘"}
+{"text": "블라인드 반층 만 쳐라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0679_원본_SAPI", "gold_text": "블라인드 반츰만 쳐라"}
+{"text": "블라인드 반칙만 차라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0679_원본_VITS", "gold_text": "블라인드 반츰만 쳐라"}
+{"text": "블라인드 반침만 차라", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0679_tts_a1_VITS", "gold_text": "블라인드 반츰만 쳐라"}
+{"text": "꺼 고라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0684_tts_a1_VITS", "gold_text": "꺼뿌라"}
+{"text": "에어컨 좀 끌아 불도 꺼놓 고", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0687_원본_SAPI", "gold_text": "에어컨 좀 끄라 불도꺼놓고"}
+{"text": "에어컨 좀 끄아 불도 꺼놓고", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0687_tts_a1_SAPI", "gold_text": "에어컨 좀 끄라 불도꺼놓고"}
+{"text": "에어컨 좀 끄어 불도 꺼", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0687_tts_a1_VITS", "gold_text": "에어컨 좀 끄라 불도꺼놓고"}
+{"text": "퍼뜻 불빛 을 너무 세다 불 낮 추라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0688_원본_SAPI", "gold_text": "퍼뜩 불빛이 너무 쎄다 불 낯추라"}
+{"text": "퍼뜩 불빛이 너무 쎄다 불 낮추라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0688_tts_a1_SAPI", "gold_text": "퍼뜩 불빛이 너무 쎄다 불 낯추라"}
+{"text": "퍼떼고 불빛이 너무 쎄다 불 낮차라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0688_tts_a1_VITS", "gold_text": "퍼뜩 불빛이 너무 쎄다 불 낯추라"}
+{"text": "불더 밝 게 헤레이", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0694_원본_SAPI", "gold_text": "불더밝게해래이"}
+{"text": "불 더 밝게 해라이", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0694_tts_a1_SAPI", "gold_text": "불더밝게해래이"}
+{"text": "블라인드 좀 채 주라 불 좀 에 낮 추고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0698_원본_SAPI", "gold_text": "블라인드 쫌 쳐주라 불 쪼매 낮추고"}
+{"text": "블라인드 좀 채주라 불쪼매 낮추고", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0698_tts_a1_SAPI", "gold_text": "블라인드 쫌 쳐주라 불 쪼매 낮추고"}
+{"text": "저거엎 퍼뜩 줄여도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0700_원본_SAPI", "gold_text": "저거 퍼뜩 줄여도"}
+{"text": "저거퍼뜸 줄여도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0700_tts_a1_SAPI", "gold_text": "저거 퍼뜩 줄여도"}
+{"text": "저거 퍼뜩 줄여", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0700_tts_a1_VITS", "gold_text": "저거 퍼뜩 줄여도"}
+{"text": "마 햇빛 좀 죄자 블라인드 좀 올라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0701_원본_SAPI", "gold_text": "마 햇빛 좀 쬐자 블라인드좀올리라이"}
+{"text": "마 햇빛 좀 죄자 블라인드 좀 올리라이", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0701_tts_a1_SAPI", "gold_text": "마 햇빛 좀 쬐자 블라인드좀올리라이"}
+{"text": "나프 좀 지자 블라인드 좀 올리라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0701_tts_a1_VITS", "gold_text": "마 햇빛 좀 쬐자 블라인드좀올리라이"}
+{"text": "자러 갈란다 불끄라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0705_원본_SAPI", "gold_text": "자러 갈란다 불끄라이"}
+{"text": "자 어 갈란다 불 끄라이", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0705_tts_a1_SAPI", "gold_text": "자러 갈란다 불끄라이"}
+{"text": "자러 안 난다 불 끄라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0705_tts_a1_VITS", "gold_text": "자러 갈란다 불끄라이"}
+{"text": "더분데 바람 이 약하다 바람 세 개 틀 어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0713_원본_SAPI", "gold_text": "덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "더군데 바람이 약하다 바람색에 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0713_원본_VITS", "gold_text": "덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "더군데 바람이 약하다 바람 세게 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0713_tts_a1_SAPI", "gold_text": "덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "더군데 바람이 약하다 바람쎄게 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0713_tts_a1_VITS", "gold_text": "덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "마, 아 직도 덮다 에어컨 온도 낮춰 줘", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0722_원본_SAPI", "gold_text": "마 아직도 덥다 에어컨 온도 낮춰줘"}
+{"text": "마 아직도덥다 에어컨 온도 낮 춰주", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0722_tts_a1_SAPI", "gold_text": "마 아직도 덥다 에어컨 온도 낮춰줘"}
+{"text": "마이도 덥다 에어컨 온도 낮춰주소", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0722_tts_a1_VITS", "gold_text": "마 아직도 덥다 에어컨 온도 낮춰줘"}
+{"text": "불더 밝 게 하고 블라인드 좀 걷둬도", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0724_원본_SAPI", "gold_text": "불더밝게하고 블라인드 좀 걷어도"}
+{"text": "불더 밝 게 하고 블라인드 좀 걷둬", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0724_원본_VITS", "gold_text": "불더밝게하고 블라인드 좀 걷어도"}
+{"text": "불 더 밝게 하고 블라인드 좀 꺼더", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0724_tts_a1_VITS", "gold_text": "불더밝게하고 블라인드 좀 걷어도"}
+{"text": "냉장고 문 닫달아", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0725_원본_VITS", "gold_text": "냉장고 문 닫아라"}
+{"text": "냉장고 문 닫 달라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0725_tts_a1_VITS", "gold_text": "냉장고 문 닫아라"}
+{"text": "퍼뜩 시원 지가 않다 바람 좀 올리라마", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0733_원본_SAPI", "gold_text": "퍼뜩 시원치가 않다, 바람 좀 올리라 마"}
+{"text": "퍼뜩 시원치가타 바람 좀 몰리라마", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0733_원본_VITS", "gold_text": "퍼뜩 시원치가 않다, 바람 좀 올리라 마"}
+{"text": "퍼뜩 시원가 않다 바람 좀 올리라 마", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0733_tts_a1_SAPI", "gold_text": "퍼뜩 시원치가 않다, 바람 좀 올리라 마"}
+{"text": "퍼뜩 시원치가타 바람 좀 올리라마", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0733_tts_a1_VITS", "gold_text": "퍼뜩 시원치가 않다, 바람 좀 올리라 마"}
+{"text": "인자 침침하다 불조 더 밝 게 해죠", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0736_원본_VITS", "gold_text": "인자 침침하다 불 좀 더 밝게 해줘"}
+{"text": "블라인드 좀 올릴레이 에어컨 좀 켜 고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0739_원본_SAPI", "gold_text": "블라인드 쫌 올리래이 에어컨 좀 켜고"}
+{"text": "블라인드주 물리 데의 에어컨 좀 켜", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0739_원본_VITS", "gold_text": "블라인드 쫌 올리래이 에어컨 좀 켜고"}
+{"text": "블라인드 좀 올리래이 에어컨 좀 켜고", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0739_tts_a1_SAPI", "gold_text": "블라인드 쫌 올리래이 에어컨 좀 켜고"}
+{"text": "블라인드 좀 올리래이 에어컨 켜도", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0739_tts_a1_VITS", "gold_text": "블라인드 쫌 올리래이 에어컨 좀 켜고"}
+{"text": "인자 에어 컨 끄 고 풀 좀 과도", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0743_원본_SAPI", "gold_text": "인자 에어컨 끄고 불 좀 꺼도"}
+{"text": "인자 에어컨 끄 고 불 좀꺼", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0743_원본_VITS", "gold_text": "인자 에어컨 끄고 불 좀 꺼도"}
+{"text": "보일러 거부라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0744_원본_SAPI", "gold_text": "보일러 꺼뿌라"}
+{"text": "보일러 꺼삐라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0744_tts_a1_SAPI", "gold_text": "보일러 꺼뿌라"}
+{"text": "방이 어둡다 블라인드 올려주자", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0746_tts_a1_VITS", "gold_text": "방이 어둡다 블라인드 올려주라"}
+{"text": "에어컨 끄고블라인드 내리고 불 끄라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0749_tts_a1_SAPI", "gold_text": "에어컨끄고블라인드내리고불 쫌끄라"}
+{"text": "에어컨 끄고 블라인드 내리고 오불 좀 까라", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0749_tts_a1_VITS", "gold_text": "에어컨끄고블라인드내리고불 쫌끄라"}
+{"text": "라디오 거라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0758_원본_SAPI", "gold_text": "라디오 꺼라"}
+{"text": "그것도 좀 줄여도", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0759_tts_a1_VITS", "gold_text": "그것 좀 줄여도"}
+{"text": "블라인드 좀 내리라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0771_원본_SAPI", "gold_text": "블라인드 쫌 내리라 마"}
+{"text": "블라인드 좀 내리리라라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0771_원본_VITS", "gold_text": "블라인드 쫌 내리라 마"}
+{"text": "블라인드 좀 내리라 마", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0771_tts_a1_SAPI", "gold_text": "블라인드 쫌 내리라 마"}
+{"text": "블라인드 좀 내리라라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0771_tts_a1_VITS", "gold_text": "블라인드 쫌 내리라 마"}
+{"text": "안 냉장고 문 닫 았 나", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0772_원본_SAPI", "gold_text": "아 냉장고 문 닫았나"}
+{"text": "불 끄라 에어 컨도 거쁘 고", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0778_원본_SAPI", "gold_text": "불 끄라 에어컨도 꺼뿌고"}
+{"text": "불끄라 에어컨도 꼭부", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0778_원본_VITS", "gold_text": "불 끄라 에어컨도 꺼뿌고"}
+{"text": "불 끄라 에어컨도 꺼부", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0778_tts_a1_VITS", "gold_text": "불 끄라 에어컨도 꺼뿌고"}
+{"text": "인자 됐 다 전등 좀 거 죠", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0782_원본_SAPI", "gold_text": "인자 됐다 전등 좀 꺼줘"}
+{"text": "인자 됐다 전등 좀꺼주", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0782_tts_a1_SAPI", "gold_text": "인자 됐다 전등 좀 꺼줘"}
+{"text": "인자 됐다 전등 좀 꺼", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0782_tts_a1_VITS", "gold_text": "인자 됐다 전등 좀 꺼줘"}
+{"text": "저기 에어컨 좀 거 죠", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0788_원본_SAPI", "gold_text": "저기 에어컨 좀 꺼줘"}
+{"text": "저기 에어컨 좀꺼주", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0788_tts_a1_SAPI", "gold_text": "저기 에어컨 좀 꺼줘"}
+{"text": "저기 됐 블라인드 거 기서 멈 추라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0789_원본_SAPI", "gold_text": "저기 됐다 블라인드 거기서 멈추라"}
+{"text": "저인인데다 블라인드 거기서 멈추노", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0789_tts_a1_VITS", "gold_text": "저기 됐다 블라인드 거기서 멈추라"}
+{"text": "그것 틀 어라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0790_원본_SAPI", "gold_text": "그거 틀어라"}
+{"text": "저기 더어 죽겠다 에어컨 먼저 틀어 주라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0791_원본_SAPI", "gold_text": "저기 더버 죽겠다, 에어컨 먼저 틀어주라"}
+{"text": "저기 더버 죽겠다 에어컨 먼저 틀어주라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0791_tts_a1_SAPI", "gold_text": "저기 더버 죽겠다, 에어컨 먼저 틀어주라"}
+{"text": "저기 더버춥둡겠다 에어컨 먼저 틀어주라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0791_tts_a1_VITS", "gold_text": "저기 더버 죽겠다, 에어컨 먼저 틀어주라"}
+{"text": "블라인드 내 리고 불 좀 에 낮 차라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0794_원본_SAPI", "gold_text": "블라인드내리고 불 쪼매 낯차라"}
+{"text": "블라인드 내리고 불 쪼매 낮차라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0794_tts_a1_SAPI", "gold_text": "블라인드내리고 불 쪼매 낯차라"}
+{"text": "블라인드 내리고 불 쪼매 낮 자라", "output": "<six_0>(object=3, type=2)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0794_tts_a1_VITS", "gold_text": "블라인드내리고 불 쪼매 낯차라"}
+{"text": "그만 블라인드 멈추레이", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0795_원본_SAPI", "gold_text": "그만 블라인드 멈추래이"}
+{"text": "그만 블라인드 멈출래", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0795_원본_VITS", "gold_text": "그만 블라인드 멈추래이"}
+{"text": "그만 블라인드 멈추래", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0795_tts_a1_VITS", "gold_text": "그만 블라인드 멈추래이"}
+{"text": "에어컨 바람 좀 에 줄여 봐라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0799_원본_SAPI", "gold_text": "에어컨 바람 쪼매 줄여봐라"}
+{"text": "에어컨 바람 좋을 줄여 봐라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0799_원본_VITS", "gold_text": "에어컨 바람 쪼매 줄여봐라"}
+{"text": "에어컨 바람 좀 줄여봐라", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0799_tts_a1_VITS", "gold_text": "에어컨 바람 쪼매 줄여봐라"}
+{"text": "알플라인드 내 에어컨 먼저 켜 주세요", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0801_원본_VITS", "gold_text": "아 블라인드내루고 에어컨 먼저 켜 주세요"}
+{"text": "아 블라인드 내리고 에어컨 먼저 켜주세요세요", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0801_tts_a1_SAPI", "gold_text": "아 블라인드내루고 에어컨 먼저 켜 주세요"}
+{"text": "아 블라인드 내리고 에어컨 먼저 켜주세요", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0801_tts_a1_VITS", "gold_text": "아 블라인드내루고 에어컨 먼저 켜 주세요"}
+{"text": "더 좀 올리라마", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0805_원본_SAPI", "gold_text": "더 쫌 올리라 마"}
+{"text": "더 좀 올리라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0805_tts_a1_VITS", "gold_text": "더 쫌 올리라 마"}
+{"text": "퍼뜩 에어컨 온도 나 차도", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0806_원본_SAPI", "gold_text": "퍼뜩 에어컨 온도 낮차도"}
+{"text": "퍼뜨게 에어컨 온도 낮 차도", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0806_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 온도 낮차도"}
+{"text": "블라인드 네 라고 에어 컨 도 끄 고 불 꺼 봐라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0809_원본_SAPI", "gold_text": "블라인드내라고에어컨도끄고 불꺼봐라"}
+{"text": "블라인드 내 라고 에어권도꾹국 불어 봐", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0809_원본_VITS", "gold_text": "블라인드내라고에어컨도끄고 불꺼봐라"}
+{"text": "블라인드 해라 에어컨도 끄고 불 꺼봐라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0809_tts_a1_SAPI", "gold_text": "블라인드내라고에어컨도끄고 불꺼봐라"}
+{"text": "블라인드 내리라 에어컨 끄고 불 꺼봐라", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0809_tts_a1_VITS", "gold_text": "블라인드내라고에어컨도끄고 불꺼봐라"}
+{"text": "에어컨 좀 과도", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0810_원본_SAPI", "gold_text": "에어컨 쫌꺼도"}
+{"text": "에어컨 종꺼요", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0810_원본_VITS", "gold_text": "에어컨 쫌꺼도"}
+{"text": "에어컨 좀 꺼도", "output": "<six_0>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0810_tts_a1_SAPI", "gold_text": "에어컨 쫌꺼도"}
+{"text": "퍼뜩 좀 에춥다 온도 좀 올라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0814_원본_SAPI", "gold_text": "퍼뜩 쪼매 춥다 온도 쫌 올리라"}
+{"text": "버뜩쪼매춥다 온도 좀 올리라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0814_tts_a1_SAPI", "gold_text": "퍼뜩 쪼매 춥다 온도 쫌 올리라"}
+{"text": "퍼트고 좀매춥다 온도 올리라", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0814_tts_a1_VITS", "gold_text": "퍼뜩 쪼매 춥다 온도 쫌 올리라"}
+{"text": "추 보가 못 있 겠다 에어컨 온도 좀 에 올려 주세요", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0815_원본_SAPI", "gold_text": "추버가 몬 있겠다, 에어컨 온도 쪼매 올려 주세요"}
+{"text": "초 보가 못 있 겠다 에어컨 온도 좀 일 올려려 주세요", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0815_원본_VITS", "gold_text": "추버가 몬 있겠다, 에어컨 온도 쪼매 올려 주세요"}
+{"text": "추버가몬겠다 에어컨 온도 좀매 올려주세요", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0815_tts_a1_SAPI", "gold_text": "추버가 몬 있겠다, 에어컨 온도 쪼매 올려 주세요"}
+{"text": "초버가 못겠다 에어컨 온도 좀 올려주세요", "output": "<six_1>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0815_tts_a1_VITS", "gold_text": "추버가 몬 있겠다, 에어컨 온도 쪼매 올려 주세요"}
+{"text": "그만 블라인드 멈추라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0816_원본_SAPI", "gold_text": "그만 블라인드 멈추라 마"}
+{"text": "그만 블라인드 멈라", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0816_원본_VITS", "gold_text": "그만 블라인드 멈추라 마"}
+{"text": "그만 블라인드 멈추라다", "output": "<six_0>(object=3, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0816_tts_a1_SAPI", "gold_text": "그만 블라인드 멈추라 마"}
+{"text": "불이 끄 고 에어컨 끄 고 블라인드 도 좀 내려요", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0821_원본_VITS", "gold_text": "불 끄고 에어컨끄고 블라인드도 좀 내려도"}
+{"text": "불 끄고 에어컨 끄고 블라인드도 내려도", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0821_tts_a1_VITS", "gold_text": "불 끄고 에어컨끄고 블라인드도 좀 내려도"}
+{"text": "불 좀 에 낮 추고 오 블라인드 좀 쳐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0823_원본_SAPI", "gold_text": "불 쪼매낮추고블라인드쫌쳐라"}
+{"text": "불 조미 낮추고 블라인드 좀 쳐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0823_원본_VITS", "gold_text": "불 쪼매낮추고블라인드쫌쳐라"}
+{"text": "불 쪼매 낮추고 블라인드 좀 쳐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0823_tts_a1_SAPI", "gold_text": "불 쪼매낮추고블라인드쫌쳐라"}
+{"text": "불 좀매 낮추고 블라인드 좀 쳐라", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0823_tts_a1_VITS", "gold_text": "불 쪼매낮추고블라인드쫌쳐라"}
+{"text": "인자 에어컨 틀 었 는데도덥 내 에어컨 온도 낮추라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0827_원본_SAPI", "gold_text": "인자 에어컨 틀었는데도 덥네 에어컨온도낯추라"}
+{"text": "인자 에어컨 틀었는데 도돕네 에어컨 온도드 맞죠", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0827_원본_VITS", "gold_text": "인자 에어컨 틀었는데도 덥네 에어컨온도낯추라"}
+{"text": "인자 에어컨 틀었는데도 덥네 에어컨 온도 낮라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0827_tts_a1_SAPI", "gold_text": "인자 에어컨 틀었는데도 덥네 에어컨온도낯추라"}
+{"text": "인자 에어컨 틀었는데 덥네 에어컨 온도라 쪼", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0827_tts_a1_VITS", "gold_text": "인자 에어컨 틀었는데도 덥네 에어컨온도낯추라"}
+{"text": "아 햇빛 따갑다 블라인드쳐여 주라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0833_원본_SAPI", "gold_text": "아 햇빛 따갑다, 블라인드 쳐주라"}
+{"text": "아 햇빛 다갑다 블라인드 쳐주라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0833_tts_a1_SAPI", "gold_text": "아 햇빛 따갑다, 블라인드 쳐주라"}
+{"text": "아햇빛타갑다 블라인드쳐주라", "output": "<six_0>(object=3, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0833_tts_a1_VITS", "gold_text": "아 햇빛 따갑다, 블라인드 쳐주라"}
+{"text": "불 좀매 낮 추고 블라인드 내려 줘", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0839_원본_SAPI", "gold_text": "불쪼매낮추고 블라인드 내려줘"}
+{"text": "불점 에 낮 추고 블라인드 내려 줘", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0839_원본_VITS", "gold_text": "불쪼매낮추고 블라인드 내려줘"}
+{"text": "불쪼매 낮추고 블라인드 내려주", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0839_tts_a1_SAPI", "gold_text": "불쪼매낮추고 블라인드 내려줘"}
+{"text": "불 좀매 낮추고 블라인드 내려주", "output": "<six_1>(object=1, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0839_tts_a1_VITS", "gold_text": "불쪼매낮추고 블라인드 내려줘"}
+{"text": "저거마 나 차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0843_원본_SAPI", "gold_text": "저거 마 낮차라"}
+{"text": "저거만 낮 차라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0843_tts_a1_SAPI", "gold_text": "저거 마 낮차라"}
+{"text": "퍼뜩 에어 컨 틀 었 는데도덥 내 온도 좀 에 낮춰 줘", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0848_원본_SAPI", "gold_text": "퍼뜩 에어컨 틀었는데도 덥네 온도 쪼매 낮춰줘"}
+{"text": "퍼뜩 에어컨 틀었는데도 덥네 온도쪼매 낮춰주", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0848_tts_a1_SAPI", "gold_text": "퍼뜩 에어컨 틀었는데도 덥네 온도 쪼매 낮춰줘"}
+{"text": "버뜨 에어컨 틀었는데도 덥네 온도 좀 낮춰줘", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0848_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 틀었는데도 덥네 온도 쪼매 낮춰줘"}
+{"text": "저거 좀 더 좀 낮추 어라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0849_원본_SAPI", "gold_text": "저것 좀 더 쫌 낮추봐라"}
+{"text": "저것 좀 더 좀 낮추봐라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0849_tts_a1_SAPI", "gold_text": "저것 좀 더 쫌 낮추봐라"}
+{"text": "인자 풀 하나 더 기도", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0850_원본_SAPI", "gold_text": "인자 불 하나 더 키도"}
+{"text": "붉 히고 블라인드 쳐라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0851_원본_SAPI", "gold_text": "불 키고 블라인드 쳐라"}
+{"text": "불티고 블라인드 쳐라", "output": "<six_0>(object=1, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0851_원본_VITS", "gold_text": "불 키고 블라인드 쳐라"}
+{"text": "자러 갈란다 불 좀 걷부라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0854_원본_SAPI", "gold_text": "자러 갈란다 불 쫌 꺼뿌라"}
+{"text": "자 어 갈란다 불 좀 꺼부라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0854_tts_a1_SAPI", "gold_text": "자러 갈란다 불 쫌 꺼뿌라"}
+{"text": "에어컨 먼저 켜라 블라인드도 치소", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0855_tts_a1_VITS", "gold_text": "에어컨 먼저 켜라 블라인드도 치고"}
+{"text": "블라인들 걷 고 에어컨총 케어라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0860_원본_VITS", "gold_text": "블라인드 걷고 에어컨 좀 켜라"}
+{"text": "블라인드꺼고 에어컨 좀 키봐라", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0860_tts_a1_VITS", "gold_text": "블라인드 걷고 에어컨 좀 켜라"}
+{"text": "아 현관문 잠갓다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0866_원본_SAPI", "gold_text": "아 현관문 잠갔나"}
+{"text": "아 현관 문 잠 간다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0866_tts_a1_SAPI", "gold_text": "아 현관문 잠갔나"}
+{"text": "전기장깐 켜라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0867_원본_VITS", "gold_text": "전기장판 켜라"}
+{"text": "에어컨 키고 불 좀 낮 차라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0873_원본_SAPI", "gold_text": "에어컨 키고 불 좀 낯차라"}
+{"text": "에어 컨 티고 불 좀 낮춰라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0873_원본_VITS", "gold_text": "에어컨 키고 불 좀 낯차라"}
+{"text": "아블라인 때 걷 고 불 좀 켜 줘", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0874_원본_VITS", "gold_text": "아 블라인드 걷고 불 좀켜줘"}
+{"text": "아 블라인드 걷고 불 좀 켜주", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0874_tts_a1_SAPI", "gold_text": "아 블라인드 걷고 불 좀켜줘"}
+{"text": "아블라인드꺼고 불 좀 켜주소", "output": "<six_0>(object=3, type=1)<six_end><six_0>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0874_tts_a1_VITS", "gold_text": "아 블라인드 걷고 불 좀켜줘"}
+{"text": "저기 줄여보", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_VITS", "id": "D0875_원본_VITS", "gold_text": "저기 줄여도"}
+{"text": "저기 줄여 뭐", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0875_tts_a1_VITS", "gold_text": "저기 줄여도"}
+{"text": "불켜 놓 고 에어컨 끄 고 블라인드 좀 쳐 보라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0880_원본_SAPI", "gold_text": "불 꺼놓고 에어컨 끄고 블라인드 쫌 쳐뿌라"}
+{"text": "불 꺼놓고 에어컨 끄고 블라인드 좀 쳐봐라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0880_tts_a1_SAPI", "gold_text": "불 꺼놓고 에어컨 끄고 블라인드 쫌 쳐뿌라"}
+{"text": "불 꺼놓고 에어컨 뜯고 블라인드 좀 쳐본다라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0880_tts_a1_VITS", "gold_text": "불 꺼놓고 에어컨 끄고 블라인드 쫌 쳐뿌라"}
+{"text": "인자 잘난다 방에 불 끄라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0883_원본_SAPI", "gold_text": "인자 잘란다 방에 불 끄라"}
+{"text": "인자 자란 다 방에 불까", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0883_tts_a1_VITS", "gold_text": "인자 잘란다 방에 불 끄라"}
+{"text": "마 불더 밝 게 하고 플라인드 걷 어 줘", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0884_원본_SAPI", "gold_text": "마 불더밝게하고 블라인드 걷어줘"}
+{"text": "마블더바게 하고 블라인드 걷둬 줘", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0884_원본_VITS", "gold_text": "마 불더밝게하고 블라인드 걷어줘"}
+{"text": "마 불더 밝게 하고 블라인드 걷어주", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0884_tts_a1_SAPI", "gold_text": "마 불더밝게하고 블라인드 걷어줘"}
+{"text": "마블 더 밝게 하고 블라인드 걷어죠", "output": "<six_1>(object=1, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0884_tts_a1_VITS", "gold_text": "마 불더밝게하고 블라인드 걷어줘"}
+{"text": "아직 덥다 아 이가 온도 좀 에 낮 추라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0888_원본_SAPI", "gold_text": "아직 덥다 아이가 온도 쪼매 낯추라"}
+{"text": "아직 덥다 아이가 온도쪼매 낮주라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0888_tts_a1_SAPI", "gold_text": "아직 덥다 아이가 온도 쪼매 낯추라"}
+{"text": "아직 덥다 아이가 온도 조매 낮춰라", "output": "<six_1>(object=2, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0888_tts_a1_VITS", "gold_text": "아직 덥다 아이가 온도 쪼매 낯추라"}
+{"text": "좀 더 환나 게 해줘요", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0889_원본_SAPI", "gold_text": "좀 더 환하게 해줘"}
+{"text": "좀이 더 환나 게 해줘", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0889_원본_VITS", "gold_text": "좀 더 환하게 해줘"}
+{"text": "저거 좀매만 줄 리라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0891_원본_SAPI", "gold_text": "저거 쪼매만 줄이라"}
+{"text": "저거 쪼매만 줄이래라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_VITS", "id": "D0891_tts_a1_VITS", "gold_text": "저거 쪼매만 줄이라"}
+{"text": "아 에어컨 틀 고 블라인드 좀 내렸 보라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0897_원본_SAPI", "gold_text": "아 에어컨틀고 블라인드 좀 내려뿌라"}
+{"text": "아어컨 틀 고 블라인드 좀 내려옵파", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0897_원본_VITS", "gold_text": "아 에어컨틀고 블라인드 좀 내려뿌라"}
+{"text": "아 에어컨 틀 블라인드 좀 내려봐라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0897_tts_a1_SAPI", "gold_text": "아 에어컨틀고 블라인드 좀 내려뿌라"}
+{"text": "에어컨 틀고 블라인드 좀 내려라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0897_tts_a1_VITS", "gold_text": "아 에어컨틀고 블라인드 좀 내려뿌라"}
+{"text": "퍼뜩 블라인드 반층 만 내르레이이", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0905_원본_SAPI", "gold_text": "퍼뜩 블라인드 반츰만 내리래이"}
+{"text": "퍼티글 블라인드 반칙만 내리래", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0905_원본_VITS", "gold_text": "퍼뜩 블라인드 반츰만 내리래이"}
+{"text": "버드 블라인드 반쯤만 내리래이", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0905_tts_a1_SAPI", "gold_text": "퍼뜩 블라인드 반츰만 내리래이"}
+{"text": "퍼뜨그 블라인드 반침만 내리래", "output": "<six_0>(object=3, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0905_tts_a1_VITS", "gold_text": "퍼뜩 블라인드 반츰만 내리래이"}
+{"text": "에어컨 켜 고 불 좀 에 낳 차라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0906_원본_SAPI", "gold_text": "에어컨 켜고불쪼매 낮차라"}
+{"text": "에어컨 켜고 불 좀매 낮차라", "output": "<six_0>(object=2, type=1)<six_end><six_1>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0906_tts_a1_VITS", "gold_text": "에어컨 켜고불쪼매 낮차라"}
+{"text": "방이 후끈 한의 에어컨 먼저 기도", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0914_원본_SAPI", "gold_text": "방이 후끈하네 에어컨 먼저 키도"}
+{"text": "방이 후끈하네 에어컨 먼저 키", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0914_tts_a1_SAPI", "gold_text": "방이 후끈하네 에어컨 먼저 키도"}
+{"text": "다이도 끈하네 에어컨 먼저 키노", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0914_tts_a1_VITS", "gold_text": "방이 후끈하네 에어컨 먼저 키도"}
+{"text": "그것 좀 좀 걷부라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:원본_SAPI", "id": "D0921_원본_SAPI", "gold_text": "그것 좀 좀 꺼뿌라"}
+{"text": "그것 좀 좀 꺼부라", "output": "<six_0>(object=-1)<six_end>", "category": "되묻기", "source": "stt_aug:tts_a1_SAPI", "id": "D0921_tts_a1_SAPI", "gold_text": "그것 좀 좀 꺼뿌라"}
+{"text": "퍼뜩 에어컨 키 고 블라인드 거 더라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0933_원본_SAPI", "gold_text": "퍼뜩 에어컨 키고 블라인드 걷어라"}
+{"text": "퍼트 에어 컨 키고 블라인드 거 어라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0933_원본_VITS", "gold_text": "퍼뜩 에어컨 키고 블라인드 걷어라"}
+{"text": "버뜩 에어컨 키고 블라인드꺼어라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0933_tts_a1_SAPI", "gold_text": "퍼뜩 에어컨 키고 블라인드 걷어라"}
+{"text": "퍼트 에어컨 키고 블라인드 꺼어라", "output": "<six_0>(object=2, type=1)<six_end><six_0>(object=3, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0933_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 키고 블라인드 걷어라"}
+{"text": "마 너무 환다 조명 은 은하 게 해봐라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0934_원본_SAPI", "gold_text": "마 너무 환하다, 조명 은은하게 해봐라이"}
+{"text": "만 너무 환하다 조명 은은하게 해봐라이", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0934_tts_a1_SAPI", "gold_text": "마 너무 환하다, 조명 은은하게 해봐라이"}
+{"text": "아 너무 하다 조명 은은하게 해봐라", "output": "<six_1>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0934_tts_a1_VITS", "gold_text": "마 너무 환하다, 조명 은은하게 해봐라이"}
+{"text": "블라인드 올리고 불 도 더 환나 게 해 주세요", "output": "<six_0>(object=3, type=1)<six_end><six_1>(object=1, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0935_원본_SAPI", "gold_text": "블라인드 올리고 불도 더 환하게 해 주세요"}
+{"text": "현관문 장가라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0940_원본_VITS", "gold_text": "현관문 잠가라"}
+{"text": "현관문 잠꺼라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0940_tts_a1_VITS", "gold_text": "현관문 잠가라"}
+{"text": "퍼뜩 침침하다 불 좀 더 밝 게 해라나", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0943_원본_SAPI", "gold_text": "퍼뜩 침침하다 불 좀 더 밝게 해라 마"}
+{"text": "버뜩 침침하다 불 좀 더 밝게 해라 마", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0943_tts_a1_SAPI", "gold_text": "퍼뜩 침침하다 불 좀 더 밝게 해라 마"}
+{"text": "퍼뜨게 침침하다 불 좀더 밝게 라라오마", "output": "<six_1>(object=1, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0943_tts_a1_VITS", "gold_text": "퍼뜩 침침하다 불 좀 더 밝게 해라 마"}
+{"text": "마 텔레비 소리 줄 리라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0944_원본_SAPI", "gold_text": "마 텔레비 소리 줄이라"}
+{"text": "나 텔레비 소리 줄래라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0944_tts_a1_VITS", "gold_text": "마 텔레비 소리 줄이라"}
+{"text": "에어콘 먼저 틀어 주세요", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0947_원본_VITS", "gold_text": "에어컨 먼저 틀어 주세요"}
+{"text": "아침 이다 블라인드 올렸 보라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0950_원본_SAPI", "gold_text": "아침이다 블라인드 올려뿌라"}
+{"text": "아침이다 블라인드 올리부라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0950_tts_a1_SAPI", "gold_text": "아침이다 블라인드 올려뿌라"}
+{"text": "아자 다 블라인드 올리봐라", "output": "<six_0>(object=3, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0950_tts_a1_VITS", "gold_text": "아침이다 블라인드 올려뿌라"}
+{"text": "현관문 잠 간다", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_SAPI", "id": "D0955_원본_SAPI", "gold_text": "현관문 잠갔나"}
+{"text": "현관문 장가나", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0955_원본_VITS", "gold_text": "현관문 잠갔나"}
+{"text": "현관 문 잠깐놔", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0955_tts_a1_VITS", "gold_text": "현관문 잠갔나"}
+{"text": "퍼뜻 바람 이 너무 세다 바람 약하 게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0967_원본_SAPI", "gold_text": "퍼뜩 바람이 너무 세다 바람 약하게 해줘"}
+{"text": "퍼뜨고 바람 이 너무 세다 바람 약하게 해줘요", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0967_원본_VITS", "gold_text": "퍼뜩 바람이 너무 세다 바람 약하게 해줘"}
+{"text": "퍼듯 바람이 너무쎄다 바람 약하게 해 해주", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0967_tts_a1_SAPI", "gold_text": "퍼뜩 바람이 너무 세다 바람 약하게 해줘"}
+{"text": "퍼뜨고 바람이 너무 쎄다 바람이 약하게 해줘", "output": "<six_1>(object=2, type=4)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0967_tts_a1_VITS", "gold_text": "퍼뜩 바람이 너무 세다 바람 약하게 해줘"}
+{"text": "에어컨 거발 라이 불 끄 고", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0968_원본_SAPI", "gold_text": "에어컨 꺼봐라이 불 끄고"}
+{"text": "에어컨 거버 아이 불 끄고", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0968_tts_a1_SAPI", "gold_text": "에어컨 꺼봐라이 불 끄고"}
+{"text": "에어컨 꺼봐라이 불 끄", "output": "<six_0>(object=2, type=2)<six_end><six_0>(object=1, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0968_tts_a1_VITS", "gold_text": "에어컨 꺼봐라이 불 끄고"}
+{"text": "블라인드 좀 쳐도 에어 컨도 틀 고", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0973_원본_SAPI", "gold_text": "블라인드 쫌 쳐도 에어컨도 틀고"}
+{"text": "블라인드 좀 차도 에어컨도 틀유", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0973_원본_VITS", "gold_text": "블라인드 쫌 쳐도 에어컨도 틀고"}
+{"text": "블라인드 좀 차도 에어컨도 틀우", "output": "<six_0>(object=3, type=2)<six_end><six_0>(object=2, type=1)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0973_tts_a1_VITS", "gold_text": "블라인드 쫌 쳐도 에어컨도 틀고"}
+{"text": "아 더분데 바람 이 약하다 바람 세 개 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0976_원본_SAPI", "gold_text": "아 덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "아더분 때 바람이 약하다 바람색이 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0976_원본_VITS", "gold_text": "아 덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "아 더운데 바람이 약하다 바람 세게 틀어라", "output": "<six_1>(object=2, type=3)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0976_tts_a1_SAPI", "gold_text": "아 덥은데 바람이 약하다, 바람 세게 틀어라"}
+{"text": "퍼뜩 인자 잘 난다 전등 좋 거라", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0980_원본_SAPI", "gold_text": "퍼뜩 인자 잘란다 전등 좀 꺼라 마"}
+{"text": "퍼뜩긴 짜잘란다전등 좀가라아", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:원본_VITS", "id": "D0980_원본_VITS", "gold_text": "퍼뜩 인자 잘란다 전등 좀 꺼라 마"}
+{"text": "버뜩 인자 잘란다 전등 좀 꺼라놔", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0980_tts_a1_SAPI", "gold_text": "퍼뜩 인자 잘란다 전등 좀 꺼라 마"}
+{"text": "퍼뜨긴자 잘란다 전둥 좀 꺼아 마", "output": "<six_0>(object=1, type=2)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0980_tts_a1_VITS", "gold_text": "퍼뜩 인자 잘란다 전등 좀 꺼라 마"}
+{"text": "퍼뜩 에어컨 좀 켜봐라이", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:원본_SAPI", "id": "D0981_원본_SAPI", "gold_text": "퍼뜩 에어컨 쫌 켜봐라이"}
+{"text": "버뜩 에어컨 좀 켜봐라이", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_SAPI", "id": "D0981_tts_a1_SAPI", "gold_text": "퍼뜩 에어컨 쫌 켜봐라이"}
+{"text": "퍼뜨 에어컨 좀 켜봐라", "output": "<six_0>(object=2, type=1)<six_end>", "category": "단일", "source": "stt_aug:tts_a1_VITS", "id": "D0981_tts_a1_VITS", "gold_text": "퍼뜩 에어컨 쫌 켜봐라이"}
+{"text": "퍼뜩 불 꺼 놓 고 에어 컨 좀 거라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_SAPI", "id": "D0988_원본_SAPI", "gold_text": "퍼뜩 불꺼놓고 에어컨 쫌 꺼라"}
+{"text": "퍼뜨 부을 꺼놓고 에어컨 좀 꺼라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:원본_VITS", "id": "D0988_원본_VITS", "gold_text": "퍼뜩 불꺼놓고 에어컨 쫌 꺼라"}
+{"text": "버뜩 불 꺼놓고 에어컨 좀 꺼라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_SAPI", "id": "D0988_tts_a1_SAPI", "gold_text": "퍼뜩 불꺼놓고 에어컨 쫌 꺼라"}
+{"text": "버뜨부 불 꺼놓고 에어컨 좀 꺼라", "output": "<six_0>(object=1, type=2)<six_end><six_0>(object=2, type=2)<six_end>", "category": "복합", "source": "stt_aug:tts_a1_VITS", "id": "D0988_tts_a1_VITS", "gold_text": "퍼뜩 불꺼놓고 에어컨 쫌 꺼라"}
+{"text": "아라디오 소리케라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0990_원본_VITS", "gold_text": "아 라디오 소리 키아라"}
+{"text": "아라디 오 소리 키라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0990_tts_a1_SAPI", "gold_text": "아 라디오 소리 키아라"}
+{"text": "아라디오 소리 해라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_VITS", "id": "D0990_tts_a1_VITS", "gold_text": "아 라디오 소리 키아라"}
+{"text": "인자 세탁기 돌야", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:원본_VITS", "id": "D0995_원본_VITS", "gold_text": "인자 세탁기 돌리라"}
+{"text": "인자 세탁기 돌라", "output": "<six_2>()<six_end>", "category": "해당 없음", "source": "stt_aug:tts_a1_SAPI", "id": "D0995_tts_a1_SAPI", "gold_text": "인자 세탁기 돌리라"}
